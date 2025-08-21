@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Participation Guidelines
-nav_order: 9
+nav_order: 2
 ---
 
 # Participation Guidelines
