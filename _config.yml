@@ -5,7 +5,7 @@ remote_theme: pmarsceill/just-the-docs@v0.4.0
 # Navbar
 nav:
   - Home: index.md
-  - Guida: guida.md
+  - Participation Guidelines: guidelines.md
   - API: api.md
   - Contatti: contatti.md
 
