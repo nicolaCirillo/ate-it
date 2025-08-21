@@ -9,6 +9,7 @@ nav_order: 2
 ## Who can participate
 
 Participation is open to **all NLP practitioners worldwide**: students, researchers, and industrial teams. You can join as an individual or as a team.
+
 **Important:** At least one author of each accepted paper must register for the EVALITA conference in Bari (with a workshop fee) and present their work during the ATE-IT workshop.
 
 ## How to register
