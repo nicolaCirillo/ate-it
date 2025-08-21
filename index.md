@@ -4,7 +4,7 @@ title: Home
 nav_order: 1
 ---
 
-# Overview
+# Home
 
 ## Automatic Term Extraction (ATE)
 
