@@ -1,15 +1,3 @@
 title: "ATE-IT Shared Task"
 description: "Shared Task on Automatic Term Extraction - Italian Testbed"
 remote_theme: pmarsceill/just-the-docs@v0.4.0
-
-# Navbar
-nav:
-  - Home: index.md
-  - Participation Guidelines: guidelines.md
-  - API: api.md
-  - Contatti: contatti.md
-
-# Footer
-footer: "© 2025 Il mio progetto"
-
-show_sidebar: true
