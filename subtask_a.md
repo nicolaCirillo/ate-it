@@ -128,24 +128,15 @@ Performance in the Term Extraction subtask will be measured using two complement
 Micro-averaged F1 is calculated as follows, where $$i$$ is an item of the dataset $$\mathcal{D}$$:
 
 $$
-\mathrm{Precision}_{\text{micro}}(\mathcal{D})
-=
-\frac{\sum_{i \in \mathcal{D}} \mathrm{TP}_i}
-{\sum_{i \in \mathcal{D}} (\mathrm{TP}_i + \mathrm{FP}_i)}
+\mathrm{Precision}_{\text{micro}}(\mathcal{D}) = \frac{\sum_{i \in \mathcal{D}} \mathrm{TP}_i} {\sum_{i \in \mathcal{D}} (\mathrm{TP}_i + \mathrm{FP}_i)}
 $$
 
 $$
-\mathrm{Recall}_{\text{micro}}(\mathcal{D})
-=
-\frac{\sum_{i \in \mathcal{D}} \mathrm{TP}_i}
-{\sum_{i \in \mathcal{D}} (\mathrm{TP}_i + \mathrm{FN}_i)}
+\mathrm{Recall}_{\text{micro}}(\mathcal{D}) = \frac{\sum_{i \in \mathcal{D}} \mathrm{TP}_i} {\sum_{i \in \mathcal{D}} (\mathrm{TP}_i + \mathrm{FN}_i)}
 $$
 
 $$
-F1_{\text{micro}}(\mathcal{D})
-=
-\frac{2 \cdot \mathrm{Precision}_{\text{micro}}(\mathcal{D}) \cdot \mathrm{Recall}_{\text{micro}}(\mathcal{D})}
-{\mathrm{Precision}_{\text{micro}}(\mathcal{D}) + \mathrm{Recall}_{\text{micro}}(\mathcal{D})}
+F1_{\text{micro}}(\mathcal{D}) = \frac{2 \cdot \mathrm{Precision}_{\text{micro}}(\mathcal{D}) \cdot \mathrm{Recall}_{\text{micro}}(\mathcal{D})} {\mathrm{Precision}_{\text{micro}}(\mathcal{D}) + mathrm{Recall}_{\text{micro}}(\mathcal{D})}
 $$
 
 ---
