@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Participation Guidelines
+has_children: true
 nav_order: 2
 ---
 
