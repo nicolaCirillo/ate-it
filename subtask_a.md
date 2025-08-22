@@ -119,11 +119,11 @@ doc_nola_05,2,6,"ritiro a domicilio"
 
 Performance in the Term Extraction subtask will be measured using two complementary metrics:
 
-- **MicroF1 score** – evaluates precision and recall across all **term occurrences** in the dataset.  
+- **Micro F1 score** – evaluates precision and recall across all **term occurrences** in the dataset.  
 - **Type F1 score** – evaluates precision and recall across **unique term types** only (ignoring frequency).  
 
 ---
-### MicroF1 score
+### Micro F1 score
 
 Micro-averaged F1 is calculated as follows, where $$i$$ is an item of the dataset $$\mathcal{D}$$:
 
@@ -147,3 +147,21 @@ F1_{\text{micro}}(\mathcal{D})
 \frac{2 \cdot \mathrm{Precision}_{\text{micro}}(\mathcal{D}) \cdot \mathrm{Recall}_{\text{micro}}(\mathcal{D})}
 {\mathrm{Precision}_{\text{micro}}(\mathcal{D}) + \mathrm{Recall}_{\text{micro}}(\mathcal{D})}
 $$
+
+---
+### Type F1 score
+
+Type F1 is calculated over the set of unique terms (that appear at least in one document)
+
+$$
+\mathrm{Precision} = \frac{\mathrm{TP}}{\mathrm{TP} + \mathrm{FP}}
+$$
+
+$$
+\mathrm{Recall} = \frac{\mathrm{TP}}{\mathrm{TP} + \mathrm{FN}}
+$$
+
+$$
+F1 = \frac{2 \cdot \mathrm{Precision} \cdot \mathrm{Recall}}{\mathrm{Precision} + \mathrm{Recall}}
+$$
+
