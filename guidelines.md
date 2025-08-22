@@ -45,13 +45,13 @@ The shared task consists of four consecutive phases:
 
 There are no restrictions on techniques: supervised and unsupervised machine learning, rule-based systems, deep learning, prompting, etc., are all allowed. However, simple fine-tuning of the latest models without further analysis is discouraged. Instead, we strongly encourage the development of techniques that provide insights into ATE and terminology, contributing to advancing the field. In particular, we encourage the use of **open-source LLMs** and the integration of **linguistic knowledge**.
 
-:white_check_mark: **Allowed external resources:** pretrained embeddings, LLMs, and other pretrained models.<br>
-:x: **Not allowed:** external corpora or lexical resources. All resources must be clearly documented in the technical report.
+**Allowed external resources:** pretrained embeddings, LLMs, and other pretrained models.<br>
+**Not allowed:** external corpora or lexical resources. All resources must be clearly documented in the technical report.
 
-:white_check_mark: Teams can participate in **Subtask A (Term Extraction) only** or in **both subtasks**.<br>
-:x: Participation in **Subtask B only (Term Variants Clustering)** is not allowed.
+Teams can participate in **Subtask A (Term Extraction) only** or in **both subtasks**.<br>
+**Subtask B only (Term Variants Clustering)** is not allowed.
 
 Each team may submit up to **2 runs per subtask**. The best run per evaluation metric will be used for ranking.
 
-:x: **Manual annotation of the test data is strictly forbidden.** Any evidence of test-set leakage will result in disqualification.
+**Manual annotation of the test data is strictly forbidden.** Any evidence of test-set leakage will result in disqualification.
 
