@@ -110,11 +110,25 @@ The Term Extraction subtask is evaluated using:
 ---
 ### Micro F1
 
-Micro-averaged Precision is computed as in the following formulas, where $i$ is an item of the dataset $D$.
+Micro-averaged Precision is computed as in the following formulas, where $$i$$ is an item of the dataset $$D$$.
 
 $$
 \mathrm{Precision}_{\text{micro}}(\mathcal{D})
 =
 \frac{\sum_{i \in \mathcal{D}} \mathrm{TP}_i}
 {\sum_{i \in \mathcal{D}} \left(\mathrm{TP}_i + \mathrm{FP}_i\right)}
+$$
+
+$$
+\mathrm{Recall}_{\text{micro}}(\mathcal{D})
+=
+\frac{\sum_{i \in \mathcal{D}} \mathrm{TP}_i}
+{\sum_{i \in \mathcal{D}} \left(\mathrm{TP}_i + \mathrm{FN}_i\right)}
+$$
+
+$$
+F1_{\text{micro}}(\mathcal{D})
+=
+\frac{2 \cdot \mathrm{Precision}_{\text{micro}}(\mathcal{D}) \cdot \mathrm{Recall}_{\text{micro}}(\mathcal{D})}
+{\mathrm{Precision}_{\text{micro}}(\mathcal{D}) + \mathrm{Recall}_{\text{micro}}(\mathcal{D})}
 $$
