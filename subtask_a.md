@@ -100,4 +100,20 @@ doc_nola_05,2,6,"ritiro a domicilio"
 }
 ```
 
+---
 ## Evaluation metrics
+
+The Term Extraction subtask is evaluated using:
+- **MicroF1** score, which evaluates precision and recall across all term occurrences in the test set (Verborgh et al., 2018)
+- **Type F1** score, which assesses the ability to identify unique term types correctly.
+
+---
+### Micro F1
+
+Micro-averaged Precision
+```math
+\mathrm{Precision}_{\text{micro}}(\mathcal{D})
+\;=\;
+\frac{\displaystyle\sum_{i \in \mathcal{D}} \mathrm{TP}_i}
+{\displaystyle\sum_{i \in \mathcal{D}} \bigl(\mathrm{TP}_i + \mathrm{FP}_i\bigr)}
+```
