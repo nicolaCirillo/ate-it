@@ -108,9 +108,9 @@ The Term Extraction subtask is evaluated using:
 - **Type F1** score, which assesses the ability to identify unique term types correctly.
 
 ---
-### Micro F1
+### MicroF1 score
 
-Micro-averaged Precision is computed as in the following formulas, where $$i$$ is an item of the dataset $$D$$.
+Micro-averaged F1 is computed as in the following formulas, where $$i$$ is an item of the dataset $$\mathcal{D}$$.
 
 $$
 \mathrm{Precision}_{\text{micro}}(\mathcal{D})
