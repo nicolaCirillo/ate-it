@@ -1,3 +1,10 @@
+---
+layout: default
+title: Subtask A – Term Extraction
+nav_order: 3
+parent: Participation Guidelines
+---
+
 # Subtask A – Term Extraction
 
 ## Overview
