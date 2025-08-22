@@ -8,15 +8,20 @@ Participants will receive a set of sentences drawn from a specialised corpus rel
 
 The system will receive as input a CSV or JSON file containing a list of sentences alongside their identifier. 
 
-Example of CSV
 
-'document_id,paragraph_id,sentence_id,sentence_text
+CSV
+{: .label }
+```csv
+document_id,paragraph_id,sentence_id,sentence_text
 doc_poggiomarino_02,8,1,"Il Centro di Raccolta [Isola Ecologica] non è una discarica e non è un impianto di trattamento rifiuti."
 doc_santagnello_19,3,2,"- Pagare la Tassa Rifiuti (TARI) mediante il canale pagoPA (carte di credito e circuiti bancari)"
 doc_nola_05,2,6,"Il ritiro “a domicilio” è attivo dal 01 aprile al 30 settembre, sarà effettuato ogni 15 giorni su prenotazione telefonica."'
+```
 
-Example of JSON
-  {
+JSON
+{: .label }
+```json
+{
   "data": [
     {
       "document_id": "doc_poggiomarino_02",
@@ -37,7 +42,8 @@ Example of JSON
       "sentence_text": "Il ritiro “a domicilio” è attivo dal 01 aprile al 30 settembre, sarà effettuato ogni 15 giorni su prenotazione telefonica."
     }
   ]
-  }
+}
+```js
 
 Output
 The system must output a CSV or JSON file containing the extracted terms for each sentence alongside the corresponding identifiers. Extracted terms must not contain duplicates and must be only lowercased (lemmatisation or other modifications are not allowed). In the output file, the terms extracted from each sentence must be represented as a string and separated by a semicolon “;”.
