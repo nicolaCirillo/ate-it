@@ -57,7 +57,7 @@ doc_nola_05,2,6,"Il ritiro “a domicilio” è attivo dal 01 aprile al 30 sette
 ## Output
 
 The system must output a CSV or JSON file containing the extracted terms for each sentence alongside the corresponding identifiers. Extracted terms must not contain duplicates and must be only lowercased (lemmatisation or other modifications are not allowed). In the output file, the terms extracted from each sentence must be represented as a string and separated by a semicolon “;”.
-Important: nested terms are NOT allowed. Only the lo
+Important: nested terms are NOT allowed.
 
 ### Example of CSV output file
 
