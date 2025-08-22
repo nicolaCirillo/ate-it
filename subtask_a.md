@@ -30,7 +30,7 @@ Each entry corresponds to a sentence and includes:
 ---
 ### Example of CSV input file
 
-```csv
+```
 document_id,paragraph_id,sentence_id,sentence_text
 doc_poggiomarino_02,8,1,"Il Centro di Raccolta [Isola Ecologica] non è una discarica e non è un impianto di trattamento rifiuti."
 doc_santagnello_19,3,2,"- Pagare la Tassa Rifiuti (TARI) mediante il canale pagoPA (carte di credito e circuiti bancari)"
@@ -79,7 +79,7 @@ The system output must also be a **CSV** or **JSON** file containing the extract
 ---
 ### Example of CSV output file
 
-```csv
+```
 document_id,paragraph_id,sentence_id,term_list
 doc_poggiomarino_02,8,1,"centro di raccolta; isola ecologica; discarica; impianto di trattamento rifiuti"
 doc_santagnello_19,3,2,"tari; tassa rifiuti"
