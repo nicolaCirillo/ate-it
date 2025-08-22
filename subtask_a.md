@@ -18,7 +18,7 @@ The system will receive as input a CSV or JSON file containing a list of sentenc
 CSV
 {: .label }
 
-```csv
+```
 document_id,paragraph_id,sentence_id,sentence_text
 doc_poggiomarino_02,8,1,"Il Centro di Raccolta [Isola Ecologica] non è una discarica e non è un impianto di trattamento rifiuti."
 doc_santagnello_19,3,2,"- Pagare la Tassa Rifiuti (TARI) mediante il canale pagoPA (carte di credito e circuiti bancari)"
