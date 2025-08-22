@@ -9,18 +9,28 @@ parent: Participation Guidelines
 ---
 ## Overview
 
-Participants receive a set of sentences drawn from a specialised corpus related to municipal waste management. For each sentence, the goal is to identify and extract the terms that are relevant to the waste management domain. Terms may consist of single words (single-word terms) or multiword expressions (multi-word terms), including nouns, verbs, and adjectives.
+Participants will be provided with a collection of sentences taken from a specialised corpus on **municipal waste management**.  
+The objective is to identify and extract **domain-relevant terms** from each sentence.  
+
+- Terms can be either **single-word** or **multi-word expressions**.  
+- Accepted terms may include **nouns, verbs, and adjectives**.  
+- Extracted terms must correspond to concepts in the waste management domain.
 
 ---
 ## Input
 
-The system will receive as input a CSV or JSON file containing a list of sentences alongside their identifier. 
+The system input will be a **CSV** or **JSON** file.  
+Each entry corresponds to a sentence and includes:  
+
+- `document_id` – identifier of the source document  
+- `paragraph_id` – identifier of the paragraph within the document  
+- `sentence_id` – identifier of the sentence  
+- `sentence_text` – the text of the sentence itself  
 
 ---
 ### Example of CSV input file
 
-
-```
+```csv
 document_id,paragraph_id,sentence_id,sentence_text
 doc_poggiomarino_02,8,1,"Il Centro di Raccolta [Isola Ecologica] non è una discarica e non è un impianto di trattamento rifiuti."
 doc_santagnello_19,3,2,"- Pagare la Tassa Rifiuti (TARI) mediante il canale pagoPA (carte di credito e circuiti bancari)"
@@ -58,14 +68,18 @@ doc_nola_05,2,6,"Il ritiro “a domicilio” è attivo dal 01 aprile al 30 sette
 ---
 ## Output
 
-The system must output a CSV or JSON file containing the extracted terms for each sentence alongside the corresponding identifiers. Extracted terms must not contain duplicates and must be only lowercased (lemmatisation or other modifications are not allowed). In the output file, the terms extracted from each sentence must be represented as a string and separated by a semicolon “;”.
+The system output must also be a **CSV** or **JSON** file containing the extracted terms for each sentence.  
 
-**Important:** nested terms are NOT allowed.
+**Output requirements:**  
+- Terms must be **lowercased only** (no lemmatisation, stemming, or other transformations).  
+- Each sentence’s extracted terms must be concatenated into a single string and separated by a **semicolon (“;”)**.  
+- No duplicates are allowed.
+- **Nested terms are not permitted** (e.g., if “impianto di trattamento rifiuti” is extracted, the inner term “trattamento rifiuti” must not appear).
 
 ---
 ### Example of CSV output file
 
-```
+```csv
 document_id,paragraph_id,sentence_id,term_list
 doc_poggiomarino_02,8,1,"centro di raccolta; isola ecologica; discarica; impianto di trattamento rifiuti"
 doc_santagnello_19,3,2,"tari; tassa rifiuti"
@@ -103,27 +117,28 @@ doc_nola_05,2,6,"ritiro a domicilio"
 ---
 ## Evaluation metrics
 
-The Term Extraction subtask is evaluated using:
-- **MicroF1** score, which evaluates precision and recall across all term occurrences in the test set (Verborgh et al., 2018)
-- **Type F1** score, which assesses the ability to identify unique term types correctly.
+Performance in the Term Extraction subtask will be measured using two complementary metrics:
+
+- **MicroF1 score** – evaluates precision and recall across all **term occurrences** in the dataset.  
+- **Type F1 score** – evaluates precision and recall across **unique term types** only (ignoring frequency).  
 
 ---
 ### MicroF1 score
 
-Micro-averaged F1 is computed as in the following formulas, where $$i$$ is an item of the dataset $$\mathcal{D}$$.
+Micro-averaged F1 is calculated as follows, where $$i$$ is an item of the dataset $$\mathcal{D}$$:
 
 $$
 \mathrm{Precision}_{\text{micro}}(\mathcal{D})
 =
 \frac{\sum_{i \in \mathcal{D}} \mathrm{TP}_i}
-{\sum_{i \in \mathcal{D}} \left(\mathrm{TP}_i + \mathrm{FP}_i\right)}
+{\sum_{i \in \mathcal{D}} (\mathrm{TP}_i + \mathrm{FP}_i)}
 $$
 
 $$
 \mathrm{Recall}_{\text{micro}}(\mathcal{D})
 =
 \frac{\sum_{i \in \mathcal{D}} \mathrm{TP}_i}
-{\sum_{i \in \mathcal{D}} \left(\mathrm{TP}_i + \mathrm{FN}_i\right)}
+{\sum_{i \in \mathcal{D}} (\mathrm{TP}_i + \mathrm{FN}_i)}
 $$
 
 $$
