@@ -9,7 +9,7 @@ parent: Participation Guidelines
 ---
 ## Overview
 
-Participants will receive a set of sentences drawn from a specialised corpus related to municipal waste management. For each sentence, the goal is to identify and extract the terms that are relevant to the waste management domain. Terms may consist of single words (single-word terms) or multiword expressions (multi-word terms), including nouns, verbs, and adjectives.
+Participants receive a set of sentences drawn from a specialised corpus related to municipal waste management. For each sentence, the goal is to identify and extract the terms that are relevant to the waste management domain. Terms may consist of single words (single-word terms) or multiword expressions (multi-word terms), including nouns, verbs, and adjectives.
 
 ---
 ## Input
@@ -59,7 +59,8 @@ doc_nola_05,2,6,"Il ritiro “a domicilio” è attivo dal 01 aprile al 30 sette
 ## Output
 
 The system must output a CSV or JSON file containing the extracted terms for each sentence alongside the corresponding identifiers. Extracted terms must not contain duplicates and must be only lowercased (lemmatisation or other modifications are not allowed). In the output file, the terms extracted from each sentence must be represented as a string and separated by a semicolon “;”.
-Important: nested terms are NOT allowed.
+
+**Important:** nested terms are NOT allowed.
 
 ---
 ### Example of CSV output file
