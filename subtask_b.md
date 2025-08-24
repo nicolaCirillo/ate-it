@@ -9,34 +9,34 @@ parent: Participation Guidelines
 ---
 ## Overview
 
-From the list of unique extracted terms, participants should cluster together those terms that refer to the same underlying concept.
-For example, “raccolta porta a porta” and “raccolta domiciliare” should be placed in the same cluster.
+From the list of unique extracted terms, participants must group together those terms that refer to the same underlying concept.  
+For example, *“raccolta porta a porta”* and *“raccolta domiciliare”* should be placed in the same cluster.
 
 - Each cluster should represent a single, coherent concept within the waste management domain.
-- Inflected form of the same lemma should be clustered together (e.g. "isola ecologica" and "isole ecologiche" should be assigned to the same cluster)
-- Acronyms, initialisms and full forms should be clustered together (e.g. "ccr" and "centro comunale di raccolta" should be assigned to the same cluster)
-- Synonyms should be clustered together (e.g. "isola ecologica" and "centro comunale di raccolta" should be assigned to the same cluster)
-- Hypernyms and iponyms should NOT be clustered together (e.g. "rifiuti" and "rifiuti indifferenziati" should be assigned to different clusters)
+- Inflected forms of the same lemma should be clustered together (e.g. *“isola ecologica”* and *“isole ecologiche”*).
+- Acronyms, initialisms, and their full forms should be clustered together (e.g. *“ccr”* and *“centro comunale di raccolta”*).
+- Synonyms should be clustered together (e.g. *“isola ecologica”* and *“centro comunale di raccolta”*).
+- Hypernyms and hyponyms should **not** be clustered together (e.g. *“rifiuti”* and *“rifiuti indifferenziati”* must be assigned to different clusters).
 
 ---
 ## Input
 
-The system input will be a **CSV** or **JSON** file containing a list of terms.
-Terms are inflected forms, not lemmas<br>
-**Important:** The organizers do not provide the input file. Participants must use the list of unique terms extracted during [Subtask A].
+The input is a **CSV** or **JSON** file containing a list of terms.
+These terms are inflected forms, not lemmas.  
+
+**Important:** The organizers will not provide the input file. Participants must use the list of unique terms extracted during [Subtask A].
 
 ---
 ### Example of CSV input file
 
 ```
-term,
-centro di raccolta,
-ccr,
-isola ecologica,
-isole ecologiche,
-indifferenziato,
-secco residuo,
-
+term
+centro di raccolta
+ccr
+isola ecologica
+isole ecologiche
+indifferenziato
+secco residuo
 ```
 
 ---
@@ -45,24 +45,12 @@ secco residuo,
 ```json
 {
   "data": [
-    {
-      "term": "centro di raccolta",
-    },
-    {
-      "term": "ccr",
-    },
-    {
-      "term": "isola ecologica",
-    },
-    {
-      "term": "isole ecologiche",
-    },
-    {
-      "term": "indifferenziato",
-    },
-    {
-      "term": "secco residuo",
-    }
+    { "term": "centro di raccolta" },
+    { "term": "ccr" },
+    { "term": "isola ecologica" },
+    { "term": "isole ecologiche" },
+    { "term": "indifferenziato" },
+    { "term": "secco residuo" }
   ]
 }
 ```
@@ -70,11 +58,10 @@ secco residuo,
 ---
 ## Output
 
-The system output must also be a **CSV** or **JSON** file containing the assigned cluster for each term.
-
+The system output must also be a **CSV** or **JSON** file, where each term is assigned to a cluster.
 
 **Output requirements:**  
-- Cluster should be represented as integer cluster IDs.
+- Each cluster must be represented by an integer cluster ID.
 
 ---
 ### Example of CSV output file
@@ -92,82 +79,59 @@ secco residuo,2
 ---
 ### Example of JSON output file
 
-
 ```json
 {
   "data": [
-    {
-      "term": "centro di raccolta",
-      "cluster": 1,
-    },
-    {
-      "term": "ccr",
-      "cluster": 1,
-    },
-    {
-      "term": "isola ecologica",
-      "cluster": 1,
-    },
-    {
-      "term": "isole ecologiche"
-      "cluster": 1,
-    },
-    {
-      "term": "indifferenziato"
-      "cluster": 2,
-    },
-    {
-      "term": "secco residuo"
-      "cluster": 2,
-    }
+    { "term": "centro di raccolta", "cluster": 1 },
+    { "term": "ccr", "cluster": 1 },
+    { "term": "isola ecologica", "cluster": 1 },
+    { "term": "isole ecologiche", "cluster": 1 },
+    { "term": "indifferenziato", "cluster": 2 },
+    { "term": "secco residuo", "cluster": 2 }
   ]
 }
 ```
 
 ---
-## Evaluation metrics
+## Evaluation Metrics
 
-Performance in the Term Variants Clustering subtask will be measured using the **BCubed F1 score** (Amigó et al., 2009):
-
-- The score will be computed in a way that makes it dependent on the results of the Term Extraction subtask 
+Performance in the Term Variants Clustering subtask will be measured using the **BCubed F1 score** (Bagga & Baldwin, 1998; Amigó et al., 2009).  
+This metric depends on the results of the Term Extraction subtask.
 
 ---
 ### BCubed F1 score
 
-BCubed F1 is calculAh, perfect — when you say *it must be the BCubed*, you’re pointing at the definitions from Bagga & Baldwin (1998): cluster evaluation with per–item precision and recall, then averaged across all items. Let’s rewrite properly in that spirit.
+BCubed evaluates clustering quality by computing precision and recall at the item level and then averaging across all items.
 
----
-
-### BCubed Metrics 📊
+**Important** In this version, the set of items in the predicted clustering do not necessararily correspond to the set of items in the gold clustering.
 
 Let:
 
-* $N_{pred}$ = total number of elements in the predicted clustering
-* $N_{gold}$ = total number of elements in the gold clustering
-* $C(x)$ = the predicted cluster containing element $x$
-* $L(x)$ = the gold cluster of element $x$
+* $N_{pred}$ = total number of elements in the predicted clustering  
+* $N_{gold}$ = total number of elements in the gold clustering  
+* $C(x)$ = the predicted cluster containing element $x$ (if $x$ is not in the predicted clustering, $C(x)=\emptyset$)
+* $L(x)$ = the gold cluster containing element $x$ (if $x$ is not in the gold clustering, $L(x)=\emptyset$)
 
-Then for each element $x$:
-
-$$
-P(x) \;=\; \frac{|\{ y \in C(x) : L(y) = L(x) \}|}{|C(x)|}
-$$
+For each element $x$:
 
 $$
-R(x) \;=\; \frac{|\{ y \in L(x) : C(y) = C(x) \}|}{|L(x)|}
+P(x) = \\frac{|\\{ y \\in C(x) : L(y) = L(x) \\}|}{|C(x)|}
+$$
+
+$$
+R(x) = \\frac{|\\{ y \\in L(x) : C(y) = C(x) \\}|}{|L(x)|}
 $$
 
 The global scores are averages over all items:
 
 $$
-\text{Precision} \;=\; \frac{1}{N_{pred}}\sum_{x=1}^N_{pred} P(x)
+\\text{Precision} = \\frac{1}{N_{pred}} \\sum_{x=1}^{N_{pred}} P(x)
 $$
 
 $$
-\text{Recall} \;=\; \frac{1}{N_{gold}}\sum_{x=1}^N_{gold} R(x)
+\\text{Recall} = \\frac{1}{N_{gold}} \\sum_{x=1}^{N_{gold}} R(x)
 $$
 
 $$
-F \;=\; \frac{2 \cdot \text{Precision} \cdot \text{Recall}}{\text{Precision} + \text{Recall}}
+F1 = \\frac{2 \\cdot \\text{Precision} \\cdot \\text{Recall}}{\\text{Precision} + \\text{Recall}}
 $$
-
