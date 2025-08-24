@@ -35,6 +35,7 @@ ccr,
 isola ecologica,
 isole ecologiche,
 indifferenziato,
+secco residuo,
 
 ```
 
@@ -48,16 +49,19 @@ indifferenziato,
       "term": "centro di raccolta",
     },
     {
-      "term": "ccr"
+      "term": "ccr",
     },
     {
       "term": "isola ecologica",
     },
     {
-      "term": "isole ecologiche"
+      "term": "isole ecologiche",
     },
     {
-      "term": "indifferenziato"
+      "term": "indifferenziato",
+    },
+    {
+      "term": "secco residuo",
     }
   ]
 }
@@ -66,47 +70,55 @@ indifferenziato,
 ---
 ## Output
 
-The system output must also be a **CSV** or **JSON** file containing the extracted terms for each sentence.  
+The system output must also be a **CSV** or **JSON** file containing the assigned cluster for each term.
+
 
 **Output requirements:**  
-- Terms must be **lowercased only** (no lemmatisation, stemming, or other transformations).  
-- Each sentence’s extracted terms must be concatenated into a single string and separated by a **semicolon (“;”)**.  
-- No duplicates are allowed.
-- **Nested terms are not permitted** (e.g., if “impianto di trattamento rifiuti” is extracted, the inner term “trattamento rifiuti” must not appear).
+- Cluster should be represented as integer cluster IDs.
 
 ---
 ### Example of CSV output file
 
 ```
-document_id,paragraph_id,sentence_id,term_list
-doc_poggiomarino_02,8,1,"centro di raccolta; isola ecologica; discarica; impianto di trattamento rifiuti"
-doc_santagnello_19,3,2,"tari; tassa rifiuti"
-doc_nola_05,2,6,"ritiro a domicilio"
+term,cluster
+centro di raccolta,1
+ccr,1
+isola ecologica,1
+isole ecologiche,1
+indifferenziato,2
+secco residuo,2
 ```
 
 ---
 ### Example of JSON output file
 
+
 ```json
 {
   "data": [
     {
-      "document_id": "doc_poggiomarino_02",
-      "paragraph_id": 8,
-      "sentence_id": 1,
-      "term_list": "centro di raccolta; isola ecologica; discarica; impianto di trattamento rifiuti"
+      "term": "centro di raccolta",
+      "cluster": 1,
     },
     {
-      "document_id": "doc_santagnello_19",
-      "paragraph_id": 3,
-      "sentence_id": 2,
-      "term_list": "tari; tassa rifiuti"
+      "term": "ccr",
+      "cluster": 1,
     },
     {
-      "document_id": "doc_nola_05",
-      "paragraph_id": 2,
-      "sentence_id": 6,
-      "term_list": "ritiro a domicilio"
+      "term": "isola ecologica",
+      "cluster": 1,
+    },
+    {
+      "term": "isole ecologiche"
+      "cluster": 1,
+    },
+    {
+      "term": "indifferenziato"
+      "cluster": 2,
+    },
+    {
+      "term": "secco residuo"
+      "cluster": 2,
     }
   ]
 }
@@ -115,41 +127,47 @@ doc_nola_05,2,6,"ritiro a domicilio"
 ---
 ## Evaluation metrics
 
-Performance in the Term Extraction subtask will be measured using two complementary metrics:
+Performance in the Term Variants Clustering subtask will be measured using the **BCubed F1 score** (Amigó et al., 2009):
 
-- **Micro F1 score** – evaluates precision and recall across all **term occurrences** in the dataset.  
-- **Type F1 score** – evaluates precision and recall across **unique term types** only (ignoring frequency).  
-
----
-### Micro F1 score
-
-Micro-averaged F1 is calculated as follows, where $$i$$ is an item of the dataset $$\mathcal{D}$$:
-
-$$
-\mathrm{Precision}_{\text{micro}}(\mathcal{D}) = \frac{\sum_{i \in \mathcal{D}} \mathrm{TP}_i} {\sum_{i \in \mathcal{D}} (\mathrm{TP}_i + \mathrm{FP}_i)}
-$$
-
-$$
-\mathrm{Recall}_{\text{micro}}(\mathcal{D}) = \frac{\sum_{i \in \mathcal{D}} \mathrm{TP}_i} {\sum_{i \in \mathcal{D}} (\mathrm{TP}_i + \mathrm{FN}_i)}
-$$
-
-$$
-F1_{\text{micro}}(\mathcal{D}) = \frac{2 \cdot \mathrm{Precision}_{\text{micro}}(\mathcal{D}) \cdot \mathrm{Recall}_{\text{micro}}(\mathcal{D})} {\mathrm{Precision}_{\text{micro}}(\mathcal{D}) + mathrm{Recall}_{\text{micro}}(\mathcal{D})}
-$$
+- The score will be computed in a way that makes it dependent on the results of the Term Extraction subtask 
 
 ---
-### Type F1 score
+### BCubed F1 score
 
-Type F1 is calculated over the set of unique terms (that appear at least in one document)
+BCubed F1 is calculAh, perfect — when you say *it must be the BCubed*, you’re pointing at the definitions from Bagga & Baldwin (1998): cluster evaluation with per–item precision and recall, then averaged across all items. Let’s rewrite properly in that spirit.
+
+---
+
+### BCubed Metrics 📊
+
+Let:
+
+* $N_pred$ = total number of elements in the predicted clustering
+* $N_gold$ = total number of elements in the gold clustering
+* $C(x)$ = the predicted cluster containing element $x$
+* $L(x)$ = the gold cluster of element $x$
+
+Then for each element $x$:
 
 $$
-\mathrm{Precision} = \frac{\mathrm{TP}}{\mathrm{TP} + \mathrm{FP}}
+P(x) \;=\; \frac{|\{ y \in C(x) : L(y) = L(x) \}|}{|C(x)|}
 $$
 
 $$
-\mathrm{Recall} = \frac{\mathrm{TP}}{\mathrm{TP} + \mathrm{FN}}
+R(x) \;=\; \frac{|\{ y \in L(x) : C(y) = C(x) \}|}{|L(x)|}
+$$
+
+The global scores are averages over all items:
+
+$$
+\text{Precision} \;=\; \frac{1}{N_pred}\sum_{x=1}^N_pred P(x)
 $$
 
 $$
-F1 = \frac{2 \cdot \mathrm{Precision} \cdot \mathrm{Recall}}{\mathrm{Precision} + \mathrm{Recall}}
+\text{Recall} \;=\; \frac{1}{N_gold}\sum_{x=1}^N_gold R(x)
 $$
+
+$$
+F \;=\; \frac{2 \cdot \text{Precision} \cdot \text{Recall}}{\text{Precision} + \text{Recall}}
+$$
+
