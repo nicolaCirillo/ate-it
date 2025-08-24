@@ -142,8 +142,8 @@ BCubed F1 is calculAh, perfect — when you say *it must be the BCubed*, you’r
 
 Let:
 
-* $N_pred$ = total number of elements in the predicted clustering
-* $N_gold$ = total number of elements in the gold clustering
+* $N_{pred}$ = total number of elements in the predicted clustering
+* $N_{gold}$ = total number of elements in the gold clustering
 * $C(x)$ = the predicted cluster containing element $x$
 * $L(x)$ = the gold cluster of element $x$
 
@@ -160,11 +160,11 @@ $$
 The global scores are averages over all items:
 
 $$
-\text{Precision} \;=\; \frac{1}{N_pred}\sum_{x=1}^N_pred P(x)
+\text{Precision} \;=\; \frac{1}{N_{pred}}\sum_{x=1}^N_{pred} P(x)
 $$
 
 $$
-\text{Recall} \;=\; \frac{1}{N_gold}\sum_{x=1}^N_gold R(x)
+\text{Recall} \;=\; \frac{1}{N_{gold}}\sum_{x=1}^N_{gold} R(x)
 $$
 
 $$
