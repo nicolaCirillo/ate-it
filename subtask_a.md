@@ -9,7 +9,7 @@ parent: Participation Guidelines
 ---
 ## Overview
 
-Participants will be provided with a collection of sentences taken from a specialised corpus on **municipal waste management**.  
+Participants will receive a collection of sentences taken from a specialised corpus on **municipal waste management**.  
 The objective is to identify and extract **domain-relevant terms** from each sentence.  
 
 - Terms can be either **single-word** or **multi-word expressions**.  
@@ -125,18 +125,28 @@ Performance in the Term Extraction subtask will be measured using two complement
 ---
 ### Micro F1 score
 
-Micro-averaged F1 is calculated as follows, where $$i$$ is an item of the dataset $$\mathcal{D}$$:
+Micro-averaged F1 is calculated as follows.
+
+Let:
+
+* $$TP_s$$ = number of terms extracted from sentence $$s$$ that match the gold standard  
+* $$FP_s$$ = number of terms extracted from sentence $$s$$ that do not match the gold standard   
+* $$FN_s$$ = number of terms in the gold standard that have not been extracted from sentence $$s$$
+
+Then, micro-averaged precision and recall are defined as:
 
 $$
-\mathrm{Precision}_{\text{micro}}(\mathcal{D}) = \frac{\sum_{i \in \mathcal{D}} \mathrm{TP}_i} {\sum_{i \in \mathcal{D}} (\mathrm{TP}_i + \mathrm{FP}_i)}
+\text{Precision}_{\text{micro}} = \frac{\sum_{s \in D} TP_s}{\sum_{s \in D} (TP_s + FP_s)}
 $$
 
 $$
-\mathrm{Recall}_{\text{micro}}(\mathcal{D}) = \frac{\sum_{i \in \mathcal{D}} \mathrm{TP}_i} {\sum_{i \in \mathcal{D}} (\mathrm{TP}_i + \mathrm{FN}_i)}
+\text{Recall}_{\text{micro}} = \frac{\sum_{s \in D} TP_s}{\sum_{s \in D} (TP_s + FN_s)}
 $$
 
+Finally, the Micro F1 score is:
+
 $$
-F1_{\text{micro}}(\mathcal{D}) = \frac{2 \cdot \mathrm{Precision}_{\text{micro}}(\mathcal{D}) \cdot \mathrm{Recall}_{\text{micro}}(\mathcal{D})} {\mathrm{Precision}_{\text{micro}}(\mathcal{D}) + mathrm{Recall}_{\text{micro}}(\mathcal{D})}
+F1_{\text{micro}} = \frac{2 \cdot \text{Precision}_{\text{micro}} \cdot \text{Recall}_{\text{micro}}}{\text{Precision}_{\text{micro}} + \text{Recall}_{\text{micro}}}
 $$
 
 ---
