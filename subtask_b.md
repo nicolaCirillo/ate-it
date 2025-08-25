@@ -117,7 +117,7 @@ Let:
 For each element $$x$$:
 
 $$
-P(x) = \frac{|\{ y \in C(x) : L(y) = L(x) \}|{|C(x)|}
+P(x) = \frac{|\{ y \in C(x) : L(y) = L(x) \}|}{|C(x)|}
 $$
 
 $$
