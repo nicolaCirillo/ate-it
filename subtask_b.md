@@ -93,8 +93,7 @@ secco residuo,2
 ```
 
 ---
-## Evaluation Metrics
-
+## Evaluation
 Performance in the Term Variants Clustering subtask will be measured using the **BCubed F1 score** (Bagga & Baldwin, 1998; Amigó et al., 2009).  
 This metric depends on the results of the Term Extraction subtask.
 
