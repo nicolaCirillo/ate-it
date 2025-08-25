@@ -107,31 +107,33 @@ BCubed evaluates clustering quality by computing precision and recall at the ite
 
 Let:
 
-* $N_{pred}$ = total number of elements in the predicted clustering  
-* $N_{gold}$ = total number of elements in the gold clustering  
-* $C(x)$ = the predicted cluster containing element $x$ (if $x$ is not in the predicted clustering, $C(x)=\emptyset$)
-* $L(x)$ = the gold cluster containing element $x$ (if $x$ is not in the gold clustering, $L(x)=\emptyset$)
+Let:
 
-For each element $x$:
+* $$N_{pred}$$ = elements in the predicted clustering  
+* $$N_{gold}$$ = elements in the gold clustering  
+* $$C(x)$$ = the predicted cluster containing element $$x$$ (if $$x$$ is not in the predicted clustering, $$C(x)=\emptyset$$)
+* $$L(x)$$ = the gold cluster containing element $$x$$ (if $$x$$ is not in the gold clustering, $$L(x)=\emptyset$$)
 
-$$
-P(x) = \\frac{|\\{ y \\in C(x) : L(y) = L(x) \\}|}{|C(x)|}
-$$
+For each element $$x$$:
 
 $$
-R(x) = \\frac{|\\{ y \\in L(x) : C(y) = C(x) \\}|}{|L(x)|}
+P(x) = \frac{|\{ y \in C(x) : L(y) = L(x) \}|{|C(x)|}
+$$
+
+$$
+R(x) = \frac{|\{ y \in L(x) : C(y) = C(x) \}|}{|L(x)|}
 $$
 
 The global scores are averages over all items:
 
 $$
-\\text{Precision} = \\frac{1}{N_{pred}} \\sum_{x=1}^{N_{pred}} P(x)
+Precision = \frac{1}{N_{pred}} \sum_{x=1}^{N_{pred}} P(x)
 $$
 
 $$
-\\text{Recall} = \\frac{1}{N_{gold}} \\sum_{x=1}^{N_{gold}} R(x)
+Recall = \frac{1}{N_{gold}} \sum_{x=1}^{N_{gold}} R(x)
 $$
 
 $$
-F1 = \\frac{2 \\cdot \\text{Precision} \\cdot \\text{Recall}}{\\text{Precision} + \\text{Recall}}
+F1 = \frac{2 \cdot Precision \cdot Recall}{Precision + Recall}
 $$
