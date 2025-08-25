@@ -31,14 +31,23 @@ If you use the datasets in a scientific publication, please cite:
 ## Subtask A - Term Extraction
 
 - Training set (not released yet)
+  - items ([CSV]|[JSON])
+  - labels ([CSV|[JSON]]) 
 - Development set (not released yet)
+  - items ([CSV]|[JSON])
+  - labels ([CSV|[JSON]]) 
 - Test set (not released yet)
-
+  - items ([CSV]|[JSON]) 
 ---
 ## Subtask B - Term Variant Clustering
 - Training set (not released yet)
+  - items ([CSV]|[JSON])
+  - labels ([CSV|[JSON]])
 - Development set (not released yet)
+  - items ([CSV]|[JSON])
+  - labels ([CSV|[JSON]]) 
 - Test set (not released yet)
+  - items ([CSV]|[JSON])
 
 ---
 ## Dataset source
