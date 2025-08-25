@@ -30,28 +30,35 @@ If you use the datasets in a scientific publication, please cite:
 ---
 ## Subtask A - Term Extraction
 
+Please refer to [Subtask A - Term Extraction](subtask_a.md) for more information about the dataset format.
+
 - Training set (not released yet)
-  - items ([CSV]()|[JSON]())
-  - labels ([CSV]()|[JSON]()) 
+  - items ( [CSV]() | [JSON]() )
+  - labels ( [CSV]() | [JSON]() ) 
 - Development set (not released yet)
-  - items ([CSV]()|[JSON]())
-  - labels ([CSV]()|[JSON]()) 
+  - items ( [CSV]() | [JSON]() )
+  - labels ( [CSV]() | [JSON]() ) 
 - Test set (not released yet)
-  - items ([CSV]()|[JSON]()) 
+  - items ( [CSV]() | [JSON]() ) 
+
 ---
+
 ## Subtask B - Term Variant Clustering
+
+Please refer to [Subtask B - Term Variant Clustering](subtask_b.md) for more information about the dataset format.
+
 - Training set (not released yet)
-  - items ([CSV]()|[JSON]())
-  - labels ([CSV]()|[JSON]())
+  - items ( [CSV]() | [JSON]() )
+  - labels ( [CSV]() | [JSON]() )
 - Development set (not released yet)
-  - items ([CSV]()|[JSON]())
-  - labels ([CSV]()|[JSON]()) 
+  - items ( [CSV]() | [JSON]() )
+  - labels ( [CSV]() | [JSON]() ) 
 - Test set (not released yet)
-  - items ([CSV]()|[JSON]())
+  - items ( [CSV]() | [JSON]() )
 
 ---
 ## Dataset source
-The training and development sets come from the publicly available ItaIst-TermRifiuti corpus and ItaIst-WasteLexicon termbase (Cirillo et al., 2025), while the test set is specifically designed for the ATE-IT shared task..
+The training and development sets come from the publicly available ItaIst-TermRifiuti corpus and ItaIst-WasteLexicon termbase (Cirillo et al., 2025), while the test set is specifically designed for the ATE-IT shared task.
 
 **ItaIst-TermRifiuti** is a stratified sample of the broader ItaIst-DdAC_GRU corpus (Italiano Istituzionale per il Diritto di Accesso Civico – Gestione Rifiuti Urbani) (Vellutino & Cirillo, 2024), consisting of institutional texts on municipal waste management.
 It is balanced between administrative texts (e.g., ordinances, service charters, tenders) aimed at experts and informative texts (e.g., public notices, guides, press releases) for the general public.
