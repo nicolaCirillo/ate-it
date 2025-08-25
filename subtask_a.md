@@ -9,23 +9,23 @@ parent: Participation Guidelines
 ---
 ## Overview
 
-Participants will receive a collection of sentences taken from a specialised corpus on **municipal waste management**.  
-The objective is to identify and extract **domain-relevant terms** from each sentence.  
+Participants will receive a collection of sentences extracted from a specialised corpus on **municipal waste management**.  
+The goal of this subtask is to identify and extract **domain-relevant terms** from each sentence.  
 
 - Terms can be either **single-word** or **multi-word expressions**.  
-- Accepted terms may include **nouns, verbs, and adjectives**.  
-- Extracted terms must correspond to concepts in the waste management domain.
+- Accepted terms may include **nouns, verbs, or adjectives**.  
+- Extracted terms must correspond to concepts within the waste management domain.
 
 ---
 ## Input
 
-The system input will be a **CSV** or **JSON** file.  
-Each entry corresponds to a sentence and includes:  
+The input will be provided as a **CSV** or **JSON** file.  
+Each entry corresponds to one sentence and contains the following fields:  
 
 - `document_id` – identifier of the source document  
 - `paragraph_id` – identifier of the paragraph within the document  
 - `sentence_id` – identifier of the sentence  
-- `sentence_text` – the text of the sentence itself  
+- `sentence_text` – the full text of the sentence  
 
 ---
 ### Example of CSV input file
@@ -72,9 +72,9 @@ The system output must also be a **CSV** or **JSON** file containing the extract
 
 **Output requirements:**  
 - Terms must be **lowercased only** (no lemmatisation, stemming, or other transformations).  
-- Each sentence’s extracted terms must be concatenated into a single string and separated by a **semicolon (“;”)**.  
-- No duplicates are allowed.
-- **Nested terms are not permitted** (e.g., if “impianto di trattamento rifiuti” is extracted, the inner term “trattamento rifiuti” must not appear).
+- All extracted terms for a given sentence must be concatenated into a single string, separated by **semicolons (“;”)**.  
+- **No duplicate terms** are allowed within the same sentence.  
+- **Nested terms are not permitted** (e.g., if “impianto di trattamento rifiuti” is extracted, the inner term “trattamento rifiuti” must not be included).  
 
 ---
 ### Example of CSV output file
@@ -119,8 +119,8 @@ doc_nola_05,2,6,"ritiro a domicilio"
 
 Performance in the Term Extraction subtask will be measured using two complementary metrics:
 
-- **Micro F1 score** – evaluates precision and recall across all **term occurrences** in the dataset.  
-- **Type F1 score** – evaluates precision and recall across **unique term types** only (ignoring frequency).  
+- **Micro F1 score** – evaluates precision and recall across all **sentences** in the dataset.  
+- **Type F1 score** – evaluates precision and recall across **unique term types**, disregarding frequency.  
 
 ---
 ### Micro F1 score
@@ -130,8 +130,8 @@ Micro-averaged F1 is calculated as follows.
 Let:
 
 * $$TP_s$$ = number of terms extracted from sentence $$s$$ that match the gold standard  
-* $$FP_s$$ = number of terms extracted from sentence $$s$$ that do not match the gold standard   
-* $$FN_s$$ = number of terms in the gold standard that have not been extracted from sentence $$s$$
+* $$FP_s$$ = number of terms extracted from sentence $$s$$ that do not match the gold standard  
+* $$FN_s$$ = number of gold standard terms in sentence $$s$$ that were not extracted  
 
 Then, micro-averaged precision and recall are defined as:
 
@@ -146,23 +146,32 @@ $$
 Finally, the Micro F1 score is:
 
 $$
-F1_{micro}} = \frac{2 \cdot Precision_{micro} \cdot Recall_{micro}}{Precision_{micro} + Recall_micro}}
+F1_{micro} = \frac{2 \cdot Precision_{micro} \cdot Recall_{micro}}{Precision_{micro} + Recall_{micro}}
 $$
 
 ---
 ### Type F1 score
 
-Type F1 is calculated over the set of unique terms (that appear at least in one document)
+Type F1 is computed over the set of unique term types (i.e., distinct term forms that appear at least once in the dataset).
+
+Let:
+
+* $$TP$$ = number of extracted unique terms that appear in the gold set  
+* $$FP$$ = number of extracted unique terms that do not appear in the gold set  
+* $$FN$$ = number of gold unique terms that were not extracted  
+
+Then:
 
 $$
-\mathrm{Precision} = \frac{\mathrm{TP}}{\mathrm{TP} + \mathrm{FP}}
+Precision = \frac{TP}{TP + FP}
 $$
 
 $$
-\mathrm{Recall} = \frac{\mathrm{TP}}{\mathrm{TP} + \mathrm{FN}}
+Recall = \frac{TP}{TP + FN}
 $$
 
-$$
-F1 = \frac{2 \cdot \mathrm{Precision} \cdot \mathrm{Recall}}{\mathrm{Precision} + \mathrm{Recall}}
-$$
+Finally, the Type F1 score is:
 
+$$
+F1 = \frac{2 \cdot Precision \cdot Recall}{Precision + Recall}
+$$
