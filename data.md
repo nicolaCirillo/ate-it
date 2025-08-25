@@ -33,7 +33,7 @@ If you use the datasets in a scientific publication, please cite:
 - Development set (not released yet)
 - Test set (not released yet)
 
---
+---
 ## Subtask B - Term Variant Clustering
 - Training set (not released yet)
 - Development set (not released yet)
