@@ -26,10 +26,10 @@ To register, please send an email to **ateit@gmail.com** with the following info
 The shared task consists of four consecutive phases:
 
 - **Phase 1: Development (22 September – 2 November)**  
-  Training and development data will be released on the [Datasets page]. Teams should design, implement, and test their system(s) for one or both subtasks using the provided data.
+  Training and development data will be released on the [Data](data.md) page. Teams should design, implement, and test their system(s) for one or both subtasks using the provided data.
 
 - **Phase 2: Evaluation (3 – 17 November)**  
-  Test data will be released on the [Datasets page]. Teams must generate predictions and submit results in the required format. Submissions must also include a link to the source code repository (e.g., GitHub).
+  Test data will be released on the [Datasets](data.md) page. Teams must generate predictions and submit results in the required format. Submissions must also include a link to the source code repository on GitHub.
 
 - **Phase 3: Reporting (18 November – 15 December)**  
   Teams must write and submit a short technical report following the provided format. The report should describe the system(s) and include:
