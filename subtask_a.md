@@ -115,7 +115,7 @@ doc_nola_05,2,6,"ritiro a domicilio"
 ```
 
 ---
-## Evaluation metrics
+## Evaluation
 
 Performance in the Term Extraction subtask will be measured using two complementary metrics:
 
