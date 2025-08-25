@@ -5,16 +5,39 @@ title: Data
 
 # Data
 
+The datasets available on this page are released under the [CC-BY 4.0 license](https://creativecommons.org/licenses/by/4.0/)
+If you use the datasets in a scientific publication, please cite:
+
+```bibtex
+@dataset{itaist_gru2025,
+  author       = {Nicola Cirillo and
+                  Daniela Vellutino and
+                  David Nicoletti and
+                  Enzagiulia Sabarese and
+                  Benedetta Rubino},
+  title        = {ItaIst\_GRU},
+  month        = mar,
+  year         = 2025,
+  publisher    = {Zenodo},
+  version      = {thesis},
+  doi          = {10.5281/zenodo.15173712},
+  url          = {https://doi.org/10.5281/zenodo.15173712},
+}
+```
+
+
 ---
 ## Subtask A - Term Extraction
 
 - Training set (not released yet)
 - Development set (not released yet)
+- Test set (not released yet)
 
 --
 ## Subtask B - Term Variant Clustering
 - Training set (not released yet)
 - Development set (not released yet)
+- Test set (not released yet)
 
 ---
 ## Dataset source
