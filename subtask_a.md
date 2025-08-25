@@ -136,17 +136,17 @@ Let:
 Then, micro-averaged precision and recall are defined as:
 
 $$
-\text{Precision}_{\text{micro}} = \frac{\sum_{s \in D} TP_s}{\sum_{s \in D} (TP_s + FP_s)}
+Precision_{micro} = \frac{\sum_{s \in D} TP_s}{\sum_{s \in D} (TP_s + FP_s)}
 $$
 
 $$
-\text{Recall}_{\text{micro}} = \frac{\sum_{s \in D} TP_s}{\sum_{s \in D} (TP_s + FN_s)}
+Recall_{micro} = \frac{\sum_{s \in D} TP_s}{\sum_{s \in D} (TP_s + FN_s)}
 $$
 
 Finally, the Micro F1 score is:
 
 $$
-F1_{\text{micro}} = \frac{2 \cdot \text{Precision}_{\text{micro}} \cdot \text{Recall}_{\text{micro}}}{\text{Precision}_{\text{micro}} + \text{Recall}_{\text{micro}}}
+F1_{micro}} = \frac{2 \cdot Precision_{micro} \cdot Recall_{micro}}{Precision_{micro} + Recall_micro}}
 $$
 
 ---
