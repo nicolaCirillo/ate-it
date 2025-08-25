@@ -103,9 +103,7 @@ This metric depends on the results of the Term Extraction subtask.
 
 BCubed evaluates clustering quality by computing precision and recall at the item level and then averaging across all items.
 
-**Important** In this version, the set of items in the predicted clustering do not necessararily correspond to the set of items in the gold clustering.
-
-Let:
+**Important** In this version, the set of items in the predicted clustering does not necessarily correspond to the set of items in the gold clustering.
 
 Let:
 
