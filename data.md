@@ -59,7 +59,7 @@ Please refer to [Subtask B - Term Variant Clustering](subtask_b.md) for more inf
   - items ( [CSV]() \| [JSON]() )
 
 ---
-## Dataset source
+## Data source
 The training and development sets come from the publicly available ItaIst-TermRifiuti corpus and ItaIst-WasteLexicon termbase (Cirillo et al., 2025), while the test set is specifically designed for the ATE-IT shared task.
 
 **ItaIst-TermRifiuti** is a stratified sample of the broader ItaIst-DdAC_GRU corpus (Italiano Istituzionale per il Diritto di Accesso Civico – Gestione Rifiuti Urbani) (Vellutino & Cirillo, 2024), consisting of institutional texts on municipal waste management.
