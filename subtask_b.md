@@ -9,7 +9,7 @@ parent: Participation Guidelines
 ---
 ## Overview
 
-From the list of unique extracted terms, participants must group together those terms that refer to the same underlying concept.  
+From the list of unique extracted terms, **participants must cluster together those terms that refer to the same underlying concept**.  
 For example, *“raccolta porta a porta”* and *“raccolta domiciliare”* should be placed in the same cluster.
 
 - Each cluster should represent a single, coherent concept within the waste management domain.
@@ -24,7 +24,7 @@ For example, *“raccolta porta a porta”* and *“raccolta domiciliare”* sho
 The input is a **CSV** or **JSON** file containing a list of terms.
 These terms are inflected forms, not lemmas.  
 
-**Important:** The organizers will not provide the input file. Participants must use the list of unique terms extracted during [Subtask A].
+**Important:** The organizers will not provide the input file. Participants must use the list of unique terms extracted during [Term Extraction](subtask_a.md).
 
 ---
 ### Example of CSV input file
@@ -101,7 +101,7 @@ Performance in the Term Variants Clustering subtask will be measured using the *
 
 BCubed evaluates clustering quality by computing precision and recall at the item level and then averaging across all items.
 
-**Important** In this version, the set of items in the predicted clustering does not necessarily correspond to the set of items in the gold clustering.
+**Important** In this version of BCubed, the set of items in the predicted clustering does not necessarily correspond to the set of items in the gold clustering.
 
 Let:
 
