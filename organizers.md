@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Organizers
+nav_order: 4
 ---
 # Organisers
 
