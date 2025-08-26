@@ -44,7 +44,7 @@ The shared task consists of four consecutive phases:
 ---
 ## Rules
 
-There are no restrictions on techniques: supervised and unsupervised machine learning, rule-based systems, deep learning, prompting, etc. Everithing technique is allowed.
+There are no restrictions on techniques: supervised and unsupervised machine learning, rule-based systems, deep learning, prompting, etc. Every technique is allowed.
 
 However:
 
