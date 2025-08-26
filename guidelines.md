@@ -44,12 +44,14 @@ The shared task consists of four consecutive phases:
 ---
 ## Rules
 
-There are no restrictions on techniques: supervised and unsupervised machine learning, rule-based systems, deep learning, prompting, etc. 
+There are no restrictions on techniques: supervised and unsupervised machine learning, rule-based systems, deep learning, prompting, etc. Everithing technique is allowed.
 
-Simple fine-tuning of the latest models without further analysis is discouraged.
+However:
 
-Instead, we strongly encourage the development of techniques that provide insights into ATE and terminology, contributing to advancing the field.<br> 
-In particular, **we encourage the use of open-source LLMs and the integration of linguistic knowledge**.
+- We discourage simple fine-tuning of the latest models without further analysis.
+- We strongly encourage the development of techniques that provide insights into ATE and terminology, contributing to advancing the field. In particular, we encourage:
+    - **the use of open-source LLMs
+    - **the exploitation of linguistic knowledge**.
 
 - **Allowed external resources:** pretrained embeddings, LLMs, and other pretrained models.
 - **Not allowed:** external corpora or lexical resources.
