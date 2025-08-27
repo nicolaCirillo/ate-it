@@ -48,7 +48,7 @@ There are no restrictions on techniques: supervised and unsupervised machine lea
 
 However:
 
-We discourage simple fine-tuning of the latest models without further analysis.
+We discourage simple fine-tuning of the latest models without further qualitative analysis.
 
 We strongly encourage the development of techniques that provide insights into ATE and terminology, contributing to advancing the field. In particular, we encourage:
 - **the use of open-source LLMs**
@@ -59,19 +59,14 @@ We strongly encourage the development of techniques that provide insights into A
 - LLMs
 - tokenizers, lemmatizers, POS tagger, etc.
 - other pretrained models
-- general language dictionaries
-
-**Not allowed:** external corpora or terminological resources.
+- lexical resources
+- external corpora
+- terminology resources.
 
 *All resources must be clearly documented in the technical report.*
 
-Teams can participate in:
-
-- **Subtask A (Term Extraction) only**
-- **both subtasks**.
+Teams can participate in: **Subtask A (Term Extraction) only** or **both subtasks**.
 
 Participation in **Subtask B only (Term Variants Clustering)** is not allowed.
 
 Each team may submit up to **2 runs per subtask**. The best run per evaluation metric will be used for ranking.
-
-**Manual annotation of the test data is strictly forbidden.** Any evidence of test-set leakage will result in disqualification.
