@@ -27,35 +27,6 @@ These terms are inflected forms, not lemmas.
 **Important:** The organizers will not provide the input file. Participants must use the list of unique terms extracted during [Term Extraction](subtask_a.md).
 
 ---
-### Example of CSV input file
-
-```
-term
-centro di raccolta
-ccr
-isola ecologica
-isole ecologiche
-indifferenziato
-secco residuo
-```
-
----
-### Example of JSON input file
-
-```json
-{
-  "data": [
-    { "term": "centro di raccolta" },
-    { "term": "ccr" },
-    { "term": "isola ecologica" },
-    { "term": "isole ecologiche" },
-    { "term": "indifferenziato" },
-    { "term": "secco residuo" }
-  ]
-}
-```
-
----
 ## Output
 
 The system output must also be a **CSV** or **JSON** file, where each term is assigned to a cluster.
