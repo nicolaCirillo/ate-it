@@ -71,19 +71,22 @@ doc_nola_05,2,6,"Il ritiro “a domicilio” è attivo dal 01 aprile al 30 sette
 The system output must also be a **CSV** or **JSON** file containing the extracted terms for each sentence.  
 
 **Output requirements:**  
-- Terms must be **lowercased only** (no lemmatisation, stemming, or other transformations).  
-- All extracted terms for a given sentence must be concatenated into a single string, separated by **semicolons (“;”)**.  
+- Terms must be **lowercased only** (no lemmatisation, stemming, or other transformations).    
 - **No duplicate terms** are allowed within the same sentence.  
-- **Nested terms are not permitted** (e.g., if “impianto di trattamento rifiuti” is extracted, the inner term “trattamento rifiuti” must not be included).  
+- **Nested terms are not permitted** (e.g., if “impianto di trattamento rifiuti” is extracted, the inner term “trattamento rifiuti” must not be included, unless it also appears independently).  
 
 ---
 ### Example of CSV output file
 
 ```
-document_id,paragraph_id,sentence_id,term_list
-doc_poggiomarino_02,8,1,"centro di raccolta; isola ecologica; discarica; impianto di trattamento rifiuti"
-doc_santagnello_19,3,2,"tari; tassa rifiuti"
-doc_nola_05,2,6,"ritiro a domicilio"
+document_id,paragraph_id,sentence_id,sentence_text,term
+doc_poggiomarino_02,8,1,"Il Centro di Raccolta [Isola Ecologica] non è una discarica e non è un impianto di trattamento rifiuti.",centro di raccolta
+doc_poggiomarino_02,8,1,"Il Centro di Raccolta [Isola Ecologica] non è una discarica e non è un impianto di trattamento rifiuti.",isola ecologica
+doc_poggiomarino_02,8,1,"Il Centro di Raccolta [Isola Ecologica] non è una discarica e non è un impianto di trattamento rifiuti.",discarica
+doc_poggiomarino_02,8,1,"Il Centro di Raccolta [Isola Ecologica] non è una discarica e non è un impianto di trattamento rifiuti.",impianto di trattamento rifiuti
+doc_santagnello_19,3,2,"- Pagare la Tassa Rifiuti (TARI) mediante il canale pagoPA (carte di credito e circuiti bancari)", tari
+doc_santagnello_19,3,2,"- Pagare la Tassa Rifiuti (TARI) mediante il canale pagoPA (carte di credito e circuiti bancari)",tassa rifiuti
+doc_nola_05,2,6,"Il ritiro “a domicilio” è attivo dal 01 aprile al 30 settembre, sarà effettuato ogni 15 giorni su prenotazione telefonica.",ritiro a domicilio
 ```
 
 ---
@@ -96,19 +99,22 @@ doc_nola_05,2,6,"ritiro a domicilio"
       "document_id": "doc_poggiomarino_02",
       "paragraph_id": 8,
       "sentence_id": 1,
-      "term_list": "centro di raccolta; isola ecologica; discarica; impianto di trattamento rifiuti"
+      "sentence_text": "Il Centro di Raccolta [Isola Ecologica] non è una discarica e non è un impianto di trattamento rifiuti.",
+      "term_list": ["centro di raccolta", "isola ecologica", "discarica", "impianto di trattamento rifiuti"]
     },
     {
       "document_id": "doc_santagnello_19",
       "paragraph_id": 3,
       "sentence_id": 2,
-      "term_list": "tari; tassa rifiuti"
+      "sentence_text": "- Pagare la Tassa Rifiuti (TARI) mediante il canale pagoPA (carte di credito e circuiti bancari)",
+      "term_list": ["tari", "tassa rifiuti"]
     },
     {
       "document_id": "doc_nola_05",
       "paragraph_id": 2,
       "sentence_id": 6,
-      "term_list": "ritiro a domicilio"
+      "sentence_text": "Il ritiro “a domicilio” è attivo dal 01 aprile al 30 settembre, sarà effettuato ogni 15 giorni su prenotazione telefonica.",
+      "term_list": ["ritiro a domicilio"]
     }
   ]
 }
