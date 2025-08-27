@@ -35,13 +35,11 @@ If you use the datasets in a scientific publication, please cite:
 Please refer to [Subtask A - Term Extraction](subtask_a.md) for more information about the dataset format.
 
 - Training set (not released yet)
-  - items ( [CSV]() \| [JSON]() )
-  - labels ( [CSV]() \| [JSON]() ) 
+  ( [CSV]() \| [JSON]() ) 
 - Development set (not released yet)
-  - items ( [CSV]() \| [JSON]() )
-  - labels ( [CSV]() \| [JSON]() ) 
+  ( [CSV]() \| [JSON]() ) 
 - Test set (not released yet)
-  - items ( [CSV]() \| [JSON]() ) 
+  ( [CSV]() \| [JSON]() ) 
 
 ---
 
@@ -50,13 +48,11 @@ Please refer to [Subtask A - Term Extraction](subtask_a.md) for more information
 Please refer to [Subtask B - Term Variant Clustering](subtask_b.md) for more information about the dataset format.
 
 - Training set (not released yet)
-  - items ( [CSV]() \| [JSON]() )
-  - labels ( [CSV]() \| [JSON]() )
+  ( [CSV]() \| [JSON]() )
 - Development set (not released yet)
-  - items ( [CSV]() \| [JSON]() )
-  - labels ( [CSV]() \| [JSON]() ) 
+  ( [CSV]() \| [JSON]() ) 
 - Test set (not released yet)
-  - items ( [CSV]() \| [JSON]() )
+  ( [CSV]() \| [JSON]() )
 
 ---
 ## Data source
