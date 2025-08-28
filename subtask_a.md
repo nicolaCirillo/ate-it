@@ -185,11 +185,10 @@ $$
 ---
 ## Baseline
 
-We provide a baseline that participants are encouraged to improve upon. It is built on the latest Gemini model (gemini-2.5-flash) in a zero-shot setup.
-
+We provide a baseline that participants are encouraged to improve upon. It is built on the latest Gemini model (`gemini-2.5-flash`) in a **zero-shot setup**.
 Namely, we provided Gemini the following prompts and processed the sentences in batches of 20:
 
-System prompt:
+**System prompt:**
 ```
 You are an automatic term extraction agent. You will receive a list of sentences as input.
 Your role is to extract waste management terms from the sentences. Output a list of terms for each sentence.
@@ -211,7 +210,7 @@ Instructions:
 * If a sentence contains no terms, output an empty list for that sentence; 
 * You must output 20 lists of terms, one for each sentence.
 ```
-User prompt:
+**User prompt:**
 ```
 Sentence 1: Il Centro di Raccolta [Isola Ecologica] non è una discarica e non è un impianto di trattamento rifiuti.
 
