@@ -128,7 +128,7 @@ Performance in the Term Extraction subtask will be measured using two complement
 - **Micro F1 score** – evaluates precision and recall across all **sentences** in the dataset.  
 - **Type F1 score** – evaluates precision and recall across **unique term types**, disregarding frequency.  
 
-The code used for the evaluation is available in the [Evaluation Notebook](https://colab.research.google.com/github/nicolaCirillo/ate-it/blob/main/evaluation/subtask_a_evaluation.ipynb).
+The code used for the evaluation is available to participants ([Evaluation Notebook](https://colab.research.google.com/github/nicolaCirillo/ate-it/blob/main/evaluation/subtask_a_evaluation.ipynb)).
 
 ---
 ### Micro F1 score
