@@ -12,7 +12,7 @@ parent: Participation Guidelines
 From the list of unique extracted terms, **participants must cluster together those terms that refer to the same underlying concept**.  
 For example, *“raccolta porta a porta”* and *“raccolta domiciliare”* should be placed in the same cluster.
 
-- Each cluster should represent a single, coherent concept within the waste management domain.
+- Each cluster should represent a single concept within the waste management domain.
 - Inflected forms of the same lemma should be clustered together (e.g. *“isola ecologica”* and *“isole ecologiche”*).
 - Acronyms, initialisms, and their full forms should be clustered together (e.g. *“ccr”* and *“centro comunale di raccolta”*).
 - Synonyms should be clustered together (e.g. *“isola ecologica”* and *“centro comunale di raccolta”*).
@@ -104,3 +104,44 @@ $$
 $$
 F1 = \frac{2 \cdot Precision \cdot Recall}{Precision + Recall}
 $$
+
+
+## Baseline
+
+We provide a baseline that participants are encouraged to improve upon. It is built on the latest Gemini model (`gemini-2.5-flash`) in a **zero-shot setup**.
+Namely, we provided Gemini the following prompts and processed the unique terms in batches of 20:
+
+**System prompt:**
+```
+You are a term clustering agent.
+You will receive a list of term clusters and a list of unclustered terms related to municipal waste management.
+Your task is to cluster together exact synonyms.
+Each cluster must represent a single, well-defined concept.
+
+Output:
+Return the list of clusters with the newly added terms. Each cluster must be on a new line.
+
+Example Output:
+
+term1; term2
+term3
+term4; term5; term7
+term6; term8
+
+Instructions:
+* Group terms by meaning, not form. Use their lemma.
+* Focus on their meaning within the municipal waste management context.
+* If a term does not belong to an existing cluster, create a new cluster.
+```
+
+**User prompt:**
+```
+CLUSTERS:
+centro di raccolta; ccr; isola ecologica; isole ecologiche
+[...]
+indifferenziato
+
+
+UNCLUSTERED TERMS:
+secco residuo
+```
