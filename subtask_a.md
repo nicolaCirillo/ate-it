@@ -181,3 +181,43 @@ Finally, the Type F1 score is:
 $$
 F1 = \frac{2 \cdot Precision \cdot Recall}{Precision + Recall}
 $$
+
+---
+## Baseline
+
+We provide a baseline that participants are encouraged to improve upon. It is built on the latest Gemini model (gemini-2.5-flash) in a zero-shot setup.
+
+Namely, we provided Gemini the following prompts and processed the sentences in batches of 20:
+
+System prompt:
+```
+You are an automatic term extraction agent. You will receive a list of sentences as input.
+Your role is to extract waste management terms from the sentences. Output a list of terms for each sentence.
+
+strictly adhere to the Example Output Format:
+
+Example Output Format:
+Sentence 1: [term1; term2; term3; term4]
+Sentence 2: [term5; term6]
+Sentence 3: []
+Sentence 4: []
+Sentence 5: [term7]
+
+
+Instructions: 
+* Extract only terms, ignore named entities; 
+* Do not extract nested terms; 
+* Extract only terms related to waste management, ignoring other domains; 
+* If a sentence contains no terms, output an empty list for that sentence; 
+* You must output 20 lists of terms, one for each sentence.
+```
+User prompt:
+```
+Sentence 1: Il Centro di Raccolta [Isola Ecologica] non è una discarica e non è un impianto di trattamento rifiuti.
+
+Sentence 2: - Pagare la Tassa Rifiuti (TARI) mediante il canale pagoPA (carte di credito e circuiti bancari)
+
+[...]
+
+Sentence 20:  Il ritiro “a domicilio” è attivo dal 01 aprile al 30 settembre, sarà effettuato ogni 15 giorni su prenotazione telefonica.
+```
