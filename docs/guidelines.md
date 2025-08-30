@@ -44,15 +44,15 @@ The shared task consists of four consecutive phases:
 ---
 ## Rules
 
-There are no restrictions on techniques: supervised and unsupervised machine learning, rule-based systems, deep learning, prompting, etc. Every technique is allowed.
-
+**There are no restrictions on techniques:** supervised and unsupervised machine learning, rule-based systems, deep learning, prompting, etc. Every technique is allowed.
 However:
 
-We discourage simple fine-tuning of the latest models without further qualitative analysis.
+- We discourage simple fine-tuning of the latest models without further qualitative analysis.
+- We strongly encourage the development of techniques that provide insights into ATE and terminology, contributing to advancing the field. In particular, we encourage:
+  - **the use of open-source LLMs**
+  - **the exploitation of linguistic knowledge**
 
-We strongly encourage the development of techniques that provide insights into ATE and terminology, contributing to advancing the field. In particular, we encourage:
-- **the use of open-source LLMs**
-- **the exploitation of linguistic knowledge**
+
 
 **Allowed external resources:**
 - pretrained embeddings
@@ -66,7 +66,6 @@ We strongly encourage the development of techniques that provide insights into A
 *All resources must be clearly documented in the technical report.*
 
 Teams can participate in: **Subtask A (Term Extraction) only** or **both subtasks**.
-
 Participation in **Subtask B only (Term Variants Clustering)** is not allowed.
 
 Each team may submit up to **2 runs per subtask**. The best run per evaluation metric will be used for ranking.
