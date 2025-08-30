@@ -67,6 +67,8 @@ secco residuo,2
 ## Evaluation
 Performance in the Term Variants Clustering subtask will be measured using the **BCubed F1 score** (Bagga & Baldwin, 1998; Amigó et al., 2009).  
 
+The code used for evaluation is available to participants ([Subtask B - Evaluation Notebook](https://colab.research.google.com/github/nicolaCirillo/ate-it/blob/main/evaluation/subtask_b_evaluation.ipynb))
+
 ---
 ### BCubed F1 score
 
