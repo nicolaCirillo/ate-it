@@ -14,15 +14,15 @@ Please refer to [Subtask A - Term Extraction](subtask_a.md) for more information
 - Training set
   ( [CSV]() \| [JSON]() )
 Coming soon
-{: .label-yellow }
+{: .label .label-yellow }
 - Development set
   ( [CSV]() \| [JSON]() )
 Coming soon
-{: .label-yellow }
+{: .label .label-yellow }
 - Test set
   ( [CSV]() \| [JSON]() )
 Coming soon
-{: .label-yellow }
+{: .label .label-yellow }
 
 ---
 ## Subtask B - Term Variant Clustering
