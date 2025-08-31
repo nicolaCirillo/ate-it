@@ -54,4 +54,5 @@ For further information about EVALITA, please visit [www.evalita.it](https://www
 - [Subtask B - Term Variant Clustering](subtask_b.md)
 - [Data](data.md)
 - [Organizers](organizers.md)
+- [Useful References](references.md)
 - [Contacts](contacts.md)
