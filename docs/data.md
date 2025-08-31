@@ -11,7 +11,9 @@ nav_order: 3
 
 Please refer to [Subtask A - Term Extraction](subtask_a.md) for more information about the dataset format.
 
-- Training set (not released yet)
+- Training set
+  Not released yet
+  {: .label }
   ( [CSV]() \| [JSON]() ) 
 - Development set (not released yet)
   ( [CSV]() \| [JSON]() ) 
