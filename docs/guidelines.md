@@ -78,7 +78,7 @@ Participation in **Subtask B only (Term Variants Clustering)** is **not allowed*
 Both training and development data may be used to train models.<br>
 **Using test data for training is strictly forbidden.**
 
-
+---
 ### Manual runs
 
 We also accept runs where the test data is **manually annotated**.
