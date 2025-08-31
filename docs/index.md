@@ -47,5 +47,7 @@ EVALITA is a periodic evaluation campaign of Natural Language Processing (NLP) a
 
 For further information about EVALITA, please visit [www.evalita.it](https://www.evalita.it/).
 
+---
+## Table of Content
 - TOC
 {:toc}
