@@ -8,4 +8,4 @@ nav_order: 6
 
 If you have any questions about the **ATE-IT Shared Task**, please feel free to contact the organizers at:
 
-📧 [ateit@gmail.com](mailto:ateit@gmail.com)
+📧 [ateit.info@gmail.com](mailto:ateit.info@gmail.com)
