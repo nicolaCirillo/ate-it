@@ -12,7 +12,7 @@ nav_order: 2
 
 **Participation is open to all NLP practitioners worldwide**: students, researchers, and industrial teams. You may join as an individual or as part of a team.
 
-To register, please send an email to [ateit@gmail.com](mailto:ateit@gmail.com) with the following information:
+To register, please send an email to [ateit.info@gmail.com](mailto:ateit.info@gmail.com) with the following information:
 - Group name and acronym
 - Participants’ full names and affiliations
 - Contact email address(es)
