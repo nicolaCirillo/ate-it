@@ -68,15 +68,15 @@ Teams may choose to participate in:
 - **Subtask A (Term Extraction) only**, or  
 - **Both Subtask A and Subtask B**  
 
-⚠️ Participation in **Subtask B only (Term Variants Clustering)** is **not allowed**.
+Participation in **Subtask B only (Term Variants Clustering)** is **not allowed**.
 
 
 **Submission rules:**  
 - Each team may submit up to **2 runs per subtask**.  
 - For ranking, only the **best run per evaluation metric** will be considered.  
 
-Both training and development data may be used to train models.<br>  
-🚫 **Using test data for training is strictly forbidden.**
+Both training and development data may be used to train models.<br>
+**Using test data for training is strictly forbidden.**
 
 
 ### Manual runs
@@ -89,5 +89,5 @@ Such runs must be **thoroughly documented** in the technical report. The report 
 - the tools used for annotation  
 - inter-annotator agreement measures  
 
-Manual runs will be used to compare ATE systems against human performance.<br>  
-👉 They will **not** be used for official ranking.
+They will be used to compare ATE systems against human performance.<br>  
+👉 **Important:*** Manual runs will **not** be used for official ranking.
