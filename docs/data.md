@@ -7,6 +7,31 @@ nav_order: 3
 # Data
 
 ---
+## Subtask A - Term Extraction
+
+Please refer to [Subtask A - Term Extraction](subtask_a.md) for more information about the dataset format.
+
+- Training set (not released yet)
+  ( [CSV]() \| [JSON]() ) 
+- Development set (not released yet)
+  ( [CSV]() \| [JSON]() ) 
+- Test set (not released yet)
+  ( [CSV]() \| [JSON]() ) 
+
+---
+## Subtask B - Term Variant Clustering
+
+Please refer to [Subtask B - Term Variant Clustering](subtask_b.md) for more information about the dataset format.
+
+- Training set (not released yet)
+  ( [CSV]() \| [JSON]() )
+- Development set (not released yet)
+  ( [CSV]() \| [JSON]() ) 
+- Test set (not released yet)
+  ( [CSV]() \| [JSON]() )
+
+---
+## Data reuse
 The datasets available on this page are released under the [CC-BY 4.0 license](https://creativecommons.org/licenses/by/4.0/)
 
 If you use the datasets in a scientific publication, please cite:
@@ -27,32 +52,6 @@ If you use the datasets in a scientific publication, please cite:
   url          = {https://doi.org/10.5281/zenodo.15173712},
 }
 ```
-
-
----
-## Subtask A - Term Extraction
-
-Please refer to [Subtask A - Term Extraction](subtask_a.md) for more information about the dataset format.
-
-- Training set (not released yet)
-  ( [CSV]() \| [JSON]() ) 
-- Development set (not released yet)
-  ( [CSV]() \| [JSON]() ) 
-- Test set (not released yet)
-  ( [CSV]() \| [JSON]() ) 
-
----
-
-## Subtask B - Term Variant Clustering
-
-Please refer to [Subtask B - Term Variant Clustering](subtask_b.md) for more information about the dataset format.
-
-- Training set (not released yet)
-  ( [CSV]() \| [JSON]() )
-- Development set (not released yet)
-  ( [CSV]() \| [JSON]() ) 
-- Test set (not released yet)
-  ( [CSV]() \| [JSON]() )
 
 ---
 ## Data source
