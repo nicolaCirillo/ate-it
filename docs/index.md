@@ -7,7 +7,7 @@ nav_order: 1
 # Overview
 
 
-![](./header.jpg)
+![](./header.png)
 
 ---
 ## Automatic Term Extraction (ATE)
