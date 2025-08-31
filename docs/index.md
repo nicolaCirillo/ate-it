@@ -35,11 +35,11 @@ From the list of unique extracted terms, participants are then required to clust
 Both subtasks are designed to be linguistically and computationally challenging. The first subtask requires models to generalize from sparse domain-specific training examples. The second requires semantic comparison and abstraction over morphologically and syntactically diverse variants.
 
 ---
-## EVALITA
+## EVALITA Evaluation Campaign
 
-EVALITA is an initiative of the [Italian Association for Computational Linguistics (AILC)](http://www.ai-lc.it/) Its goal is to advance language and speech technologies for Italian by offering a common framework that enables consistent evaluation of different systems and approaches.
+EVALITA is a periodic evaluation campaign of Natural Language Processing (NLP) and speech tools for the Italian language. It is an initiative of the [Italian Association for Computational Linguistics (AILC)](http://www.ai-lc.it/).
 
-For further information, please visit [www.evalita.it](https://www.evalita.it/).
+For further information about EVALITA, please visit [www.evalita.it](https://www.evalita.it/).
 
 ---
 ## Sections
