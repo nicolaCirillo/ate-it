@@ -23,7 +23,10 @@ The terms extracted through ATE serve as essential building blocks for downstrea
 ## The ATE-IT Shared Task
 
 The ATE-IT (*Automatic Term Extraction - Italian Testbed*) shared task is part of [EVALITA 2026](https://www.evalita.it/campaigns/evalita-2026/).
-It offers the **first large-scale evaluation campaign on Italian ATE**, centred on a clearly defined real-world scenario: term extraction from institutional texts in the domain of waste management. This domain presents a rich variety of derived terms (e.g., *“ecodizionario”*, *“biodigestore”*), synonyms (e.g., *“indifferenziato”* and *“secco residuo”*), abbreviations (*“TARI”*, *“RAEE”*), and multiword terms (*“mastello contenitore”*, *“raccolta porta a porta”*), making it an important testbed for assessing the robustness of different approaches.
+It offers the **first large-scale evaluation campaign on Italian ATE**, centred on a clearly defined real-world scenario: term extraction from institutional texts in the domain of waste management.
+
+This domain presents a rich variety of derived terms (e.g., *“ecodizionario”*, *“biodigestore”*), synonyms (e.g., *“indifferenziato”* and *“secco residuo”*), abbreviations (*“TARI”*, *“RAEE”*), and multiword terms (*“mastello contenitore”*, *“raccolta porta a porta”*), making it an important testbed for assessing the robustness of different approaches.
+
 The ATE-IT shared task comprises two subtasks of increasing complexity: [Term Extraction](subtask_a.md) and [Term Variants Clustering](subtask_b.md).
 
 ---
