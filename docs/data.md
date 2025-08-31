@@ -12,13 +12,22 @@ nav_order: 3
 Please refer to [Subtask A - Term Extraction](subtask_a.md) for more information about the dataset format.
 
 - Training set
-  Not released yet
-  {: .label }
-  ( [CSV]() \| [JSON]() ) 
-- Development set (not released yet)
-  ( [CSV]() \| [JSON]() ) 
-- Test set (not released yet)
-  ( [CSV]() \| [JSON]() ) 
+  ( [CSV]() \| [JSON]() )
+
+Coming soon
+{: .label-yellow }
+
+- Development set
+  ( [CSV]() \| [JSON]() )
+
+Coming soon
+{: .label-yellow }
+
+- Test set
+  ( [CSV]() \| [JSON]() )
+
+Coming soon
+{: .label-yellow }
 
 ---
 ## Subtask B - Term Variant Clustering
