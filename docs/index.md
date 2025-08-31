@@ -6,7 +6,7 @@ nav_order: 1
 
 # Overview
 
-![Alt text](/logo.png)
+![](/docs/logo.png)
 ---
 ## Automatic Term Extraction (ATE)
 
