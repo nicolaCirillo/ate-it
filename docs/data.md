@@ -11,21 +11,13 @@ nav_order: 3
 
 Please refer to [Subtask A - Term Extraction](subtask_a.md) for more information about the dataset format.
 
-- Training set
-  ( [CSV]() \| [JSON]() )
-  
+- Training set ( [CSV]() \| [JSON]() )
 Coming soon
 {: .label .label-yellow }
-
-- Development set
-  ( [CSV]() \| [JSON]() )
-  
+- Development set  ( [CSV]() \| [JSON]() )
 Coming soon
 {: .label .label-yellow }
-
-- Test set
-  ( [CSV]() \| [JSON]() )
-  
+- Test set   ( [CSV]() \| [JSON]() )
 Coming soon
 {: .label .label-yellow }
 
