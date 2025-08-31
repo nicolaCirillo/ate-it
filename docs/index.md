@@ -4,9 +4,9 @@ title: Home
 nav_order: 1
 ---
 
-# Overview
-
 ![](/docs/header.png)
+
+# Overview
 
 ---
 ## Automatic Term Extraction (ATE)
