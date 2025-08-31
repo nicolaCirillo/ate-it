@@ -90,4 +90,4 @@ Such runs must be **thoroughly documented** in the technical report. The report 
 - inter-annotator agreement measures  
 
 They will be used to compare ATE systems against human performance.<br>  
-👉 **Important:*** Manual runs will **not** be used for official ranking.
+👉 **Important:** Manual runs will **not** be used for official ranking.
