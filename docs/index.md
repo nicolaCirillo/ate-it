@@ -19,8 +19,9 @@ The terms extracted through ATE serve as essential building blocks for downstrea
 ---
 ## The ATE-IT Shared Task
 
-The ATE-IT (*Automatic Term Extraction - Italian Testbed*) shared task offers the **first large-scale evaluation campaign on Italian ATE**, centred on a clearly defined real-world scenario: term extraction from institutional texts in the domain of waste management. This domain presents a rich variety of derived terms (e.g., *“ecodizionario”*, *“biodigestore”*), synonyms (e.g., *“indifferenziato”* and *“secco residuo”*), abbreviations (*“TARI”*, *“RAEE”*), and multiword terms (*“mastello contenitore”*, *“raccolta porta a porta”*), making it an important testbed for assessing the robustness of different approaches.
-The ATE-IT shared task comprises two subtasks of increasing complexity: [Term Extraction](subtask_a.md) and [Term Variants Clustering](subtask_b.md) .
+The ATE-IT (*Automatic Term Extraction - Italian Testbed*) shared task is part of [EVALITA 2026](https://www.evalita.it/campaigns/evalita-2026/).
+It offers the **first large-scale evaluation campaign on Italian ATE**, centred on a clearly defined real-world scenario: term extraction from institutional texts in the domain of waste management. This domain presents a rich variety of derived terms (e.g., *“ecodizionario”*, *“biodigestore”*), synonyms (e.g., *“indifferenziato”* and *“secco residuo”*), abbreviations (*“TARI”*, *“RAEE”*), and multiword terms (*“mastello contenitore”*, *“raccolta porta a porta”*), making it an important testbed for assessing the robustness of different approaches.
+The ATE-IT shared task comprises two subtasks of increasing complexity: [Term Extraction](subtask_a.md) and [Term Variants Clustering](subtask_b.md).
 
 ---
 ### Subtask A - Term Extraction.
@@ -32,6 +33,13 @@ Participants will receive a set of sentences drawn from a specialised corpus rel
 
 From the list of unique extracted terms, participants are then required to cluster together those terms that refer to the same underlying concept. For example, *“raccolta porta a porta”* and *“raccolta domiciliare”* should be placed in the same cluster. Each cluster should represent a single concept within the waste management domain. This subtask focuses on synonymy, lexical variation, and compositional semantics.
 Both subtasks are designed to be linguistically and computationally challenging. The first subtask requires models to generalize from sparse domain-specific training examples. The second requires semantic comparison and abstraction over morphologically and syntactically diverse variants.
+
+---
+## EVALITA
+
+EVALITA is an initiative of the [Italian Association for Computational Linguistics (AILC)](http://www.ai-lc.it/) Its goal is to advance language and speech technologies for Italian by offering a common framework that enables consistent evaluation of different systems and approaches.
+
+For further information, please visit [www.evalita.it](https://www.evalita.it/).
 
 ---
 ## Sections
