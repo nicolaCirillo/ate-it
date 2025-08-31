@@ -47,12 +47,5 @@ EVALITA is a periodic evaluation campaign of Natural Language Processing (NLP) a
 
 For further information about EVALITA, please visit [www.evalita.it](https://www.evalita.it/).
 
----
-## Sections
-- [Participation Guidelines](guidelines.md)
-- [Subtask A - Term Extraction](subtask_a.md)
-- [Subtask B - Term Variant Clustering](subtask_b.md)
-- [Data](data.md)
-- [Organizers](organizers.md)
-- [Useful References](references.md)
-- [Contacts](contacts.md)
+- TOC
+{:toc}
