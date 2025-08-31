@@ -24,7 +24,7 @@ For example, *“raccolta porta a porta”* and *“raccolta domiciliare”* sho
 The input is a **CSV** or **JSON** file containing a list of terms.
 These terms are inflected forms, not lemmas.  
 
-**Important:** The organizers will not provide the input file. Participants must use the list of unique terms extracted during [Term Extraction](subtask_a.md).
+👉 **Important:** The organizers will not provide the input file. Participants must use the list of unique terms extracted during [Term Extraction](subtask_a.md).
 
 ---
 ## Output
@@ -74,7 +74,7 @@ The code used for evaluation is available to participants ([Subtask B - Evaluati
 
 BCubed evaluates clustering quality by computing precision and recall at the item level and then averaging across all items.
 
-**Important** In this version of BCubed, the set of items in the predicted clustering does not necessarily correspond to the set of items in the gold clustering.
+👉 **Important** In this version of BCubed, the set of items in the predicted clustering does not necessarily correspond to the set of items in the gold clustering.
 
 Let:
 
