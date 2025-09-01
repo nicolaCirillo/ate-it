@@ -8,7 +8,7 @@ nav_order: 5
 ---
 
 **Nicola Cirillo**<br>
-*Università degli Sudi di Salerno*<br>
+*Università degli Studi di Salerno*<br>
 [nicirillo@unisa.it](mailto:nicirillo@unisa.it)
 
 **Giorgio Maria Di Nunzio**<br>
