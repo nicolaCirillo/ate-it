@@ -187,6 +187,8 @@ $$
 ---
 ## Baseline
 
+**Baseline code:** ([Subtask A - Baseline Notebook](https://colab.research.google.com/github/nicolaCirillo/ate-it/blob/main/baseline/subtask_a_baseline.ipynb)).
+
 We provide a baseline that participants are encouraged to improve upon. It is built on the latest Gemini model (`gemini-2.5-flash`) in a **zero-shot setup**.
 Namely, we provided Gemini the following prompts and processed the sentences in batches of 20.
 
@@ -222,5 +224,3 @@ Sentence 2: - Pagare la Tassa Rifiuti (TARI) mediante il canale pagoPA (carte di
 
 Sentence 20:  Il ritiro “a domicilio” è attivo dal 01 aprile al 30 settembre, sarà effettuato ogni 15 giorni su prenotazione telefonica.
 ```
-
-**Baseline code:** ([Subtask A - Baseline Notebook](https://colab.research.google.com/github/nicolaCirillo/ate-it/blob/main/baseline/subtask_a_baseline.ipynb)).
