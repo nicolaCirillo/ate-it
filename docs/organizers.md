@@ -13,7 +13,7 @@ nav_order: 5
 
 **Giorgio Maria Di Nunzio**<br>
 *Università degli Studi di Padova*<br>
-[dinunzio@dei.unipd.it](mailto:dinunzio@dei.unipd.it)
+[giorgiomaria.dinunzio@unipd.it](mailto:giorgiomaria.dinunzio@unipd.it)
 
 **Federica Vezzani**<br>
 *Università degli Studi di Padova*<br>
