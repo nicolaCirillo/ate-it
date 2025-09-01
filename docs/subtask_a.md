@@ -125,7 +125,7 @@ doc_nola_05,2,6,"Il ritiro “a domicilio” è attivo dal 01 aprile al 30 sette
 
 Performance in the Term Extraction subtask will be measured using two complementary metrics:
 
-- **Micro F1 score** – evaluates precision and recall across all **sentences** in the dataset.  
+- **Micro F1 score** ([Verborgh et al., 2018](references.md)) – evaluates precision and recall across all **sentences** in the dataset.  
 - **Type F1 score** – evaluates precision and recall across **unique term types**, disregarding frequency.  
 
 The code used for the evaluation is available to participants ([Subtask A - Evaluation Notebook](https://colab.research.google.com/github/nicolaCirillo/ate-it/blob/main/evaluation/subtask_a_evaluation.ipynb)).
