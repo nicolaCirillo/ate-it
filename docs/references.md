@@ -24,7 +24,8 @@ nav_order: 4
 - Vellutino, D., & Cirillo, N. (2024). *Corpus «itaist»: Note per lo sviluppo di una risorsa linguistica per lo studio dell’italiano istituzionale per il diritto di accesso civico.* Italiano LinguaDue, 16(1), 238–250. 
 
 ## Evaluation metrics and Shared Tasks
-- Amigó, Enrique, Julio Gonzalo, Javier Artiles, and Felisa Verdejo. 2009. *A Comparison of Extrinsic Clustering Evaluation Metrics Based on Formal Constraints.* Information Retrieval 12 (4): 461–86.
+- Amigó, Enrique, Julio Gonzalo, Javier Artiles, and Felisa Verdejo. (2009). *A Comparison of Extrinsic Clustering Evaluation Metrics Based on Formal Constraints.* Information Retrieval 12 (4): 461–86.
+- Bagga, A., & Baldwin, B. (1998). *Entity-based cross-document coreferencing using the vector space model.* In Proceedings of the 36th Annual Meeting of the Association for Computational Linguistics and the 17th International Conference on Computational Linguistics (COLING-ACL’98) (pp. 79–85). Montreal.
 - Di Nunzio, G. M., Vezzani, F., Bonato, V., Azarbonyad, H., Kamps, j. & Ermakova L. (2024). *Overview of the CLEF 2024 SimpleText Task 2: Identify and Explain Difficult Concepts.* In Working Notes of the Conference and Labs of the Evaluation Forum (CLEF 2024), Grenoble, France. CEUR-WS.
 - Hazem, A., Bouhandi, M., Boudin, F., & Daille, B. (2020). *TermEval 2020: TALN-LS2N System for Automatic Term Extraction.* In: 6th International Workshop on Computational Terminology (COMPUTERM 2020).
 - Rigouts Terryn, A., Hoste, V., Drouin, P. & Lefever, E. (2020b). *TermEval 2020: Shared Task on Automatic Term Extraction Using the Annotated Corpora for Term Extraction Research (ACTER) Dataset.* In Proceedings of the 6th International Workshop on Computational Terminology, 85–94, Marseille, France. European Language Resources Association.
