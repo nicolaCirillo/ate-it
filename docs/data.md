@@ -25,7 +25,7 @@ Please refer to [Subtask B - Term Variant Clustering](subtask_b.md) for more inf
 - Test set ( [CSV]() \| [JSON]() ) (Coming soon)
 
 ---
-## Data reuse
+## License and attribution
 The datasets available on this page are released under the [CC-BY 4.0 license](https://creativecommons.org/licenses/by/4.0/)
 
 If you use the datasets in a scientific publication, please cite:
@@ -61,3 +61,6 @@ The **ItaIst-WasteLexicon** termbase contains 950 selected terms from the ItaIst
 It includes selected terms related to waste management, waste management law/administration, environment, and environmental law.
 The terms are organised within a conceptual framework that links each term to its corresponding concept and encodes conceptual relations such as generic/specific and comprehensive/partitive.
 Concepts are further enriched with definitions drawn from European and Italian legislation.
+
+---
+**GitHub repository:** [github.com/nicolaCirillo/ate-it](https://github.com/nicolaCirillo/ate-it)
