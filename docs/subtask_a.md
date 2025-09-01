@@ -188,7 +188,10 @@ $$
 ## Baseline
 
 We provide a baseline that participants are encouraged to improve upon. It is built on the latest Gemini model (`gemini-2.5-flash`) in a **zero-shot setup**.
-Namely, we provided Gemini the following prompts and processed the sentences in batches of 20:
+Namely, we provided Gemini the following prompts and processed the sentences in batches of 20.
+
+**Code:** ([Subtask A - Baseline Notebook](https://colab.research.google.com/github/nicolaCirillo/ate-it/blob/main/baseline/subtask_a_baseline.ipynb)).
+
 
 **System prompt:**
 ```
