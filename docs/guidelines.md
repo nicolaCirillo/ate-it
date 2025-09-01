@@ -12,7 +12,7 @@ nav_order: 2
 
 **Participation is open to all NLP practitioners worldwide**: students, researchers, and industrial teams. You may join as an individual or as part of a team.
 
-To register, please send an email to [ateit.info@gmail.com](mailto:ateit.info@gmail.com) with object **ATE-IT Team Registration** and the following information:
+To register, please send an email to [ateit.info@gmail.com](mailto:ateit.info@gmail.com) with the subject line “ATE-IT Team Registration” and include the following details:
 - Group name and acronym
 - Participants’ full names and affiliations
 - Contact email address(es)
@@ -91,3 +91,24 @@ Such runs must be **thoroughly documented** in the technical report. The report 
 
 They will be used to compare ATE systems against human performance.<br>  
 👉 **Important:** Manual runs will **not** be used for official ranking.
+
+---
+## Submission
+
+**Submition deadline:** *(to be announced)*
+
+All submissions should be sent by email to [ateit.info@gmail.com]() with the subject line **“ATE-IT Submission”**. Please attach your files in **CSV** or **JSON** format, following the required specifications ([Subtask A](subtask_a.md), [Subtask B](subtask_b.md)). 
+Include the following information in the body of the email:
+
+- Group name and acronym
+- Subtask(s) addressed
+- Short description of your system (about 300 words)
+- Contact email address(es)
+- Link to the GitHub repository
+
+Please ensure that your files are named consistently using the format:
+
+```
+[group_acronym]_[subtask]_[runID].csv
+[group_acronym]_[subtask]_[runID].json
+```
