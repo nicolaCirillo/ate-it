@@ -27,13 +27,16 @@ To register, please send an email to [ateit.info@gmail.com](mailto:ateit.info@gm
 The shared task consists of four consecutive phases:
 
 - **Phase 1: Development (22 September – 2 November)**  
-  Training and development data will be released on the [Data](data.md) page. Teams should design, implement, and test their system(s) for one or both subtasks using the provided data.
+  Training and development data will be released on the [Data](data.md) page.
+  Teams should design, implement, and test their system(s) for one or both subtasks using the provided data.
 
 - **Phase 2: Evaluation (3 – 17 November)**  
-  Test data will be released on the [Data](data.md) page. Teams must generate predictions and submit results in the required format. Submissions must also include a link to the source code repository on GitHub.
+  Test data will be released on the [Data](data.md) page.
+  Teams must generate predictions and submit results in the required format ([Subtask A](subtask_a.md), [Subtask B](subtask_b.md)). We encourage participants to also include a link to the source code repository on GitHub.
 
 - **Phase 3: Reporting (18 November – 15 December)**  
-  Teams must write and submit a short technical report following the provided format. The report should describe the system(s) and include:
+  Teams must write and submit a short technical report following the provided format.
+   The report should describe the system(s) and include:
   - System architecture and methods
   - Resources and pretrained models used
   - Results and error analysis
@@ -104,11 +107,11 @@ Include the following information in the body of the email:
 - Subtask(s) addressed
 - Short description of your system (about 300 words)
 - Contact email address(es)
-- Link to the GitHub repository
+- *Optional:* Link to the GitHub repository
 
 Please ensure that your files are named consistently using the format:
 
 ```
-[group_acronym]_[subtask]_[runID].csv
-[group_acronym]_[subtask]_[runID].json
+[group_acronym]_[subtask_letter]_[runID].csv
+[group_acronym]_[subtask_letter]_[runID].json
 ```
