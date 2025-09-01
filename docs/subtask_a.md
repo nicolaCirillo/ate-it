@@ -216,13 +216,16 @@ Instructions:
 ```
 **User prompt:**
 ```
-Sentence 1: Il Centro di Raccolta [Isola Ecologica] non è una discarica e non è un impianto di trattamento rifiuti.
+Sentence 1:
+Il Centro di Raccolta [Isola Ecologica] non è una discarica e non è un impianto di trattamento rifiuti.
 
-Sentence 2: - Pagare la Tassa Rifiuti (TARI) mediante il canale pagoPA (carte di credito e circuiti bancari)
+Sentence 2:
+- Pagare la Tassa Rifiuti (TARI) mediante il canale pagoPA (carte di credito e circuiti bancari)
 
 [...]
 
-Sentence 20:  Il ritiro “a domicilio” è attivo dal 01 aprile al 30 settembre, sarà effettuato ogni 15 giorni su prenotazione telefonica.
+Sentence 20:
+Il ritiro “a domicilio” è attivo dal 01 aprile al 30 settembre, sarà effettuato ogni 15 giorni su prenotazione telefonica.
 ```
 
 ---
