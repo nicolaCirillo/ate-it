@@ -49,9 +49,9 @@ If you use the datasets in a scientific publication, please cite:
 
 ---
 ## Data source
-The training and development sets come from the publicly available ItaIst-TermRifiuti corpus and ItaIst-WasteLexicon termbase (Cirillo et al., 2025), while the test set is specifically designed for the ATE-IT shared task.
+The training and development sets come from the publicly available ItaIst-TermRifiuti corpus and ItaIst-WasteLexicon termbase ([Cirillo et al., 2025](references.md)), while the test set is specifically designed for the ATE-IT shared task.
 
-**ItaIst-TermRifiuti** is a stratified sample of the broader ItaIst-DdAC_GRU corpus (Italiano Istituzionale per il Diritto di Accesso Civico – Gestione Rifiuti Urbani) (Vellutino & Cirillo, 2024), consisting of institutional texts on municipal waste management.
+**ItaIst-TermRifiuti** is a stratified sample of the broader ItaIst-DdAC_GRU corpus (Italiano Istituzionale per il Diritto di Accesso Civico – Gestione Rifiuti Urbani) ([Vellutino & Cirillo, 2024](references.md)), consisting of institutional texts on municipal waste management.
 It is balanced between administrative texts (e.g., ordinances, service charters, tenders) aimed at experts and informative texts (e.g., public notices, guides, press releases) for the general public.
 This balance supports the analysis of terminological variation across different registers and audiences.
 The corpus includes 622 paragraphs from 69 documents, 2,888 sentences and 41,333 words.
