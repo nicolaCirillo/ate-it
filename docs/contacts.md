@@ -15,8 +15,10 @@ If you have any questions about the **ATE-IT Shared Task**, the organizers are h
 
 Please use these channels for all inquiries regarding rules, data, submissions, or technical issues.  
 
+**GitHub repository:** [github.com/nicolaCirillo/ate-it](https://github.com/nicolaCirillo/ate-it)
+
 ---
 
 ## Useful links
 - **AILC website:** [www.ai-lc.it](https://www.ai-lc.it/)  
-- **EVALITA website:** [www.evalita.it](https://www.evalita.it/)  
+- **EVALITA website:** [www.evalita.it](https://www.evalita.it/)
