@@ -225,13 +225,10 @@ Sentence 2: - Pagare la Tassa Rifiuti (TARI) mediante il canale pagoPA (carte di
 Sentence 20:  Il ritiro “a domicilio” è attivo dal 01 aprile al 30 settembre, sarà effettuato ogni 15 giorni su prenotazione telefonica.
 ```
 
-**Results**
+---
+### Baseline score
 
-| Dataset | Micro-Precision | Micro-Recall | Micro-F1 |
-| ------- | --------------- | ------------ | -------- |
-| dev     | 0.439           | 0.616        | 0.513    |
-
-| Dataset | Type-Precision | Type-Recall | Type-F1 |
-| ------- | --------------- | ------------ | -------- |
-| dev     | 0.372           | 0.636        | 0.47     |
+| Dataset | Micro-Precision | Micro-Recall | Micro-F1 | Type-Precision | Type-Recall | Type-F1 |
+| ------- | --------------- | ------------ | -------- | -------------- | ----------- | ------- |
+| dev     | 0.439           | 0.616        | 0.513    | 0.372          | 0.636       | 0.47    |
 
