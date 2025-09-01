@@ -33,7 +33,7 @@ The ATE-IT shared task comprises two subtasks of increasing complexity: [Term Ex
 ---
 ### Subtask A - Term Extraction.
 
-Participants will receive a set of sentences drawn from a specialised corpus related to municipal waste management. For each sentence, the goal is to identify and extract the terms that are relevant to the waste management domain. Terms may consist of single words (single-word terms) or multiword expressions (multi-word terms), including noun, verbs and adjectives.
+Participants will receive a set of sentences drawn from a specialised corpus related to municipal waste management. For each sentence, the goal is to identify and extract the terms that are relevant to the waste management domain. Terms may consist of single words (single-word terms) or multiword expressions (multi-word terms), including nouns, verbs and adjectives.
 
 ---
 ### Subtask B - Term Variants Clustering.
