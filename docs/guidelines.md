@@ -32,7 +32,7 @@ The shared task consists of four consecutive phases:
 
 - **Phase 2: Evaluation (3 – 17 November)**  
   Test data will be released on the [Data](data.md) page.
-  Teams must generate predictions and submit results in the required format ([Subtask A](subtask_a.md), [Subtask B](subtask_b.md)). We encourage participants to also include a link to the source code repository on GitHub.
+  Teams must generate predictions and submit results in the format required for each subtask ([Subtask A - Output](subtask_a.md#Output), [Subtask B - Output](subtask_b.md#Output)). We also encourage participants to include a link to the source code repository on GitHub.
 
 - **Phase 3: Reporting (18 November – 15 December)**  
   Teams must write and submit a short technical report following the provided format.
@@ -58,7 +58,7 @@ However, please note the following recommendations:
 **Allowed external resources include (but are not limited to):**
 - pretrained embeddings
 - large language models (LLMs)
-- tokenizers, lemmatizers, POS taggers, etc.
+- tokenisers, lemmatisers, POS taggers, etc.
 - other pretrained models
 - lexical resources
 - external corpora
@@ -100,7 +100,7 @@ They will be used to compare ATE systems against human performance.<br>
 
 **Submition deadline:** *(to be announced)*
 
-All submissions should be sent by email to [ateit.info@gmail.com]() with the subject line **“ATE-IT Submission”**. Please attach your files in **CSV** or **JSON** format, following the required specifications ([Subtask A](subtask_a.md), [Subtask B](subtask_b.md)). 
+All submissions should be sent by email to [ateit.info@gmail.com](mailto:ateit.info@gmail.com) with the subject line **“ATE-IT Submission”**. Please attach your files in **CSV** or **JSON** format, following the specifications required for each subtask ([Subtask A - format specification](subtask_a.md#Output), [Subtask B - format specification](subtask_b.md#Output)). 
 Include the following information in the body of the email:
 
 - Group name and acronym
