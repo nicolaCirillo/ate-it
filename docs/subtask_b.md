@@ -110,6 +110,8 @@ $$
 
 ## Baseline
 
+**Baseline code:** ([Subtask B - Baseline Notebook](https://colab.research.google.com/github/nicolaCirillo/ate-it/blob/main/baseline/subtask_b_baseline.ipynb)
+
 We provide a baseline that participants are encouraged to improve upon. It is built on the latest Gemini model (`gemini-2.5-flash`) in a **zero-shot setup**.
 Namely, we provided Gemini the following prompts and processed the unique terms in batches of 20:
 
@@ -147,3 +149,10 @@ indifferenziato
 UNCLUSTERED TERMS:
 secco residuo
 ```
+
+---
+### Baseline score
+
+| Dataset | BCubed-Precision | BCUbed-Recall | BCubed-F1 | 
+| ------- | ---------------- | ------------- | --------- |
+| dev     | 0.172            | 0.537         | 0.260     |
