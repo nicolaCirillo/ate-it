@@ -153,6 +153,6 @@ secco residuo
 ---
 ### Baseline score
 
-| Dataset | BCubed-Precision | BCUbed-Recall | BCubed-F1 | 
+| Dataset | BCubed-Precision | BCubed-Recall | BCubed-F1 | 
 | ------- | ---------------- | ------------- | --------- |
 | dev     | 0.172            | 0.537         | 0.260     |
