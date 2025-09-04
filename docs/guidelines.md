@@ -69,9 +69,8 @@ However, please note the following recommendations:
 **Participation options:**  
 Teams may choose to participate in:
 - **Subtask A (Term Extraction) only**, or  
-- **Both Subtask A and Subtask B**  
-
-Participation in **Subtask B only (Term Variants Clustering)** is **not allowed**.
+- **Both Subtask A and Subtask B**
+- Participation in **Subtask B only (Term Variants Clustering)** is **not allowed**.
 
 
 **Submission rules:**  
