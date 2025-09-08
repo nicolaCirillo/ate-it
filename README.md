@@ -28,6 +28,3 @@ This repository hosts the official task website: 👉 [ATE-IT Website](https://n
 
 The contents of this repository are released under the **CC-BY 4.0** license.  
 
----
-
-✍️ Maintained by [Nicola Cirillo](https://github.com/nicolaCirillo) and the organizers of ATE-IT @ EVALITA.
