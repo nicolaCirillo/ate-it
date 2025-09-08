@@ -1,7 +1,9 @@
-# ATE-IT @ EVALITA
 ---
 ![](./docs/header.png)
 ---
+
+# ATE-IT @ EVALITA
+
 **ATE-IT** (Automatic Term Extraction - Italian Testbed) is a *shared task* organized within the framework of [**EVALITA 2026**](https://www.evalita.it/campaigns/evalita-2026/), the evaluation campaign for Natural Language Processing (NLP) systems for Italian.  
 
 This repository hosts the official task website: 👉 [ATE-IT Website](https://nicolacirillo.github.io/ate-it/)  
