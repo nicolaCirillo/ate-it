@@ -30,5 +30,5 @@ This repository hosts the official task website: 👉 [ATE-IT Website](https://n
 
 ## License
 
-The contents of this repository are released under the **CC-BY 4.0** license.  
+The contents of this repository are released under the [CC-BY 4.0 license](https://creativecommons.org/licenses/by/4.0/).  
 
