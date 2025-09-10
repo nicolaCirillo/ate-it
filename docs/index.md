@@ -11,6 +11,7 @@ nav_order: 1
 ![](./header.png)
 
 ---
+
 {: .news }
 Registration is now open!
 
