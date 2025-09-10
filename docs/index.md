@@ -11,8 +11,9 @@ nav_order: 1
 ![](./header.png)
 
 ---
+{: .news }
+Registration is now open!
 
-##
 ## Automatic Term Extraction (ATE)
 
 ATE is a foundational task in NLP and terminology work. Its goal is to identify **domain-specific terms** that designate key concepts within a specialised field of knowledge. 
