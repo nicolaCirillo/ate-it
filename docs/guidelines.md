@@ -25,8 +25,9 @@ To register, please send an email to [ateit.info@gmail.com](mailto:ateit.info@gm
 
 ---
 ## Program
+**Detailed program:** [Key Dates](dates.md)
 
-The shared task consists of four consecutive phases:
+The shared task consists of four consecutive phases.
 
 - **Phase 1: Development (22 September – 23 November)**  
   Training and development data will be released on the [Data](data.md) page.
