@@ -1,9 +1,9 @@
 ---
 layout: default
-title: Organizers
-nav_order: 5
+title: Organisers
+nav_order: 6
 ---
-# Organizers
+# Organisers
 
 ---
 
