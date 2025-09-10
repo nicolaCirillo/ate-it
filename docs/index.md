@@ -13,7 +13,7 @@ nav_order: 1
 ---
 
 {: .news }
-Registration is now open!
+Registration is now open! 👉 [Registration](guidelines.md#how-to-participate)
 
 ## Automatic Term Extraction (ATE)
 
