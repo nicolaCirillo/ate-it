@@ -14,7 +14,7 @@ nav_order: 2
 
 **Registration deadline:** 21 November, 2025
 
-To register, please send an email to [ateit.info@gmail.com](mailto:ateit.info@gmail.com) with the subject line “ATE-IT Team Registration” and include the following details:
+To register, please send an email to [ateit.info@gmail.com](mailto:ateit.info@gmail.com) with the subject line **“ATE-IT Team Registration”** and include the following details:
 - Group name and acronym
 - Participants’ full names and affiliations
 - Contact email address(es)
