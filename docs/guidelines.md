@@ -12,7 +12,7 @@ nav_order: 2
 
 **Participation is open to all NLP practitioners worldwide**: students, researchers, and industrial teams. You may join as an individual or as part of a team.
 
-**Registration deadline:** *21 November*
+**Registration deadline:** 21 November, 2025
 
 To register, please send an email to [ateit.info@gmail.com](mailto:ateit.info@gmail.com) with the subject line “ATE-IT Team Registration” and include the following details:
 - Group name and acronym
@@ -29,22 +29,22 @@ To register, please send an email to [ateit.info@gmail.com](mailto:ateit.info@gm
 
 The shared task consists of four consecutive phases.
 
-- **Phase 1: Development (22 September – 23 November)**  
+- **Phase 1: Development (22 September – 23 November, 2025)**  
   Training and development data will be released on the [Data](data.md) page.
   Teams should design, implement, and test their system(s) for one or both subtasks using the provided data.
 
-- **Phase 2: Evaluation (24 November – 1 December)**  
+- **Phase 2: Evaluation (24 November – 1 December, 2025)**  
   Test data will be released on the [Data](data.md) page.
   Teams must generate predictions and submit results in the format required for each subtask ([Subtask A - Output](subtask_a.md#Output), [Subtask B - Output](subtask_b.md#Output)). We also encourage participants to include a link to the source code repository on GitHub.
 
-- **Phase 3: Reporting (15 December – 16 February)**
+- **Phase 3: Reporting (15 December, 2025 – 16 February, 2026)**
   Teams must write and submit a short technical report following the provided format.
   The report should describe the system(s) and include:
   - System architecture and methods
   - Resources and pretrained models used
   - Results and error analysis
 
-- **Phase 4: Final Workshop (26 – 27 February 2026 in Bari)**  
+- **Phase 4: Final Workshop (26 – 27 February, 2026; in Bari)**  
   Teams will present and discuss their work during the ATE-IT workshop at EVALITA.
 
 ---
