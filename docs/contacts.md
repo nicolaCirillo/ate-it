@@ -11,7 +11,7 @@ nav_order: 7
 If you have any questions about the **ATE-IT Shared Task**, the organizers are happy to help.  
 
 📧 **Email:** [ateit.info@gmail.com](mailto:ateit.info@gmail.com)<br>
-💬 **Discord:** You can also post your questions in the `#rules-and-questions` channel of the official Discord server.  
+💬 **Discord:** [Join the official Discord server](https://discord.gg/ZfUppe3M)  
 
 Please use these channels for all inquiries regarding rules, data, submissions, or technical issues.  
 
@@ -25,4 +25,3 @@ Please use these channels for all inquiries regarding rules, data, submissions, 
 
   ---
 
-<iframe src="https://discordapp.com/widget?id=1411656989733425154&theme=dark" width="350" height="500" allowtransparency="true" frameborder="0" sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"></iframe>
