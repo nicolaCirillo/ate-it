@@ -11,7 +11,7 @@ nav_order: 7
 If you have any questions about the **ATE-IT Shared Task**, the organizers are happy to help.  
 
 📧 **Email:** [ateit.info@gmail.com](mailto:ateit.info@gmail.com)<br>
-💬 **Discord:** [Join the official Discord server](https://discord.gg/ZfUppe3M)  
+💬 **Discord:** [Join the official Discord server](https://discord.gg/7MBGSJQzT7)  
 
 Please use these channels for all inquiries regarding rules, data, submissions, or technical issues.  
 
