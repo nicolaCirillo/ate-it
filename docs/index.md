@@ -14,7 +14,7 @@ nav_order: 1
 
 {: .news }
 **Registration is now open!** 👉 [Register here](guidelines.md#how-to-participate)<br>
-**Join the official discord server!** 💬 [Click here](https://discord.gg/ZfUppe3M)
+**Join the official discord server!** 💬 [Click here](https://discord.gg/7MBGSJQzT7)
 
 ## Automatic Term Extraction (ATE)
 
