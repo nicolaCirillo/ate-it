@@ -23,6 +23,8 @@ To register, please send an email to [ateit.info@gmail.com](mailto:ateit.info@gm
 
 👉 **Important:** At least one author of each accepted paper must register for the EVALITA conference in Bari (with a workshop fee) and present their work during the ATE-IT workshop.
 
+💬 **Looking for a team?** Join our [official Discord server](https://discord.gg/7MBGSJQzT7), introduce yourself, and connect with fellow participants!
+
 ---
 ## Program
 **Detailed program:** [Key Dates](dates.md)
