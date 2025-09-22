@@ -64,3 +64,4 @@ Concepts are further enriched with definitions drawn from European and Italian l
 
 ---
 **GitHub repository:** [github.com/nicolaCirillo/ate-it](https://github.com/nicolaCirillo/ate-it)
+**Datasets on Zenodo:** [https://doi.org/10.5281/zenodo.15173712](https://doi.org/10.5281/zenodo.15173712)
