@@ -12,17 +12,17 @@ nav_order: 4
 Please refer to [Subtask A - Term Extraction](subtask_a.md) for more information about the dataset format.
 
 - Training set ( [CSV](https://github.com/nicolaCirillo/ate-it/blob/main/data/subtask_a_train.csv) \| [JSON](https://github.com/nicolaCirillo/ate-it/blob/main/data/subtask_a_train.json) )
-- Development set  ( [CSV](https://github.com/nicolaCirillo/ate-it/blob/main/data/subtask_a_dev.csv) \| [JSON](https://github.com/nicolaCirillo/ate-it/blob/main/data/subtask_a_dev.json) )
-- Test set   ( CSV \| JSON ) (Coming soon)
+- Development set ( [CSV](https://github.com/nicolaCirillo/ate-it/blob/main/data/subtask_a_dev.csv) \| [JSON](https://github.com/nicolaCirillo/ate-it/blob/main/data/subtask_a_dev.json) )
+- Test set (Coming soon)
 
 ---
 ## Subtask B - Term Variant Clustering
 
 Please refer to [Subtask B - Term Variant Clustering](subtask_b.md) for more information about the dataset format.
 
-- Training set  ( [CSV](https://github.com/nicolaCirillo/ate-it/blob/main/data/subtask_b_train.csv) \| [JSON](https://github.com/nicolaCirillo/ate-it/blob/main/data/subtask_b_train.json) )
+- Training set ( [CSV](https://github.com/nicolaCirillo/ate-it/blob/main/data/subtask_b_train.csv) \| [JSON](https://github.com/nicolaCirillo/ate-it/blob/main/data/subtask_b_train.json) )
 - Development set ( [CSV](https://github.com/nicolaCirillo/ate-it/blob/main/data/subtask_b_dev.csv) \| [JSON](https://github.com/nicolaCirillo/ate-it/blob/main/data/subtask_b_dev.json) )
-- Test set ( CSV \| JSON ) (Coming soon)
+- Test set (Coming soon)
 
 ---
 ## License and attribution
