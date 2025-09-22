@@ -13,7 +13,7 @@ nav_order: 1
 ---
 
 {: .news }
-*Sep 22, 2025* - **Training data is out!** Check it out in the [Data page](data.md)
+*Sep 22, 2025* - **Training data is out!** Check it out in the [Data page](data.md)<br>
 *Sep 18, 2025* - **Join the official discord server!** 💬 [Click here](https://discord.gg/7MBGSJQzT7)<br>
 *Sep 9, 2025* - **Registration is now open!** 👉 [Register here](guidelines.md#how-to-participate)
 
