@@ -14,7 +14,7 @@ nav_order: 2
 
 **Registration deadline:** 21 November, 2025
 
-To register, please compile the CfI form: [link](https://docs.google.com/forms/d/e/1FAIpQLSdKLnMNzds1oaGwPYOVB7FTbmzWTqhTG5fWdsh6lozzdmVPnQ/viewform?usp=dialog) and send an email to [ateit.info@gmail.com](mailto:ateit.info@gmail.com) with the subject line **“ATE-IT Team Registration”**, including the following details:
+To register, please compile the CfI form at the following [link](https://docs.google.com/forms/d/e/1FAIpQLSdKLnMNzds1oaGwPYOVB7FTbmzWTqhTG5fWdsh6lozzdmVPnQ/viewform?usp=dialog) and send an email to [ateit.info@gmail.com](mailto:ateit.info@gmail.com) with the subject line **“ATE-IT Team Registration”**, including the following details:
 - Group name and acronym
 - Participants’ full names and affiliations
 - Contact email address(es)
