@@ -10,9 +10,8 @@ nav_order: 7
 
 **Why do I see inconsistencies in the annotation of the training and development datasets?**
 
-**Answer:** The annotation variations are intentionally retained to provide a realistic manual annotated dataset.
-These variations reflect the real-world complexity of specialized terminology.
-This approach ensures that participating systems are robust and can generalize to real-world data, not just to perfectly clean benchmarks.
+**Answer:** The annotation variations are intentionally retained to provide a realistic manually annotated dataset.
+These variations ensure that participating systems are robust and can generalise to real-world data, not just to perfectly clean benchmarks.
 
 ---
 
@@ -25,7 +24,7 @@ We follow the principle that only waste fractions (categories of waste to be col
 
 **Why are verbs annotated as terms in the dataset?**
 
-**Answer:** In the field of Automatic Term Extraction (ATE) and Terminology, a term is defined as an expression that designates a key concept within a specific domain, regardless of its grammatical category.	
+**Answer:** In the field of Automatic Term Extraction (ATE) and Terminology, a term is defined as an expression that designates a key concept within a specific domain, regardless of its grammatical category.
 In the domain of waste management, many crucial concepts are processes or actions (e.g., to dispose of, to collect, to recycle).
 Consequently, verbs and verb-based expressions are annotated as terms when they have a specific technical meaning in the context of urban waste management.	
 
