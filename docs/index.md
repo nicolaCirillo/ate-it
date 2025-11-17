@@ -13,9 +13,9 @@ nav_order: 1
 ---
 
 {: .news }
+*Nov 17, 2025* - ⚠️ **Registration closing soon!** (Nov 21) 👉 [Register here](guidelines.md#how-to-participate)<br>
 *Sep 22, 2025* - **Training data is out!** 👉 [Data](data.md)<br>
 *Sep 18, 2025* - **Join the official discord server!** 💬 [Click here](https://discord.gg/7MBGSJQzT7)<br>
-*Sep 9, 2025* - **Registration is now open!** 👉 [Register here](guidelines.md#how-to-participate)
 
 
 ## Automatic Term Extraction (ATE)
