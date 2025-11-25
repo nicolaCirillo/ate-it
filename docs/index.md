@@ -13,8 +13,8 @@ nav_order: 1
 ---
 
 {: .news }
-*Nov 17, 2025* - ⚠️ **Registration closing soon!** (Nov 21) 👉 [Register here](guidelines.md#how-to-participate)<br>
-*Sep 22, 2025* - **Training data is out!** 👉 [Data](data.md)<br>
+*Nov 25, 2025* - **Submit your results by December 1, 2025** 👉 [Submission](guidelines.md#submission)<br>
+*Nov 25, 2025* - **Test data is out!** 👉 [Data](data.md)<br>
 *Sep 18, 2025* - **Join the official discord server!** 💬 [Click here](https://discord.gg/7MBGSJQzT7)<br>
 
 
