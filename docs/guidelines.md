@@ -102,7 +102,7 @@ They will be used to compare ATE systems against human performance.<br>
 ---
 ## Submission
 
-**Submition deadline:** *(to be announced)*
+**Submition deadline:** *December 1, 2025*
 
 All submissions should be sent by email to [ateit.info@gmail.com](mailto:ateit.info@gmail.com) with the subject line **“ATE-IT Submission”**. Please attach your files in **CSV** or **JSON** format, following the specifications required for each subtask ([Subtask A - format specification](subtask_a.md#Output), [Subtask B - format specification](subtask_b.md#Output)). 
 Include the following information in the body of the email:
