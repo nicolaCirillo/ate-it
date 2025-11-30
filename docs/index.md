@@ -13,7 +13,7 @@ nav_order: 1
 ---
 
 {: .news }
-*Nov 25, 2025* - **Submit your results by December 1, 2025** 👉 [Submission](guidelines.md#submission)<br>
+*Nov 30, 2025* - **Submission deadline extended: New deadline is December 4, 2025** 👉 [Submit here](guidelines.md#submission)<br>
 *Nov 25, 2025* - **Test data is out!** 👉 [Data](data.md)<br>
 *Sep 18, 2025* - **Join the official discord server!** 💬 [Click here](https://discord.gg/7MBGSJQzT7)<br>
 
