@@ -35,7 +35,8 @@ The shared task consists of four consecutive phases.
   Training and development data will be released on the [Data](data.md) page.
   Teams should design, implement, and test their system(s) for one or both subtasks using the provided data.
 
-- **Phase 2: Evaluation (24 November – 1 December, 2025)**  
+- **Phase 2: Evaluation (24 November –** **~~1 December, 2025~~** <span style="color: red;">**December 4, 2025)**</span>
+
   Test data will be released on the [Data](data.md) page.
   Teams must generate predictions and submit results in the format required for each subtask ([Subtask A - Output](subtask_a.md#Output), [Subtask B - Output](subtask_b.md#Output)). We also encourage participants to include a link to the source code repository on GitHub.
 
@@ -102,7 +103,7 @@ They will be used to compare ATE systems against human performance.<br>
 ---
 ## Submission
 
-**Submition deadline:** *December 1, 2025*
+**Submition deadline:** ~~December 1, 2025~~ <span style="color: red;">*December 4, 2025* (Extended)</span>
 
 All submissions should be sent by email to [ateit.info@gmail.com](mailto:ateit.info@gmail.com) with the subject line **“ATE-IT Submission”**. Please attach your files in **CSV** or **JSON** format, following the specifications required for each subtask ([Subtask A - format specification](subtask_a.md#Output), [Subtask B - format specification](subtask_b.md#Output)). 
 Include the following information in the body of the email:
