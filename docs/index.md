@@ -13,7 +13,7 @@ nav_order: 1
 ---
 
 {: .news }
-*Nov 30, 2025* - **Submission deadline extended: New deadline is December 4, 2025** 👉 [Submit here](guidelines.md#submission)<br>
+*Dec 10, 2025* - **Report submission deadline: January 9, 2026** 👉 [Submission Instructions](report.md)<br>
 *Nov 25, 2025* - **Test data is out!** 👉 [Data](data.md)<br>
 *Sep 18, 2025* - **Join the official discord server!** 💬 [Click here](https://discord.gg/7MBGSJQzT7)<br>
 
