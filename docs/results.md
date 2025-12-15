@@ -1,7 +1,6 @@
 ---
 layout: default
 title: Results
-has_children: true
 nav_order: 2
 ---
 
@@ -12,7 +11,7 @@ nav_order: 2
 
 |Rank|Team               |Micro Precision|Micro Recall|Micro F1 |
 |----|-------------------|---------------|------------|---------|
-|    |_baseline_         |_0.497_        |_0.559_     |_0.526_  |
+|_baseline_     |        |_0.497_        |_0.559_     |_0.526_  |
 |1   |SMTE               |**0.656**      |0.577       |**0.614**|
 |2   |TrietNLP           |0.634          |0.568       |0.599    |
 |3   |TEXA (run bert)    |0.617          |**0.578**   |0.597    |
@@ -27,7 +26,7 @@ nav_order: 2
 
 |Rank|Team               |Micro Precision|Micro Recall|Micro F1 |
 |----|-------------------|---------------|------------|---------|
-|    |_baseline_         |_0.435_        |_0.508_     |_0.469_  |
+|_baseline_     |         |_0.435_        |_0.508_     |_0.469_  |
 |1   |SMTE               |0.645          |0.529       |**0.581**|
 |2   |TrietNLP           |0.599          |**0.545**   |0.571    |
 |3   |MinseokKIM         |0.654          |0.444	      |0.529    |
@@ -45,7 +44,7 @@ nav_order: 2
 
 |Rank|Team      |Bcubed Precision|Bcubed Recall|Bcubed F1|
 |----|----------|----------------|-------------|---------|
-|    |baseline  |0.177           |**_0.396_**  |0.245    |
+|_baseline_     |  |_0.177_           |**_0.396_**  |_0.245_    |
 |1   |TrietNLP  |**0.528**       |0.378        |**0.441**|
 |2   |TermNinjas|0.390           |0.333        |0.359    |
 
