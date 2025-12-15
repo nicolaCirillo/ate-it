@@ -24,7 +24,7 @@ nav_order: 2
 |8   |TermNinjas         |0.489          |0.395       |0.437    |
 |9   |Valenitalie        |0.364          |0.473       |0.411    |
 
-|Rank|Team               |Micro Precision|Micro Recall|Micro F1 |
+|Rank|Team               |Type Precision|Type Recall|Type F1 |
 |----|-------------------|---------------|------------|---------|
 |_baseline_     |         |_0.435_        |_0.508_     |_0.469_  |
 |1   |SMTE               |0.645          |0.529       |**0.581**|
