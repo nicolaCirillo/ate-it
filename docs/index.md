@@ -46,7 +46,7 @@ Participants will receive a set of sentences drawn from a specialised corpus rel
 ### Subtask B - Term Variants Clustering.
 
 From the list of unique extracted terms, participants are then required to cluster together those terms that refer to the same underlying concept. For example, *“raccolta porta a porta”* and *“raccolta domiciliare”* should be placed in the same cluster. Each cluster should represent a single concept within the waste management domain. This subtask focuses on synonymy, lexical variation, and compositional semantics.
-Both subtasks are designed to be linguistically and computationally challenging. The first subtask requires models to generalize from sparse domain-specific training examples. The second requires semantic comparison and abstraction over morphologically and syntactically diverse variants.
+Both subtasks are designed to be linguistically and computationally challenging. The first subtask requires models to generalise from sparse domain-specific training examples. The second requires semantic comparison and abstraction over morphologically and syntactically diverse variants.
 
 ---
 ## EVALITA Evaluation Campaign
@@ -54,5 +54,3 @@ Both subtasks are designed to be linguistically and computationally challenging.
 EVALITA is a periodic evaluation campaign of Natural Language Processing (NLP) and speech tools for the Italian language. It is an initiative of the [Italian Association for Computational Linguistics (AILC)](http://www.ai-lc.it/).
 
 For further information about EVALITA, please visit [www.evalita.it](https://www.evalita.it/).
-- [Organizers](organizers.md)
-- [Contacts](contacts.md)
