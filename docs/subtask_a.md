@@ -230,5 +230,5 @@ Il ritiro “a domicilio” è attivo dal 01 aprile al 30 settembre, sarà effet
 
 | Dataset | Micro-Precision | Micro-Recall | Micro-F1 | Type-Precision | Type-Recall | Type-F1 |
 | ------- | --------------- | ------------ | -------- | -------------- | ----------- | ------- |
-| dev     | 0.439           | 0.616        | 0.513    | 0.372          | 0.636       | 0.47    |
-
+| dev     | 0.439           | 0.616        | 0.513    | 0.372          | 0.636       | 0.470   |
+| test    | 0.497           | 0.559        | 0.526    | 0.435          | 0.508       | 0.469   |
