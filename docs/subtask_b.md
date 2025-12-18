@@ -156,3 +156,4 @@ secco residuo
 | Dataset | BCubed-Precision | BCubed-Recall | BCubed-F1 | 
 | ------- | ---------------- | ------------- | --------- |
 | dev     | 0.172            | 0.537         | 0.260     |
+| test    | 0.177            | 0.396         | 0.245     |
