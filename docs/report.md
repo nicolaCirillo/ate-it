@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Report Submission Instructions
+title: Report Submission
 has_children: false
 nav_order: 3
 ---
@@ -18,7 +18,7 @@ nav_order: 3
 
 Technical Reports will be published as official Proceedings of [EVALITA 2026](https://www.evalita.it/campaigns/evalita-2026/).
 
-Submissions must be made electronically in PDF format via the **OpenReview** submission system (link coming soon).
+Submissions must be made electronically in PDF format via the **OpenReview** submission system at this [link](https://openreview.net/group?id=AI-LC.it/EVALITA/2026/Participants).
 
 Participants should submit **one report for each task** (including all related sub-tasks) they participated in.
 
