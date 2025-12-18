@@ -13,8 +13,8 @@ nav_order: 1
 ---
 
 {: .news }
+*Dec 15, 2025* - **The ATE-IT Leaderboard is out!** 👉 [Results](results.md)
 *Dec 10, 2025* - **Report submission deadline: January 9, 2026** 👉 [Submission Instructions](report.md)<br>
-*Nov 25, 2025* - **Test data is out!** 👉 [Data](data.md)<br>
 *Sep 18, 2025* - **Join the official discord server!** 💬 [Click here](https://discord.gg/7MBGSJQzT7)<br>
 
 
@@ -54,13 +54,5 @@ Both subtasks are designed to be linguistically and computationally challenging.
 EVALITA is a periodic evaluation campaign of Natural Language Processing (NLP) and speech tools for the Italian language. It is an initiative of the [Italian Association for Computational Linguistics (AILC)](http://www.ai-lc.it/).
 
 For further information about EVALITA, please visit [www.evalita.it](https://www.evalita.it/).
-
----
-## Sections
-- [Participation Guidelines](guidelines.md)
-  - [Subtask A - Term Extraction](subtask_a.md)
-  - [Subtask B - Term Variants Clustering](subtask_b.md)
-- [Data](data.md)
-- [Useful References](references.md)
 - [Organizers](organizers.md)
 - [Contacts](contacts.md)
