@@ -55,8 +55,8 @@ nav_order: 2
 |----------------|------------|---------|
 |Juliette Tonneau|[file](https://github.com/nicolaCirillo/ate-it/blob/main/data/system_results/jt_a_1.json)||
 |MinseokKIM      |[file](https://github.com/nicolaCirillo/ate-it/blob/main/data/system_results/msk_a_1.json)||
-|OA-TE (run 1)   |[file](https://github.com/nicolaCirillo/ate-it/blob/main/data/system_results/oa_te_a_1.json)||
-|OA-TE (run 2)   |[file](https://github.com/nicolaCirillo/ate-it/blob/main/data/system_results/oa_te_a_2.json)||
+|OA-TE (run 1)   |[file](https://github.com/nicolaCirillo/ate-it/blob/main/data/system_results/oa-te-a-1.json)||
+|OA-TE (run 2)   |[file](https://github.com/nicolaCirillo/ate-it/blob/main/data/system_results/oa-te-a-2.json)||
 |Peacemaker      |[file](https://github.com/nicolaCirillo/ate-it/blob/main/data/system_results/peacemaker_a_1.json)||
 |SMTE            |[file](https://github.com/nicolaCirillo/ate-it/blob/main/data/system_results/smte_a_1.json)||
 |TermNinjas      |[file](https://github.com/nicolaCirillo/ate-it/blob/main/data/system_results/tn_a_1.csv)|[file](https://github.com/nicolaCirillo/ate-it/blob/main/data/system_results/tn_b_1.csv)|
