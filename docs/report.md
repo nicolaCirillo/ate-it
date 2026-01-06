@@ -29,10 +29,10 @@ Reports must be written in **English**.
 
 A report should contain (at least) the following sections:
 
-    * Description of the system
-    * Results
-    * Discussion
-    * References
+* Description of the system
+* Results
+* Discussion
+* References
 
 Camera-ready papers must be formatted following the [CEUR-WS template](http://ceur-ws.org/HOWTOSUBMIT.html), specifically using the **1-column CEUR-ART style**.
 
@@ -43,6 +43,7 @@ Lenght:**
 
 * **Regular Paper:** Must have at least **25,000 characters**.
 * **Short Paper:** Must have at least **17,500 characters**.
+* Reports should not exceed 12 pages, including references.
 
 CEUR-WS requires all authors to declare the use of GenAI tools in their papers.
 
