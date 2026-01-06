@@ -48,7 +48,21 @@ nav_order: 2
 |1   |TrietNLP  |**0.528**       |0.378        |**0.441**|
 |2   |TermNinjas|0.390           |0.333        |0.359    |
 
+---
+## System Outputs
 
-
+|Team            |Subtask A   |Subtask B|
+|----------------|------------|---------|
+|Juliette Tonneau|[file](https://github.com/nicolaCirillo/ate-it/blob/main/data/system_results/jt_a_1.json)||
+|MinseokKIM      |[file](https://github.com/nicolaCirillo/ate-it/blob/main/data/system_results/msk_a_1.json)||
+|OA-TE (run 1)   |[file](https://github.com/nicolaCirillo/ate-it/blob/main/data/system_results/oa_te_a_1.json)||
+|OA-TE (run 2)   |[file](https://github.com/nicolaCirillo/ate-it/blob/main/data/system_results/oa_te_a_2.json)||
+|Peacemaker      |[file](https://github.com/nicolaCirillo/ate-it/blob/main/data/system_results/peacemaker_a_1.json)||
+|SMTE            |[file](https://github.com/nicolaCirillo/ate-it/blob/main/data/system_results/smte_a_1.json)||
+|TermNinjas      |[file](https://github.com/nicolaCirillo/ate-it/blob/main/data/system_results/tn_a_1.csv)|[file](https://github.com/nicolaCirillo/ate-it/blob/main/data/system_results/tn_b_1.csv)|
+|TEXA            |[file](https://github.com/nicolaCirillo/ate-it/blob/main/data/system_results/texa_a_bert.json)||
+|TEXA            |[file](https://github.com/nicolaCirillo/ate-it/blob/main/data/system_results/texa_a_zeroshot.json)||
+|TrietNLP        |[file](https://github.com/nicolaCirillo/ate-it/blob/main/data/system_results/trietnlp_a_1.json)|[file](https://github.com/nicolaCirillo/ate-it/blob/main/data/system_results/trietnlp_b_1.json)|
+|Valenitalie     |[file](https://github.com/nicolaCirillo/ate-it/blob/main/data/system_results/vit_a_1.json))||
 
 
