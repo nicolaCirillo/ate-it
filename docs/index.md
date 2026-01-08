@@ -22,7 +22,7 @@ nav_order: 1
 
 ATE is a foundational task in NLP and terminology work. Its goal is to identify **domain-specific terms** that designate key concepts within a specialised field of knowledge. 
 
-ATE differs from Named Entity Recognition (NER) because NER is about identifying and classifying mentions of named entities (e.g., people, organizations, places, dates, products) in running text. Its focus is usually on proper names or unique references that have a clear instance-level referent, and the output is often linked to knowledge bases (e.g., “Barack Obama → Person”, “Google → Organization”).
+ATE differs from Named Entity Recognition (NER) because NER is about identifying and classifying mentions of named entities (e.g., people, organisations, places, dates, products) in running text. Its focus is usually on proper names or unique references that have a clear instance-level referent, and the output is often linked to knowledge bases (e.g., “Barack Obama → Person”, “Google → Organisation”).
 ATE, by contrast, aims to extract domain-specific terms from a corpus. This means identifying multi-word and single-word terms that are relevant to a field (e.g., “informed consent”, “cryptic species”, “blockchain consensus algorithm”).
 
 The terms extracted through ATE serve as essential building blocks for downstream tasks such as information retrieval, machine translation, ontology construction, knowledge graph enrichment, and domain adaptation of large language models (LLMs).
