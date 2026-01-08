@@ -16,7 +16,7 @@ Submissions must be made electronically in PDF format via the **OpenReview** sub
 
 ---
 ## Deadlines
-* **~~January 9, 2026:~~** **January 12, 2026** (Extended) Participant Report Submission
+* **~~January 9, 2026:~~** *January 12, 2026* (Extended) Participant Report Submission
 * **February 7, 2026:** Reviews to Participants
 * **February 16, 2026:** Camera-Ready Submission
 
