@@ -13,8 +13,8 @@ nav_order: 1
 ---
 
 {: .news }
+*Jan 08, 2026* - **Report submission extended deadline: January 12, 2026** 👉 [Submission Instructions](report.md)<br>
 *Dec 15, 2025* - **The ATE-IT Leaderboard is out!** 👉 [Results](results.md)<br>
-*Dec 10, 2025* - **Report submission deadline: January 9, 2026** 👉 [Submission Instructions](report.md)<br>
 *Sep 18, 2025* - **Join the official discord server!** 💬 [Click here](https://discord.gg/7MBGSJQzT7)<br>
 
 
