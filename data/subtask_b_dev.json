@@ -1,972 +1,2856 @@
 {
- "data": [
-  {
-   "term": "deposito",
-   "cluster": 3
-  },
-  {
-   "term": "conferimento",
-   "cluster": 3
-  },
-  {
-   "term": "conferiti",
-   "cluster": 4
-  },
-  {
-   "term": "differenziati",
-   "cluster": 5
-  },
-  {
-   "term": "servizio di igiene urbana",
-   "cluster": 7
-  },
-  {
-   "term": "olio alimentare esausto",
-   "cluster": 10
-  },
-  {
-   "term": "oli esausti",
-   "cluster": 10
-  },
-  {
-   "term": "operatori dell'isola ecologica",
-   "cluster": 11
-  },
-  {
-   "term": "pannolini",
-   "cluster": 12
-  },
-  {
-   "term": "pannoloni",
-   "cluster": 12
-  },
-  {
-   "term": "percentuale di raccolta differenziata",
-   "cluster": 13
-  },
-  {
-   "term": "piano di raccolta",
-   "cluster": 14
-  },
-  {
-   "term": "pneumatici",
-   "cluster": 17
-  },
-  {
-   "term": "quota variabile",
-   "cluster": 21
-  },
-  {
-   "term": "parte variabile",
-   "cluster": 21
-  },
-  {
-   "term": "servizio di raccolta dei rifiuti",
-   "cluster": 22
-  },
-  {
-   "term": "raccolta",
-   "cluster": 22
-  },
-  {
-   "term": "ritiro",
-   "cluster": 22
-  },
-  {
-   "term": "servizio di raccolta",
-   "cluster": 22
-  },
-  {
-   "term": "raccolta degli oli esausti",
-   "cluster": 23
-  },
-  {
-   "term": "raccolta differenziata",
-   "cluster": 27
-  },
-  {
-   "term": "porta a porta",
-   "cluster": 28
-  },
-  {
-   "term": "rifiuti",
-   "cluster": 37
-  },
-  {
-   "term": "rifiuto",
-   "cluster": 37
-  },
-  {
-   "term": "rifiuti vegetali",
-   "cluster": 39
-  },
-  {
-   "term": "potature",
-   "cluster": 39
-  },
-  {
-   "term": "plastica",
-   "cluster": 43
-  },
-  {
-   "term": "rifiuti ingombranti",
-   "cluster": 47
-  },
-  {
-   "term": "rifiuti non ingombranti",
-   "cluster": 49
-  },
-  {
-   "term": "organico",
-   "cluster": 51
-  },
-  {
-   "term": "rifiuti organici",
-   "cluster": 51
-  },
-  {
-   "term": "rifiuti speciali",
-   "cluster": 52
-  },
-  {
-   "term": "rifiuti urbani pericolosi",
-   "cluster": 55
-  },
-  {
-   "term": "ritiro a domicilio",
-   "cluster": 56
-  },
-  {
-   "term": "sacchetti",
-   "cluster": 57
-  },
-  {
-   "term": "sacchi",
-   "cluster": 57
-  },
-  {
-   "term": "sacco",
-   "cluster": 57
-  },
-  {
-   "term": "alluminio",
-   "cluster": 63
-  },
-  {
-   "term": "allumino",
-   "cluster": 63
-  },
-  {
-   "term": "busta",
-   "cluster": 69
-  },
-  {
-   "term": "buste",
-   "cluster": 69
-  },
-  {
-   "term": "busta di carta",
-   "cluster": 70
-  },
-  {
-   "term": "calendario di raccolta",
-   "cluster": 71
-  },
-  {
-   "term": "calendario utenze domestiche per la raccolta differenziata",
-   "cluster": 72
-  },
-  {
-   "term": "carta dei servizi",
-   "cluster": 73
-  },
-  {
-   "term": "carta",
-   "cluster": 74
-  },
-  {
-   "term": "carta, cartone, cartoncino",
-   "cluster": 74
-  },
-  {
-   "term": "carta e cartone",
-   "cluster": 74
-  },
-  {
-   "term": "centro di raccolta",
-   "cluster": 77
-  },
-  {
-   "term": "centri di raccolta",
-   "cluster": 77
-  },
-  {
-   "term": "isola ecologica",
-   "cluster": 77
-  },
-  {
-   "term": "isole ecologiche",
-   "cluster": 77
-  },
-  {
-   "term": "coefficiente di adattamento per superficie",
-   "cluster": 79
-  },
-  {
-   "term": "ka",
-   "cluster": 80
-  },
-  {
-   "term": "kb",
-   "cluster": 81
-  },
-  {
-   "term": "compostiera domestica",
-   "cluster": 85
-  },
-  {
-   "term": "conferire",
-   "cluster": 88
-  },
-  {
-   "term": "conferisce",
-   "cluster": 88
-  },
-  {
-   "term": "depositare",
-   "cluster": 88
-  },
-  {
-   "term": "dichiarazione tari",
-   "cluster": 92
-  },
-  {
-   "term": "frazioni",
-   "cluster": 94
-  },
-  {
-   "term": "gestione dei rifiuti urbani",
-   "cluster": 95
-  },
-  {
-   "term": "gestione dei rifiuti urbani ed assimilati",
-   "cluster": 95
-  },
-  {
-   "term": "servizio rifiuti",
-   "cluster": 7
-  },
-  {
-   "term": "gestore",
-   "cluster": 96
-  },
-  {
-   "term": "guida al conferimento",
-   "cluster": 99
-  },
-  {
-   "term": "imballaggi",
-   "cluster": 100
-  },
-  {
-   "term": "imballaggi in cartone",
-   "cluster": 101
-  },
-  {
-   "term": "imballaggi in carta e cartone",
-   "cluster": 101
-  },
-  {
-   "term": "imballaggi in plastica",
-   "cluster": 102
-  },
-  {
-   "term": "imballaggi in metallo",
-   "cluster": 103
-  },
-  {
-   "term": "banda stagnata",
-   "cluster": 105
-  },
-  {
-   "term": "modalit\u00e0 di conferimento",
-   "cluster": 110
-  },
-  {
-   "term": "multimateriale",
-   "cluster": 114
-  },
-  {
-   "term": "metalli - plastica",
-   "cluster": 114
-  },
-  {
-   "term": "non differenziabile",
-   "cluster": 115
-  },
-  {
-   "term": "pef",
-   "cluster": 117
-  },
-  {
-   "term": "piano tariffario tassa sui rifiuti",
-   "cluster": 118
-  },
-  {
-   "term": "differenziata",
-   "cluster": 27
-  },
-  {
-   "term": "pap",
-   "cluster": 28
-  },
-  {
-   "term": "indumenti usati",
-   "cluster": 120
-  },
-  {
-   "term": "abiti dismessi",
-   "cluster": 120
-  },
-  {
-   "term": "pile esauste",
-   "cluster": 122
-  },
-  {
-   "term": "frazione verde",
-   "cluster": 39
-  },
-  {
-   "term": "sfalci e potature",
-   "cluster": 39
-  },
-  {
-   "term": "materiali conferibili",
-   "cluster": 123
-  },
-  {
-   "term": "metallo-banda stagnata-alluminio",
-   "cluster": 124
-  },
-  {
-   "term": "farmaci",
-   "cluster": 125
-  },
-  {
-   "term": "ingombranti",
-   "cluster": 47
-  },
-  {
-   "term": "ingombranti pericolosi",
-   "cluster": 48
-  },
-  {
-   "term": "frazione organica",
-   "cluster": 51
-  },
-  {
-   "term": "frazione organica umida",
-   "cluster": 51
-  },
-  {
-   "term": "indifferenziato",
-   "cluster": 126
-  },
-  {
-   "term": "svuotamento dei carrellati condominiali",
-   "cluster": 135
-  },
-  {
-   "term": "toner e cartucce",
-   "cluster": 139
-  },
-  {
-   "term": "utenza",
-   "cluster": 143
-  },
-  {
-   "term": "utenze domestiche",
-   "cluster": 144
-  },
-  {
-   "term": "utenze non domestiche",
-   "cluster": 145
-  },
-  {
-   "term": "utenze commerciali",
-   "cluster": 145
-  },
-  {
-   "term": "vetro e contenitori in vetro",
-   "cluster": 146
-  },
-  {
-   "term": "vetro",
-   "cluster": 146
-  },
-  {
-   "term": "bidone",
-   "cluster": 150
-  },
-  {
-   "term": "bidoni carrellati",
-   "cluster": 68
-  },
-  {
-   "term": "campane",
-   "cluster": 153
-  },
-  {
-   "term": "servizio integrato gestione rifiuti \u2013 raccolta differenziata e servizi complementari",
-   "cluster": 7
-  },
-  {
-   "term": "secchiello",
-   "cluster": 108
-  },
-  {
-   "term": "plastica e metalli",
-   "cluster": 114
-  },
-  {
-   "term": "pannolini, pannoloni e traverse",
-   "cluster": 12
-  },
-  {
-   "term": "piano finanziario",
-   "cluster": 117
-  },
-  {
-   "term": "plc",
-   "cluster": 157
-  },
-  {
-   "term": "raccolta organico",
-   "cluster": 161
-  },
-  {
-   "term": "raccolta differenziata porta a porta spinto",
-   "cluster": 163
-  },
-  {
-   "term": "abbigliamento",
-   "cluster": 120
-  },
-  {
-   "term": "raee",
-   "cluster": 36
-  },
-  {
-   "term": "r.a.e.e.",
-   "cluster": 36
-  },
-  {
-   "term": "rifiuti verdi",
-   "cluster": 39
-  },
-  {
-   "term": "umido",
-   "cluster": 51
-  },
-  {
-   "term": "rup",
-   "cluster": 55
-  },
-  {
-   "term": "rifiuto indifferenziato",
-   "cluster": 126
-  },
-  {
-   "term": "secco residuale non riciclabile",
-   "cluster": 126
-  },
-  {
-   "term": "secco residuo",
-   "cluster": 126
-  },
-  {
-   "term": "secco indifferenziato",
-   "cluster": 126
-  },
-  {
-   "term": "sacchetti di carta",
-   "cluster": 59
-  },
-  {
-   "term": "spazzamento stradale",
-   "cluster": 130
-  },
-  {
-   "term": "tari",
-   "cluster": 137
-  },
-  {
-   "term": "tariffe",
-   "cluster": 168
-  },
-  {
-   "term": "tetra pak",
-   "cluster": 169
-  },
-  {
-   "term": "toner",
-   "cluster": 139
-  },
-  {
-   "term": "tmb",
-   "cluster": 171
-  },
-  {
-   "term": "servizio ecologico",
-   "cluster": 141
-  },
-  {
-   "term": "utente",
-   "cluster": 174
-  },
-  {
-   "term": "utenti",
-   "cluster": 174
-  },
-  {
-   "term": "utenze turistiche non domestiche",
-   "cluster": 175
-  },
-  {
-   "term": "cartoni",
-   "cluster": 74
-  },
-  {
-   "term": "cernita",
-   "cluster": 179
-  },
-  {
-   "term": "essere conferiti",
-   "cluster": 88
-  },
-  {
-   "term": "costi variabili",
-   "cluster": 188
-  },
-  {
-   "term": "differenziare",
-   "cluster": 190
-  },
-  {
-   "term": "disciplinare per la gestione dei centri di raccolta comunali",
-   "cluster": 191
-  },
-  {
-   "term": "emissione",
-   "cluster": 193
-  },
-  {
-   "term": "gestione dei rifiuti",
-   "cluster": 6
-  },
-  {
-   "term": "latta",
-   "cluster": 105
-  },
-  {
-   "term": "microplastiche",
-   "cluster": 201
-  },
-  {
-   "term": "operatore ecologico",
-   "cluster": 202
-  },
-  {
-   "term": "materiali in plastica",
-   "cluster": 205
-  },
-  {
-   "term": "punti di conferimento",
-   "cluster": 20
-  },
-  {
-   "term": "raccolta/ritiro",
-   "cluster": 22
-  },
-  {
-   "term": "raccolte porta a porta",
-   "cluster": 28
-  },
-  {
-   "term": "legno",
-   "cluster": 207
-  },
-  {
-   "term": "contribuente",
-   "cluster": 174
-  },
-  {
-   "term": "carta - cartone - tetra pak",
-   "cluster": 74
-  },
-  {
-   "term": "vanno conferiti",
-   "cluster": 88
-  },
-  {
-   "term": "differenzia",
-   "cluster": 190
-  },
-  {
-   "term": "sistema di raccolta differenziata dei rifiuti porta-a-porta",
-   "cluster": 28
-  },
-  {
-   "term": "busta con legaccio",
-   "cluster": 219
-  },
-  {
-   "term": "servizio di svuotamento",
-   "cluster": 222
-  },
-  {
-   "term": "servizio ecologia",
-   "cluster": 141
-  },
-  {
-   "term": "calendario raccolta rifiuti",
-   "cluster": 71
-  },
-  {
-   "term": "ccr",
-   "cluster": 77
-  },
-  {
-   "term": "codice cer",
-   "cluster": 226
-  },
-  {
-   "term": "coefficiente proporzionale di produttivit\u00e0 kb",
-   "cluster": 81
-  },
-  {
-   "term": "depositare i rifiuti",
-   "cluster": 88
-  },
-  {
-   "term": "contenitori di sostanze pericolose",
-   "cluster": 227
-  },
-  {
-   "term": "disciplina dei centri di raccolta dei rifiuti urbani raccolti in modo differenziato",
-   "cluster": 191
-  },
-  {
-   "term": "gestore del servizio di igiene urbana della citt\u00e0",
-   "cluster": 96
-  },
-  {
-   "term": "grassi animali",
-   "cluster": 232
-  },
-  {
-   "term": "imballaggi in cartone ondulato e cartoncino",
-   "cluster": 101
-  },
-  {
-   "term": "imballaggi in legno",
-   "cluster": 235
-  },
-  {
-   "term": "lattine in alluminio con il simbolo al",
-   "cluster": 106
-  },
-  {
-   "term": "inerti",
-   "cluster": 46
-  },
-  {
-   "term": "materiali non conferibili",
-   "cluster": 238
-  },
-  {
-   "term": "pile portatili, batterie e accumulatori al piombo derivanti dalla manutenzione di veicoli ad uso privato effettuata in proprio dalle utenze domestiche",
-   "cluster": 211
-  },
-  {
-   "term": "plastica, acciaio e alluminio",
-   "cluster": 114
-  },
-  {
-   "term": "olii esausti",
-   "cluster": 10
-  },
-  {
-   "term": "oli e grassi vegetali esausti",
-   "cluster": 10
-  },
-  {
-   "term": "piano di riorganizzazione del servizio di raccolta rsu",
-   "cluster": 14
-  },
-  {
-   "term": "r4",
-   "cluster": 244
-  },
-  {
-   "term": "r3",
-   "cluster": 245
-  },
-  {
-   "term": "r5",
-   "cluster": 246
-  },
-  {
-   "term": "organico e bioplastiche compostabili",
-   "cluster": 51
-  },
-  {
-   "term": "r2",
-   "cluster": 247
-  },
-  {
-   "term": "r1",
-   "cluster": 248
-  },
-  {
-   "term": "servizio ingombranti",
-   "cluster": 251
-  },
-  {
-   "term": "tubi fluorescenti ed altri tubi contenenti mercurio",
-   "cluster": 42
-  },
-  {
-   "term": "sacchetto trasparente",
-   "cluster": 253
-  },
-  {
-   "term": "tarsu",
-   "cluster": 257
-  },
-  {
-   "term": "totale annuale conferito",
-   "cluster": 259
-  },
-  {
-   "term": "abbandono di rifiuti non pericolosi e non ingombranti",
-   "cluster": 62
-  },
-  {
-   "term": "analisi merceologiche",
-   "cluster": 261
-  },
-  {
-   "term": "autorizzazione unica ambientale",
-   "cluster": 265
-  },
-  {
-   "term": "campana",
-   "cluster": 153
-  },
-  {
-   "term": "cernite di materiali",
-   "cluster": 179
-  },
-  {
-   "term": "coefficienti per la determinazione della parte fissa e parte variabile",
-   "cluster": 268
-  },
-  {
-   "term": "condizioni igieniche e di decoro",
-   "cluster": 8
-  },
-  {
-   "term": "frigoriferi e sistemi per il condizionamento",
-   "cluster": 277
-  },
-  {
-   "term": "conferimento del rifiuto",
-   "cluster": 3
-  },
-  {
-   "term": "conferimento separato dei rifiuti",
-   "cluster": 3
-  },
-  {
-   "term": "conferimento fuori porta",
-   "cluster": 87
-  },
-  {
-   "term": "contenitori adibiti alla raccolta delle frazioni di rifiuti",
-   "cluster": 186
-  },
-  {
-   "term": "contenitori per la raccolta dei rifiuti urbani",
-   "cluster": 186
-  },
-  {
-   "term": "contenitori siglati t/f/x",
-   "cluster": 285
-  },
-  {
-   "term": "fauna",
-   "cluster": 296
-  },
-  {
-   "term": "gestione del centro di raccolta",
-   "cluster": 300
-  },
-  {
-   "term": "gestori del centro di raccolta differenziata",
-   "cluster": 302
-  },
-  {
-   "term": "gestore della raccolta e trasporto",
-   "cluster": 304
-  },
-  {
-   "term": "gestore dello spazzamento e lavaggio",
-   "cluster": 305
-  },
-  {
-   "term": "gestore dello spazzamento e lavaggio delle strade",
-   "cluster": 305
-  },
-  {
-   "term": "frazione conferita",
-   "cluster": 41
-  },
-  {
-   "term": "frazione non differenziabile",
-   "cluster": 126
-  },
-  {
-   "term": "frazione secca",
-   "cluster": 126
-  },
-  {
-   "term": "lavatrici, lavastoviglie, cucine, scaldabagni",
-   "cluster": 307
-  },
-  {
-   "term": "imballaggi in materiali misti",
-   "cluster": 308
-  },
-  {
-   "term": "interruzione programmata del servizio",
-   "cluster": 319
-  },
-  {
-   "term": "materiali ferrosi",
-   "cluster": 322
-  },
-  {
-   "term": "microdiscariche",
-   "cluster": 200
-  },
-  {
-   "term": "misure di gestione ambientale",
-   "cluster": 323
-  },
-  {
-   "term": "modalit\u00e0 di raccolta",
-   "cluster": 111
-  },
-  {
-   "term": "oli alimentari scaduti",
-   "cluster": 10
-  },
-  {
-   "term": "prodotti tessili",
-   "cluster": 18
-  },
-  {
-   "term": "materiale conferito",
-   "cluster": 41
-  },
-  {
-   "term": "metalli, acciaio, alluminio e banda stagnata",
-   "cluster": 124
-  },
-  {
-   "term": "macerie provenienti da lavori edili",
-   "cluster": 252
-  },
-  {
-   "term": "materiale da riciclare",
-   "cluster": 239
-  },
-  {
-   "term": "materiale differenziabile",
-   "cluster": 239
-  },
-  {
-   "term": "ruote gommate",
-   "cluster": 17
-  },
-  {
-   "term": "raccolta domiciliare dei rifiuti",
-   "cluster": 28
-  },
-  {
-   "term": "recupero degli oli esausti",
-   "cluster": 335
-  },
-  {
-   "term": "responsabile del centro di raccolta",
-   "cluster": 338
-  },
-  {
-   "term": "rifiuti conferibili",
-   "cluster": 123
-  },
-  {
-   "term": "rifiuti legnosi",
-   "cluster": 207
-  },
-  {
-   "term": "rifiuti in metalli",
-   "cluster": 124
-  },
-  {
-   "term": "rifiuto organico",
-   "cluster": 51
-  },
-  {
-   "term": "stazione ecologica",
-   "cluster": 1
-  },
-  {
-   "term": "servizio di ecovigilanza",
-   "cluster": 294
-  },
-  {
-   "term": "servizio di gestione integrata dei rifiuti",
-   "cluster": 7
-  },
-  {
-   "term": "spazzatura",
-   "cluster": 37
-  },
-  {
-   "term": "servizio di raccolta e trasporto dei rifiuti urbani",
-   "cluster": 352
-  },
-  {
-   "term": "sistema di gestione ambientale",
-   "cluster": 274
-  },
-  {
-   "term": "tassa sui rifiuti solidi urbani",
-   "cluster": 257
-  },
-  {
-   "term": "uff\u00eccio tari",
-   "cluster": 359
-  },
-  {
-   "term": "ufficio ambiente",
-   "cluster": 141
-  },
-  {
-   "term": "vigilanza igienico-sanitaria",
-   "cluster": 360
-  }
- ]
+    "data": [
+        {
+            "term": "biodegradabili",
+            "cluster": 0
+        },
+        {
+            "term": "cassonetti",
+            "cluster": 1
+        },
+        {
+            "term": "separare i rifiuti",
+            "cluster": 2
+        },
+        {
+            "term": "deposito",
+            "cluster": 3
+        },
+        {
+            "term": "conferimento",
+            "cluster": 3
+        },
+        {
+            "term": "conferiti",
+            "cluster": 4
+        },
+        {
+            "term": "gestione rifiuti",
+            "cluster": 6
+        },
+        {
+            "term": "servizio di gestione del ciclo dei rifiuti urbani",
+            "cluster": 7
+        },
+        {
+            "term": "servizio di gestione dei rifiuti",
+            "cluster": 7
+        },
+        {
+            "term": "servizio di igiene urbana",
+            "cluster": 7
+        },
+        {
+            "term": "igiene urbana",
+            "cluster": 8
+        },
+        {
+            "term": "oli e grassi commestibili",
+            "cluster": 10
+        },
+        {
+            "term": "oli commestibili",
+            "cluster": 10
+        },
+        {
+            "term": "olio usato",
+            "cluster": 10
+        },
+        {
+            "term": "oli",
+            "cluster": 10
+        },
+        {
+            "term": "olio",
+            "cluster": 10
+        },
+        {
+            "term": "olio alimentare esausto",
+            "cluster": 10
+        },
+        {
+            "term": "olio esausto",
+            "cluster": 10
+        },
+        {
+            "term": "oli esausti",
+            "cluster": 10
+        },
+        {
+            "term": "olio vegetale",
+            "cluster": 10
+        },
+        {
+            "term": "operatori dell'isola ecologica",
+            "cluster": 11
+        },
+        {
+            "term": "pannolini",
+            "cluster": 12
+        },
+        {
+            "term": "pannolini e pannoloni",
+            "cluster": 12
+        },
+        {
+            "term": "percentuale di raccolta differenziata dei rifiuti",
+            "cluster": 13
+        },
+        {
+            "term": "piccoli raee",
+            "cluster": 15
+        },
+        {
+            "term": "pile",
+            "cluster": 16
+        },
+        {
+            "term": "pneumatici",
+            "cluster": 17
+        },
+        {
+            "term": "scarti tessili",
+            "cluster": 18
+        },
+        {
+            "term": "pulizia degli arenili urbani",
+            "cluster": 19
+        },
+        {
+            "term": "punti raccolta",
+            "cluster": 20
+        },
+        {
+            "term": "punto di conferimento",
+            "cluster": 20
+        },
+        {
+            "term": "quota variabile",
+            "cluster": 21
+        },
+        {
+            "term": "parte variabile",
+            "cluster": 21
+        },
+        {
+            "term": "servizio di raccolta dei rifiuti",
+            "cluster": 22
+        },
+        {
+            "term": "raccolta",
+            "cluster": 22
+        },
+        {
+            "term": "raccolta dei rifiuti",
+            "cluster": 22
+        },
+        {
+            "term": "raccolta rifiuti",
+            "cluster": 22
+        },
+        {
+            "term": "ritiro",
+            "cluster": 22
+        },
+        {
+            "term": "servizio di raccolta",
+            "cluster": 22
+        },
+        {
+            "term": "raccolta degli oli",
+            "cluster": 23
+        },
+        {
+            "term": "raccolta degli oli esausti",
+            "cluster": 23
+        },
+        {
+            "term": "raccolta dei rifiuti urbani",
+            "cluster": 24
+        },
+        {
+            "term": "servizio di raccolta per i rifiuti provenienti da luoghi adibiti ad uso di civile abitazione",
+            "cluster": 24
+        },
+        {
+            "term": "raccolta dei rifiuti urbani e speciali",
+            "cluster": 25
+        },
+        {
+            "term": "raccolta di prossimit\u00e0",
+            "cluster": 26
+        },
+        {
+            "term": "servizio di raccolta di prossimit\u00e0",
+            "cluster": 26
+        },
+        {
+            "term": "raccolta dei rifiuti in forma differenziata",
+            "cluster": 27
+        },
+        {
+            "term": "raccolta differenziata dei rifiuti urbani",
+            "cluster": 27
+        },
+        {
+            "term": "raccolta differenziata",
+            "cluster": 27
+        },
+        {
+            "term": "raccolta differenziata dei rifiuti",
+            "cluster": 27
+        },
+        {
+            "term": "servizio di raccolta domiciliare dei rifiuti",
+            "cluster": 28
+        },
+        {
+            "term": "raccolta differenziata porta a porta",
+            "cluster": 28
+        },
+        {
+            "term": "raccolta domiciliare",
+            "cluster": 28
+        },
+        {
+            "term": "raccolta porta a porta",
+            "cluster": 28
+        },
+        {
+            "term": "porta a porta",
+            "cluster": 28
+        },
+        {
+            "term": "recupero di rifiuti",
+            "cluster": 30
+        },
+        {
+            "term": "recupero",
+            "cluster": 30
+        },
+        {
+            "term": "regolamento comunale gestione del servizio dei rifiuti urbani ed assimilati",
+            "cluster": 31
+        },
+        {
+            "term": "regolamento comunale per la gestione del servizio dei rifiuti urbani ed assimilati",
+            "cluster": 31
+        },
+        {
+            "term": "regolamento tari",
+            "cluster": 32
+        },
+        {
+            "term": "residui",
+            "cluster": 33
+        },
+        {
+            "term": "riciclabili",
+            "cluster": 34
+        },
+        {
+            "term": "riciclo",
+            "cluster": 35
+        },
+        {
+            "term": "rifiuti raee",
+            "cluster": 36
+        },
+        {
+            "term": "scarti",
+            "cluster": 37
+        },
+        {
+            "term": "rifiuti",
+            "cluster": 37
+        },
+        {
+            "term": "rifiuto",
+            "cluster": 37
+        },
+        {
+            "term": "piccoli scarti di fiori e piante",
+            "cluster": 39
+        },
+        {
+            "term": "residui agricoli",
+            "cluster": 39
+        },
+        {
+            "term": "potature",
+            "cluster": 39
+        },
+        {
+            "term": "rifiuti biodegradabili di cucine e mense",
+            "cluster": 40
+        },
+        {
+            "term": "rifiuti conferiti",
+            "cluster": 41
+        },
+        {
+            "term": "rifiuto conferito",
+            "cluster": 41
+        },
+        {
+            "term": "plastica",
+            "cluster": 43
+        },
+        {
+            "term": "rifiuti differenziati",
+            "cluster": 44
+        },
+        {
+            "term": "rifiuti urbani ingombranti",
+            "cluster": 47
+        },
+        {
+            "term": "rifiuti ingombranti",
+            "cluster": 47
+        },
+        {
+            "term": "organico",
+            "cluster": 51
+        },
+        {
+            "term": "rifiuti organici",
+            "cluster": 51
+        },
+        {
+            "term": "rifiuti speciali",
+            "cluster": 52
+        },
+        {
+            "term": "rifiuti solidi urbani",
+            "cluster": 54
+        },
+        {
+            "term": "rifiuti urbani",
+            "cluster": 54
+        },
+        {
+            "term": "ritiro a domicilio",
+            "cluster": 56
+        },
+        {
+            "term": "sacchetti",
+            "cluster": 57
+        },
+        {
+            "term": "sacchetto",
+            "cluster": 57
+        },
+        {
+            "term": "sacchi",
+            "cluster": 57
+        },
+        {
+            "term": "sacco",
+            "cluster": 57
+        },
+        {
+            "term": "sacco di bioplastica",
+            "cluster": 58
+        },
+        {
+            "term": "sacchi di plastica",
+            "cluster": 60
+        },
+        {
+            "term": "sacco di plastica",
+            "cluster": 60
+        },
+        {
+            "term": "sacchi di colore nero",
+            "cluster": 61
+        },
+        {
+            "term": "abbandono abusivo dei rifiuti",
+            "cluster": 62
+        },
+        {
+            "term": "abbandono di rifiuti",
+            "cluster": 62
+        },
+        {
+            "term": "alluminio",
+            "cluster": 63
+        },
+        {
+            "term": "al",
+            "cluster": 63
+        },
+        {
+            "term": "area tecnica ambientale",
+            "cluster": 64
+        },
+        {
+            "term": "attivazione del servizio",
+            "cluster": 65
+        },
+        {
+            "term": "kit compostiere",
+            "cluster": 66
+        },
+        {
+            "term": "autocompattatore",
+            "cluster": 67
+        },
+        {
+            "term": "autocompattatore per la raccolta di rifiuti solidi urbani",
+            "cluster": 67
+        },
+        {
+            "term": "autocompattatore per raccolta rifiuti solidi urbani",
+            "cluster": 67
+        },
+        {
+            "term": "carrellato",
+            "cluster": 68
+        },
+        {
+            "term": "busta",
+            "cluster": 69
+        },
+        {
+            "term": "buste",
+            "cluster": 69
+        },
+        {
+            "term": "busta di carta",
+            "cluster": 70
+        },
+        {
+            "term": "calendario di conferimento e raccolta",
+            "cluster": 71
+        },
+        {
+            "term": "calendario di raccolta",
+            "cluster": 71
+        },
+        {
+            "term": "calendario di raccolta porta a porta",
+            "cluster": 71
+        },
+        {
+            "term": "calendario di raccolta rifiuti",
+            "cluster": 71
+        },
+        {
+            "term": "carta dei servizi",
+            "cluster": 73
+        },
+        {
+            "term": "carta",
+            "cluster": 74
+        },
+        {
+            "term": "carta, cartone e cartoncino",
+            "cluster": 74
+        },
+        {
+            "term": "carta cartone e tetra pak",
+            "cluster": 74
+        },
+        {
+            "term": "carta, cartone e tetra pak",
+            "cluster": 74
+        },
+        {
+            "term": "carta e cartacce",
+            "cluster": 74
+        },
+        {
+            "term": "carta e cartone",
+            "cluster": 74
+        },
+        {
+            "term": "cartone",
+            "cluster": 74
+        },
+        {
+            "term": "stazioni informatizzate per il conferimento",
+            "cluster": 75
+        },
+        {
+            "term": "cer",
+            "cluster": 76
+        },
+        {
+            "term": "centro comunale di raccolta",
+            "cluster": 77
+        },
+        {
+            "term": "centro di raccolta",
+            "cluster": 77
+        },
+        {
+            "term": "centri di raccolta",
+            "cluster": 77
+        },
+        {
+            "term": "centri di raccolta comunali",
+            "cluster": 77
+        },
+        {
+            "term": "centro di raccolta comunale",
+            "cluster": 77
+        },
+        {
+            "term": "centro di raccolta comunale dei rifiuti urbani",
+            "cluster": 77
+        },
+        {
+            "term": "isola ecologica",
+            "cluster": 77
+        },
+        {
+            "term": "isole ecologiche",
+            "cluster": 77
+        },
+        {
+            "term": "combustione",
+            "cluster": 82
+        },
+        {
+            "term": "operazioni di combustione",
+            "cluster": 82
+        },
+        {
+            "term": "eco compattatore",
+            "cluster": 83
+        },
+        {
+            "term": "macchina mangiaplastica",
+            "cluster": 84
+        },
+        {
+            "term": "compostiera domestica",
+            "cluster": 85
+        },
+        {
+            "term": "conferibili",
+            "cluster": 86
+        },
+        {
+            "term": "conferimento delle frazioni",
+            "cluster": 3
+        },
+        {
+            "term": "conferimento rifiuti su suolo pubblico",
+            "cluster": 87
+        },
+        {
+            "term": "conferire",
+            "cluster": 88
+        },
+        {
+            "term": "conferisci",
+            "cluster": 88
+        },
+        {
+            "term": "depositare",
+            "cluster": 88
+        },
+        {
+            "term": "esporre",
+            "cluster": 89
+        },
+        {
+            "term": "deposito temporaneo del rifiuto secco indifferenziato",
+            "cluster": 91
+        },
+        {
+            "term": "dichiarazione tari",
+            "cluster": 92
+        },
+        {
+            "term": "eco-dizionario",
+            "cluster": 93
+        },
+        {
+            "term": "frazione",
+            "cluster": 94
+        },
+        {
+            "term": "frazioni",
+            "cluster": 94
+        },
+        {
+            "term": "gestione dei rifiuti urbani",
+            "cluster": 95
+        },
+        {
+            "term": "gestione dei rifiuti urbani ed assimilati",
+            "cluster": 95
+        },
+        {
+            "term": "servizio rifiuti",
+            "cluster": 7
+        },
+        {
+            "term": "gestione del ciclo integrato dei rifiuti",
+            "cluster": 7
+        },
+        {
+            "term": "gestore",
+            "cluster": 96
+        },
+        {
+            "term": "grassi",
+            "cluster": 97
+        },
+        {
+            "term": "green",
+            "cluster": 98
+        },
+        {
+            "term": "guida al conferimento",
+            "cluster": 99
+        },
+        {
+            "term": "guida alla raccolta differenziata",
+            "cluster": 99
+        },
+        {
+            "term": "imballaggi",
+            "cluster": 100
+        },
+        {
+            "term": "imballaggi in cartone",
+            "cluster": 101
+        },
+        {
+            "term": "imballaggi in carta e cartone",
+            "cluster": 101
+        },
+        {
+            "term": "imballaggi in plastica",
+            "cluster": 102
+        },
+        {
+            "term": "imballaggi in metallo",
+            "cluster": 103
+        },
+        {
+            "term": "lampadine",
+            "cluster": 104
+        },
+        {
+            "term": "banda stagnata",
+            "cluster": 105
+        },
+        {
+            "term": "lattine",
+            "cluster": 106
+        },
+        {
+            "term": "lavaggio",
+            "cluster": 107
+        },
+        {
+            "term": "lavaggio suolo aree pubbliche",
+            "cluster": 107
+        },
+        {
+            "term": "mastello",
+            "cluster": 108
+        },
+        {
+            "term": "modalit\u00e0 di conferimento",
+            "cluster": 110
+        },
+        {
+            "term": "modalit\u00e0 per il conferimento",
+            "cluster": 111
+        },
+        {
+            "term": "modulo reclami",
+            "cluster": 112
+        },
+        {
+            "term": "modulo segnalazione \u2013 reclamo \u2013 suggerimento",
+            "cluster": 113
+        },
+        {
+            "term": "multimateriale",
+            "cluster": 114
+        },
+        {
+            "term": "metalli e imballaggi in plastica",
+            "cluster": 114
+        },
+        {
+            "term": "non differenziabile",
+            "cluster": 115
+        },
+        {
+            "term": "piano tariffario tassa sui rifiuti",
+            "cluster": 118
+        },
+        {
+            "term": "piano tariffe tari",
+            "cluster": 118
+        },
+        {
+            "term": "batterie",
+            "cluster": 16
+        },
+        {
+            "term": "eco-punti",
+            "cluster": 20
+        },
+        {
+            "term": "sistemi di raccolta differenziata",
+            "cluster": 27
+        },
+        {
+            "term": "differenziata",
+            "cluster": 27
+        },
+        {
+            "term": "pap",
+            "cluster": 28
+        },
+        {
+            "term": "servizio raccolta e trasporto",
+            "cluster": 119
+        },
+        {
+            "term": "indumenti",
+            "cluster": 120
+        },
+        {
+            "term": "indumenti usati",
+            "cluster": 120
+        },
+        {
+            "term": "abiti dismessi",
+            "cluster": 120
+        },
+        {
+            "term": "cartone selettivo",
+            "cluster": 121
+        },
+        {
+            "term": "pile esauste",
+            "cluster": 122
+        },
+        {
+            "term": "pile scariche",
+            "cluster": 122
+        },
+        {
+            "term": "sfalci, ramaglie e potature",
+            "cluster": 39
+        },
+        {
+            "term": "verde",
+            "cluster": 39
+        },
+        {
+            "term": "frazione verde",
+            "cluster": 39
+        },
+        {
+            "term": "sfalci",
+            "cluster": 39
+        },
+        {
+            "term": "sfalci e potature",
+            "cluster": 39
+        },
+        {
+            "term": "avanzi di cucina cotti e crudi",
+            "cluster": 40
+        },
+        {
+            "term": "materiali conferibili",
+            "cluster": 123
+        },
+        {
+            "term": "frazioni di rifiuti",
+            "cluster": 44
+        },
+        {
+            "term": "farmaci",
+            "cluster": 125
+        },
+        {
+            "term": "farmaci scaduti",
+            "cluster": 125
+        },
+        {
+            "term": "ingombranti",
+            "cluster": 47
+        },
+        {
+            "term": "frazione organica",
+            "cluster": 51
+        },
+        {
+            "term": "frazione organica umida",
+            "cluster": 51
+        },
+        {
+            "term": "indifferenziato",
+            "cluster": 126
+        },
+        {
+            "term": "busta di carta con legaccio",
+            "cluster": 127
+        },
+        {
+            "term": "smaltimento dei rifiuti",
+            "cluster": 128
+        },
+        {
+            "term": "smaltimento",
+            "cluster": 128
+        },
+        {
+            "term": "smaltire i rifiuti",
+            "cluster": 129
+        },
+        {
+            "term": "spazzamento",
+            "cluster": 130
+        },
+        {
+            "term": "servizio di spazzamento",
+            "cluster": 130
+        },
+        {
+            "term": "spazzamento integrato",
+            "cluster": 131
+        },
+        {
+            "term": "spazzamento manuale",
+            "cluster": 132
+        },
+        {
+            "term": "spazzamento meccanizzato",
+            "cluster": 133
+        },
+        {
+            "term": "svuotamento dei carrellati",
+            "cluster": 135
+        },
+        {
+            "term": "svuotamento dei cestini",
+            "cluster": 136
+        },
+        {
+            "term": "tassa rifiuti",
+            "cluster": 137
+        },
+        {
+            "term": "card",
+            "cluster": 138
+        },
+        {
+            "term": "toner e cartucce",
+            "cluster": 139
+        },
+        {
+            "term": "trasporto",
+            "cluster": 140
+        },
+        {
+            "term": "ufficio ecologia",
+            "cluster": 141
+        },
+        {
+            "term": "utenze",
+            "cluster": 143
+        },
+        {
+            "term": "utenza",
+            "cluster": 143
+        },
+        {
+            "term": "utenze domestiche",
+            "cluster": 144
+        },
+        {
+            "term": "utenze commerciali produttive",
+            "cluster": 145
+        },
+        {
+            "term": "utenze non domestiche",
+            "cluster": 145
+        },
+        {
+            "term": "utenze commerciali",
+            "cluster": 145
+        },
+        {
+            "term": "vetro e contenitori in vetro",
+            "cluster": 146
+        },
+        {
+            "term": "vetro",
+            "cluster": 146
+        },
+        {
+            "term": "abbandonare rifiuti",
+            "cluster": 148
+        },
+        {
+            "term": "abbandono",
+            "cluster": 62
+        },
+        {
+            "term": "apparecchiature elettriche/elettroniche",
+            "cluster": 149
+        },
+        {
+            "term": "settore ambiente ufficio servizi esternalizzati e raccolta differenziata",
+            "cluster": 64
+        },
+        {
+            "term": "bidoni carrellati",
+            "cluster": 68
+        },
+        {
+            "term": "biodiesel",
+            "cluster": 151
+        },
+        {
+            "term": "bioplastica",
+            "cluster": 152
+        },
+        {
+            "term": "calendari di raccolta",
+            "cluster": 71
+        },
+        {
+            "term": "calendario",
+            "cluster": 71
+        },
+        {
+            "term": "calendario di raccolta dei rifiuti solidi urbani",
+            "cluster": 71
+        },
+        {
+            "term": "campane",
+            "cluster": 153
+        },
+        {
+            "term": "attivit\u00e0 di pulitura e bruciatura",
+            "cluster": 154
+        },
+        {
+            "term": "bollette",
+            "cluster": 155
+        },
+        {
+            "term": "servizio di gestione dei rifiuti urbani",
+            "cluster": 7
+        },
+        {
+            "term": "servizio integrato gestione rifiuti",
+            "cluster": 7
+        },
+        {
+            "term": "secchiello",
+            "cluster": 108
+        },
+        {
+            "term": "secchiello areato",
+            "cluster": 156
+        },
+        {
+            "term": "plastica e metalli",
+            "cluster": 114
+        },
+        {
+            "term": "pannolini | pannoloni | traverse",
+            "cluster": 12
+        },
+        {
+            "term": "pannolini, pannoloni e traverse",
+            "cluster": 12
+        },
+        {
+            "term": "piano finanziario",
+            "cluster": 117
+        },
+        {
+            "term": "ps",
+            "cluster": 158
+        },
+        {
+            "term": "tessili",
+            "cluster": 18
+        },
+        {
+            "term": "attivit\u00e0 di pulizia dei fondali",
+            "cluster": 159
+        },
+        {
+            "term": "bonifica dei fondali",
+            "cluster": 159
+        },
+        {
+            "term": "ritiri",
+            "cluster": 22
+        },
+        {
+            "term": "servizi di raccolta",
+            "cluster": 22
+        },
+        {
+            "term": "raccolta olio alimentare esausto",
+            "cluster": 23
+        },
+        {
+            "term": "servizio di raccolta di oli alimentari esausti",
+            "cluster": 23
+        },
+        {
+            "term": "raccolta tessili",
+            "cluster": 160
+        },
+        {
+            "term": "servizio di raccolta di pannolini e pannoloni",
+            "cluster": 162
+        },
+        {
+            "term": "raccolta differenziata rifiuti solidi urbani",
+            "cluster": 27
+        },
+        {
+            "term": "servizio di raccolta differenziata",
+            "cluster": 27
+        },
+        {
+            "term": "servizio di raccolta differenziata dei rifiuti solidi urbani",
+            "cluster": 27
+        },
+        {
+            "term": "servizi di raccolta porta a porta",
+            "cluster": 28
+        },
+        {
+            "term": "servizio porta a porta",
+            "cluster": 28
+        },
+        {
+            "term": "servizio domiciliare",
+            "cluster": 28
+        },
+        {
+            "term": "abbigliamento",
+            "cluster": 120
+        },
+        {
+            "term": "abiti",
+            "cluster": 120
+        },
+        {
+            "term": "raee",
+            "cluster": 36
+        },
+        {
+            "term": "r.a.e.e.",
+            "cluster": 36
+        },
+        {
+            "term": "rifiuti da apparecchiature elettroniche ed elettriche",
+            "cluster": 36
+        },
+        {
+            "term": "rifiuti verdi",
+            "cluster": 39
+        },
+        {
+            "term": "sfalci e ramaglie",
+            "cluster": 39
+        },
+        {
+            "term": "scarti di cucina",
+            "cluster": 40
+        },
+        {
+            "term": "rifiuti non riciclabili",
+            "cluster": 164
+        },
+        {
+            "term": "umido",
+            "cluster": 51
+        },
+        {
+            "term": "rifiuti di origine organica",
+            "cluster": 51
+        },
+        {
+            "term": "rifiuti t/f",
+            "cluster": 165
+        },
+        {
+            "term": "rup",
+            "cluster": 55
+        },
+        {
+            "term": "rifiuto indifferenziato",
+            "cluster": 126
+        },
+        {
+            "term": "secco",
+            "cluster": 126
+        },
+        {
+            "term": "secco residuale",
+            "cluster": 126
+        },
+        {
+            "term": "secco residuo",
+            "cluster": 126
+        },
+        {
+            "term": "secco indifferenziato",
+            "cluster": 126
+        },
+        {
+            "term": "ritiro ingombranti e raee",
+            "cluster": 56
+        },
+        {
+            "term": "sacco biodegradabile e compostabile",
+            "cluster": 166
+        },
+        {
+            "term": "sacchetti di carta",
+            "cluster": 59
+        },
+        {
+            "term": "smaltire",
+            "cluster": 129
+        },
+        {
+            "term": "ta.ri.",
+            "cluster": 137
+        },
+        {
+            "term": "tari",
+            "cluster": 137
+        },
+        {
+            "term": "tariffa",
+            "cluster": 168
+        },
+        {
+            "term": "tariffe",
+            "cluster": 168
+        },
+        {
+            "term": "tassa sui rifiuti",
+            "cluster": 168
+        },
+        {
+            "term": "tetra pak",
+            "cluster": 169
+        },
+        {
+            "term": "toner",
+            "cluster": 139
+        },
+        {
+            "term": "tares",
+            "cluster": 172
+        },
+        {
+            "term": "ufficio servizi esternalizzati e raccolta differenziata",
+            "cluster": 173
+        },
+        {
+            "term": "utente",
+            "cluster": 174
+        },
+        {
+            "term": "utenti",
+            "cluster": 174
+        },
+        {
+            "term": "utenze turistiche non domestiche",
+            "cluster": 175
+        },
+        {
+            "term": "macchine spazzatrici",
+            "cluster": 176
+        },
+        {
+            "term": "operazioni di carico dei rifiuti",
+            "cluster": 177
+        },
+        {
+            "term": "cartoni",
+            "cluster": 74
+        },
+        {
+            "term": "cassoni",
+            "cluster": 178
+        },
+        {
+            "term": "contenitori stradali",
+            "cluster": 1
+        },
+        {
+            "term": "cassonetti stradali",
+            "cluster": 1
+        },
+        {
+            "term": "centri comunali di raccolta",
+            "cluster": 77
+        },
+        {
+            "term": "isola",
+            "cluster": 77
+        },
+        {
+            "term": "cernita",
+            "cluster": 179
+        },
+        {
+            "term": "cittadini conferitori",
+            "cluster": 181
+        },
+        {
+            "term": "macchina mangia plastica",
+            "cluster": 84
+        },
+        {
+            "term": "compostabili",
+            "cluster": 182
+        },
+        {
+            "term": "compostaggio domestico",
+            "cluster": 183
+        },
+        {
+            "term": "conferimento dei rifiuti",
+            "cluster": 3
+        },
+        {
+            "term": "conferimenti",
+            "cluster": 3
+        },
+        {
+            "term": "esposizione",
+            "cluster": 87
+        },
+        {
+            "term": "conferirlo",
+            "cluster": 88
+        },
+        {
+            "term": "essere conferiti",
+            "cluster": 88
+        },
+        {
+            "term": "conferiscono",
+            "cluster": 88
+        },
+        {
+            "term": "essere depositati",
+            "cluster": 88
+        },
+        {
+            "term": "gettiamoli",
+            "cluster": 88
+        },
+        {
+            "term": "essere conferiti direttamente",
+            "cluster": 185
+        },
+        {
+            "term": "conferito",
+            "cluster": 4
+        },
+        {
+            "term": "conferita",
+            "cluster": 4
+        },
+        {
+            "term": "contenitori di raccolta",
+            "cluster": 186
+        },
+        {
+            "term": "costi di gestione",
+            "cluster": 187
+        },
+        {
+            "term": "deposito temporaneo dei rifiuti",
+            "cluster": 90
+        },
+        {
+            "term": "differenziare",
+            "cluster": 190
+        },
+        {
+            "term": "disciplina dei centri di raccolta",
+            "cluster": 191
+        },
+        {
+            "term": "ecosostenibile",
+            "cluster": 192
+        },
+        {
+            "term": "gestione dei rifiuti",
+            "cluster": 6
+        },
+        {
+            "term": "gestione dei servizi di igiene urbana",
+            "cluster": 7
+        },
+        {
+            "term": "gestori",
+            "cluster": 96
+        },
+        {
+            "term": "gestore del servizio di igiene urbana",
+            "cluster": 96
+        },
+        {
+            "term": "decoro",
+            "cluster": 8
+        },
+        {
+            "term": "imballaggio",
+            "cluster": 100
+        },
+        {
+            "term": "imballaggi e box in cartone",
+            "cluster": 101
+        },
+        {
+            "term": "imballaggi di cartone",
+            "cluster": 101
+        },
+        {
+            "term": "imballaggi di plastica",
+            "cluster": 102
+        },
+        {
+            "term": "indifferenziata",
+            "cluster": 195
+        },
+        {
+            "term": "infiammabili",
+            "cluster": 196
+        },
+        {
+            "term": "limite graduale di crescita tariffaria",
+            "cluster": 197
+        },
+        {
+            "term": "quota limite di conferimento mensile",
+            "cluster": 198
+        },
+        {
+            "term": "manutenzione del verde",
+            "cluster": 199
+        },
+        {
+            "term": "modalit\u00e0 di raccolta differenziata",
+            "cluster": 111
+        },
+        {
+            "term": "performance ambientali",
+            "cluster": 203
+        },
+        {
+            "term": "piano di raccolta differenziata dei rifiuti",
+            "cluster": 14
+        },
+        {
+            "term": "piano tariffario tari",
+            "cluster": 118
+        },
+        {
+            "term": "punti di conferimento",
+            "cluster": 20
+        },
+        {
+            "term": "punti di raccolta",
+            "cluster": 20
+        },
+        {
+            "term": "eco-punto",
+            "cluster": 20
+        },
+        {
+            "term": "putrescibile",
+            "cluster": 206
+        },
+        {
+            "term": "raccolta/ritiro",
+            "cluster": 22
+        },
+        {
+            "term": "raccolta differenziata degli oli vegetali e animali esausti",
+            "cluster": 23
+        },
+        {
+            "term": "raccolta dei rifiuti solidi urbani",
+            "cluster": 24
+        },
+        {
+            "term": "raccolta di pannolini e pannoloni",
+            "cluster": 162
+        },
+        {
+            "term": "raccolta differenziata dei rifiuti solidi urbani",
+            "cluster": 27
+        },
+        {
+            "term": "differenziate",
+            "cluster": 27
+        },
+        {
+            "term": "raccolte porta a porta",
+            "cluster": 28
+        },
+        {
+            "term": "raccolta trasporto dei rifiuti solidi urbani",
+            "cluster": 119
+        },
+        {
+            "term": "ricicla",
+            "cluster": 35
+        },
+        {
+            "term": "ramaglie, sfalci e potature",
+            "cluster": 39
+        },
+        {
+            "term": "residui vegetali agricoli e forestali",
+            "cluster": 39
+        },
+        {
+            "term": "ramaglie",
+            "cluster": 39
+        },
+        {
+            "term": "legno",
+            "cluster": 207
+        },
+        {
+            "term": "frazione umida",
+            "cluster": 51
+        },
+        {
+            "term": "frazione umida organica",
+            "cluster": 51
+        },
+        {
+            "term": "raccolta a chiamata",
+            "cluster": 56
+        },
+        {
+            "term": "pulizia",
+            "cluster": 208
+        },
+        {
+            "term": "interventi straordinari di spazzamento stradale",
+            "cluster": 209
+        },
+        {
+            "term": "contribuente",
+            "cluster": 174
+        },
+        {
+            "term": "contribuenti",
+            "cluster": 174
+        },
+        {
+            "term": "agevolazioni tassa rifiuti",
+            "cluster": 210
+        },
+        {
+            "term": "apparecchiature elettriche ed elettroniche",
+            "cluster": 149
+        },
+        {
+            "term": "settore ecologia ed ambiente",
+            "cluster": 64
+        },
+        {
+            "term": "autocarro compattatore",
+            "cluster": 67
+        },
+        {
+            "term": "accumulatori al piombo",
+            "cluster": 211
+        },
+        {
+            "term": "batterie auto",
+            "cluster": 212
+        },
+        {
+            "term": "beni durevoli dismessi",
+            "cluster": 214
+        },
+        {
+            "term": "bidoni portarifiuti",
+            "cluster": 150
+        },
+        {
+            "term": "buste di plastica",
+            "cluster": 215
+        },
+        {
+            "term": "calendario di conferimento",
+            "cluster": 71
+        },
+        {
+            "term": "carta dei servizi di gestione dei rifiuti",
+            "cluster": 73
+        },
+        {
+            "term": "carta - cartone",
+            "cluster": 74
+        },
+        {
+            "term": "carta - cartone - tetra pak",
+            "cluster": 74
+        },
+        {
+            "term": "carta cartone",
+            "cluster": 74
+        },
+        {
+            "term": "vanno conferiti",
+            "cluster": 88
+        },
+        {
+            "term": "sono conferiti",
+            "cluster": 88
+        },
+        {
+            "term": "servizio integrato di igiene urbana e servizi accessori",
+            "cluster": 7
+        },
+        {
+            "term": "soggetto gestore",
+            "cluster": 96
+        },
+        {
+            "term": "tubi di neon",
+            "cluster": 9
+        },
+        {
+            "term": "acc",
+            "cluster": 105
+        },
+        {
+            "term": "abiti usati",
+            "cluster": 120
+        },
+        {
+            "term": "20 0201",
+            "cluster": 39
+        },
+        {
+            "term": "20.01.08",
+            "cluster": 40
+        },
+        {
+            "term": "20 01 38",
+            "cluster": 207
+        },
+        {
+            "term": "rifiuti in plastica",
+            "cluster": 43
+        },
+        {
+            "term": "20 03 07",
+            "cluster": 47
+        },
+        {
+            "term": "rifiuti indifferenziati",
+            "cluster": 126
+        },
+        {
+            "term": "rimozione micro discariche",
+            "cluster": 216
+        },
+        {
+            "term": "riutilizzabili",
+            "cluster": 217
+        },
+        {
+            "term": "sacchetti biodegradabili",
+            "cluster": 166
+        },
+        {
+            "term": "busta con legaccio",
+            "cluster": 219
+        },
+        {
+            "term": "servizi di smaltimento rifiuti urbani ed assimilabili",
+            "cluster": 128
+        },
+        {
+            "term": "smaltimento dei rifiuti solidi urbani",
+            "cluster": 220
+        },
+        {
+            "term": "smaltiscilo",
+            "cluster": 129
+        },
+        {
+            "term": "servizio meccanizzato",
+            "cluster": 133
+        },
+        {
+            "term": "stoppie",
+            "cluster": 221
+        },
+        {
+            "term": "tetrapack",
+            "cluster": 169
+        },
+        {
+            "term": "tetrapak",
+            "cluster": 169
+        },
+        {
+            "term": "tossici",
+            "cluster": 170
+        },
+        {
+            "term": "servizio ecologia",
+            "cluster": 141
+        },
+        {
+            "term": "vetri",
+            "cluster": 146
+        },
+        {
+            "term": "fe",
+            "cluster": 223
+        },
+        {
+            "term": "ecocalendari",
+            "cluster": 71
+        },
+        {
+            "term": "capitolato speciale di appalto del servizio di igiene urbana della citt\u00e0",
+            "cluster": 224
+        },
+        {
+            "term": "carta \u2013 cartone \u2013 tetrapak",
+            "cluster": 74
+        },
+        {
+            "term": "carta, cartacce",
+            "cluster": 74
+        },
+        {
+            "term": "carta, cartoncini e imballaggi in cartone",
+            "cluster": 74
+        },
+        {
+            "term": "carta e imballaggi in cartone",
+            "cluster": 74
+        },
+        {
+            "term": "ccr",
+            "cluster": 77
+        },
+        {
+            "term": "centro di raccolta rifiuti differenziati intercomunale",
+            "cluster": 225
+        },
+        {
+            "term": "codice cer",
+            "cluster": 226
+        },
+        {
+            "term": "essere conferite",
+            "cluster": 88
+        },
+        {
+            "term": "depositare i rifiuti",
+            "cluster": 88
+        },
+        {
+            "term": "depositare rifiuti",
+            "cluster": 88
+        },
+        {
+            "term": "contenitori di sostanze pericolose",
+            "cluster": 227
+        },
+        {
+            "term": "ferro",
+            "cluster": 228
+        },
+        {
+            "term": "fir",
+            "cluster": 229
+        },
+        {
+            "term": "cartoni da imballaggio",
+            "cluster": 121
+        },
+        {
+            "term": "frazione rifiuto",
+            "cluster": 44
+        },
+        {
+            "term": "farmaci scaduti o non utilizzati",
+            "cluster": 125
+        },
+        {
+            "term": "cer 200301",
+            "cluster": 126
+        },
+        {
+            "term": "crt",
+            "cluster": 230
+        },
+        {
+            "term": "grandi utenze",
+            "cluster": 231
+        },
+        {
+            "term": "imballaggi in vetro",
+            "cluster": 234
+        },
+        {
+            "term": "imballaggi in legno",
+            "cluster": 235
+        },
+        {
+            "term": "imballaggi in legno ingombranti",
+            "cluster": 235
+        },
+        {
+            "term": "lampade fluorescenti",
+            "cluster": 9
+        },
+        {
+            "term": "limiti di accettabilit\u00e0 e frequenze",
+            "cluster": 198
+        },
+        {
+            "term": "mtr2-arera",
+            "cluster": 109
+        },
+        {
+            "term": "multimateriale plastica e metalli",
+            "cluster": 114
+        },
+        {
+            "term": "ingombranti raee",
+            "cluster": 237
+        },
+        {
+            "term": "medicine scadute",
+            "cluster": 125
+        },
+        {
+            "term": "medicinali scaduti",
+            "cluster": 125
+        },
+        {
+            "term": "ingombranti e beni durevoli",
+            "cluster": 47
+        },
+        {
+            "term": "materiali non conferibili",
+            "cluster": 238
+        },
+        {
+            "term": "materiali riciclabili",
+            "cluster": 239
+        },
+        {
+            "term": "pile portatili, batterie e accumulatori al piombo derivanti dalla manutenzione di veicoli ad uso privato effettuata in proprio dalle utenze domestiche",
+            "cluster": 211
+        },
+        {
+            "term": "plastica \u2013 lattine",
+            "cluster": 114
+        },
+        {
+            "term": "plastica, acciaio e alluminio",
+            "cluster": 114
+        },
+        {
+            "term": "oli e grassi vegetali esausti",
+            "cluster": 10
+        },
+        {
+            "term": "oli alimentari deteriorati",
+            "cluster": 10
+        },
+        {
+            "term": "oli vegetali da frittura",
+            "cluster": 10
+        },
+        {
+            "term": "piano di riorganizzazione del servizio di raccolta rsu",
+            "cluster": 14
+        },
+        {
+            "term": "piano finanziario del servizio di gestione dei rifiuti",
+            "cluster": 117
+        },
+        {
+            "term": "piombo",
+            "cluster": 242
+        },
+        {
+            "term": "pneumatici derivanti dalla manutenzione dei veicoli ad uso privato",
+            "cluster": 17
+        },
+        {
+            "term": "pneumatici derivanti dalla manutenzione dei veicoli ad uso privato effettuata in proprio da utenze domestiche",
+            "cluster": 17
+        },
+        {
+            "term": "pneumatici derivanti dalla manutenzione dei veicoli ad uso privato effettuata in proprio dalle utenze domestiche",
+            "cluster": 17
+        },
+        {
+            "term": "pe",
+            "cluster": 243
+        },
+        {
+            "term": "pile ed accumulatori esausti",
+            "cluster": 122
+        },
+        {
+            "term": "piccoli sfalci di potatura",
+            "cluster": 39
+        },
+        {
+            "term": "organico e bioplastiche compostabili",
+            "cluster": 51
+        },
+        {
+            "term": "prodotti e contenitori etichettati con i simboli t e/o f e pitture in genere",
+            "cluster": 165
+        },
+        {
+            "term": "raccoglitori pile esauste",
+            "cluster": 249
+        },
+        {
+            "term": "ritiro rifiuti",
+            "cluster": 22
+        },
+        {
+            "term": "regolamento comunale per la gestione dei rifiuti differenziati",
+            "cluster": 31
+        },
+        {
+            "term": "regolamento per la gestione dei rifiuti differenziati",
+            "cluster": 31
+        },
+        {
+            "term": "regolamento per la gestione dei rifiuti urbani ed assimilati",
+            "cluster": 31
+        },
+        {
+            "term": "r.a.e.e",
+            "cluster": 36
+        },
+        {
+            "term": "rifiuti da apparecchiature elettriche ed elettroniche",
+            "cluster": 36
+        },
+        {
+            "term": "rifiuti verdi e potature",
+            "cluster": 39
+        },
+        {
+            "term": "rifiuti ospedalieri",
+            "cluster": 250
+        },
+        {
+            "term": "r.s.u.",
+            "cluster": 54
+        },
+        {
+            "term": "rifiuto urbano residuo",
+            "cluster": 126
+        },
+        {
+            "term": "rur",
+            "cluster": 126
+        },
+        {
+            "term": "secco non riciclabile",
+            "cluster": 126
+        },
+        {
+            "term": "ritiro su prenotazione",
+            "cluster": 56
+        },
+        {
+            "term": "servizio integrato gestione rifiuti \u2013 raccolta differenziata",
+            "cluster": 7
+        },
+        {
+            "term": "tubi fluorescenti contenenti mercurio",
+            "cluster": 9
+        },
+        {
+            "term": "servizio ingombranti",
+            "cluster": 251
+        },
+        {
+            "term": "sfalci e potature da manutenzione di giardino",
+            "cluster": 39
+        },
+        {
+            "term": "sfalci d'erba",
+            "cluster": 39
+        },
+        {
+            "term": "sfalci di potatura",
+            "cluster": 39
+        },
+        {
+            "term": "sfalci di potature da manutenzione di giardino",
+            "cluster": 39
+        },
+        {
+            "term": "tubi fluorescenti ed altri rifiuti contenenti mercurio",
+            "cluster": 42
+        },
+        {
+            "term": "tubi fluorescenti rd altri rifiuti contenenti mercurio",
+            "cluster": 42
+        },
+        {
+            "term": "scarti di materiali edili",
+            "cluster": 252
+        },
+        {
+            "term": "sacchetto biodegradabile",
+            "cluster": 166
+        },
+        {
+            "term": "sacchetto biodegradabile compostabile",
+            "cluster": 166
+        },
+        {
+            "term": "sacchetto trasparente",
+            "cluster": 253
+        },
+        {
+            "term": "sup",
+            "cluster": 254
+        },
+        {
+            "term": "sistri",
+            "cluster": 255
+        },
+        {
+            "term": "spazzamento strade",
+            "cluster": 130
+        },
+        {
+            "term": "tari presuntiva",
+            "cluster": 256
+        },
+        {
+            "term": "tarsu",
+            "cluster": 257
+        },
+        {
+            "term": "tmv",
+            "cluster": 258
+        },
+        {
+            "term": "servizio ecologia e gestione del ciclo integrato rifiuti",
+            "cluster": 141
+        },
+        {
+            "term": "utenze turistiche",
+            "cluster": 175
+        },
+        {
+            "term": "abbandono dei rifiuti",
+            "cluster": 62
+        },
+        {
+            "term": "abbandono dei rifiuti urbani pericolosi ed ingombranti",
+            "cluster": 260
+        },
+        {
+            "term": "agevolazioni tari",
+            "cluster": 210
+        },
+        {
+            "term": "area tecnica ambientale cimitero",
+            "cluster": 64
+        },
+        {
+            "term": "attivit\u00e0 di front line",
+            "cluster": 263
+        },
+        {
+            "term": "attrezzature per la raccolta domiciliare",
+            "cluster": 264
+        },
+        {
+            "term": "autospazzatrice",
+            "cluster": 176
+        },
+        {
+            "term": "avvio a riciclo",
+            "cluster": 266
+        },
+        {
+            "term": "biodiversit\u00e0",
+            "cluster": 267
+        },
+        {
+            "term": "buste a sacchetto",
+            "cluster": 69
+        },
+        {
+            "term": "calendario di conferimento e ritiro dei rsu",
+            "cluster": 71
+        },
+        {
+            "term": "carta e cartoni",
+            "cluster": 74
+        },
+        {
+            "term": "carta/cartone",
+            "cluster": 74
+        },
+        {
+            "term": "cartoncino e cartone",
+            "cluster": 74
+        },
+        {
+            "term": "cassoni scarrabili",
+            "cluster": 178
+        },
+        {
+            "term": "cestini portarifiuti",
+            "cluster": 180
+        },
+        {
+            "term": "cod. cer",
+            "cluster": 226
+        },
+        {
+            "term": "codici cer",
+            "cluster": 226
+        },
+        {
+            "term": "compattatore farid per raccolta rifiuti solidi urbani",
+            "cluster": 83
+        },
+        {
+            "term": "compostaggio",
+            "cluster": 269
+        },
+        {
+            "term": "conferente",
+            "cluster": 270
+        },
+        {
+            "term": "avvisi di pagamento",
+            "cluster": 155
+        },
+        {
+            "term": "attivit\u00e0 di bollettazione",
+            "cluster": 272
+        },
+        {
+            "term": "centro di stoccaggio",
+            "cluster": 273
+        },
+        {
+            "term": "addetti al servizio dell'isola",
+            "cluster": 11
+        },
+        {
+            "term": "addetti alla gestione",
+            "cluster": 11
+        },
+        {
+            "term": "buste nere",
+            "cluster": 61
+        },
+        {
+            "term": "capacit\u00e0 di gestione ambientale",
+            "cluster": 274
+        },
+        {
+            "term": "aree assoggettabili al tributo",
+            "cluster": 275
+        },
+        {
+            "term": "vetro in lastre e grossi recipienti",
+            "cluster": 276
+        },
+        {
+            "term": "frazioni carta",
+            "cluster": 74
+        },
+        {
+            "term": "container",
+            "cluster": 178
+        },
+        {
+            "term": "contenitore abiti usati",
+            "cluster": 278
+        },
+        {
+            "term": "contenitori per il conferimento pannoloni e i pannolini",
+            "cluster": 279
+        },
+        {
+            "term": "ecocentro",
+            "cluster": 77
+        },
+        {
+            "term": "differenziazione",
+            "cluster": 179
+        },
+        {
+            "term": "differenziazione dei rifiuti",
+            "cluster": 179
+        },
+        {
+            "term": "conferimento dei rifiuti speciali",
+            "cluster": 280
+        },
+        {
+            "term": "conferimento diretto",
+            "cluster": 281
+        },
+        {
+            "term": "errato conferimento",
+            "cluster": 282
+        },
+        {
+            "term": "conferimento fuori porta",
+            "cluster": 87
+        },
+        {
+            "term": "essere conferito",
+            "cluster": 88
+        },
+        {
+            "term": "devono essere conferite",
+            "cluster": 88
+        },
+        {
+            "term": "conferire i rifiuti",
+            "cluster": 88
+        },
+        {
+            "term": "depositati rifiuti",
+            "cluster": 88
+        },
+        {
+            "term": "contenitori appositi",
+            "cluster": 186
+        },
+        {
+            "term": "contenitore di raccolta",
+            "cluster": 186
+        },
+        {
+            "term": "contenitori predisposti",
+            "cluster": 186
+        },
+        {
+            "term": "contenitori adibiti alla raccolta specifica degli oli",
+            "cluster": 283
+        },
+        {
+            "term": "contenitori per il conferimento di farmaci",
+            "cluster": 286
+        },
+        {
+            "term": "costi di smaltimento",
+            "cluster": 287
+        },
+        {
+            "term": "criteri di assimilabilit\u00e0 dei rifiuti speciali non pericolosi ai rifiuti urbani",
+            "cluster": 288
+        },
+        {
+            "term": "degrado estetico",
+            "cluster": 289
+        },
+        {
+            "term": "delibera arera",
+            "cluster": 290
+        },
+        {
+            "term": "deposito temporaneo della frazione dei rifiuti solidi urbani",
+            "cluster": 291
+        },
+        {
+            "term": "dichiarazione di cessazione",
+            "cluster": 292
+        },
+        {
+            "term": "discarica",
+            "cluster": 293
+        },
+        {
+            "term": "discariche",
+            "cluster": 293
+        },
+        {
+            "term": "energia green",
+            "cluster": 295
+        },
+        {
+            "term": "filiere di destinazione",
+            "cluster": 297
+        },
+        {
+            "term": "frazioni valorizzabili economicamente",
+            "cluster": 298
+        },
+        {
+            "term": "frazione merceologica",
+            "cluster": 94
+        },
+        {
+            "term": "frazioni merceologiche dei rifiuti",
+            "cluster": 94
+        },
+        {
+            "term": "gestione di rifiuti urbani",
+            "cluster": 95
+        },
+        {
+            "term": "gestione centri di raccolta rifiuti urbani",
+            "cluster": 300
+        },
+        {
+            "term": "gestione del servizio di raccolta per i rifiuti",
+            "cluster": 194
+        },
+        {
+            "term": "gestione del servizio di raccolta per i rifiuti provenienti da luoghi adibiti ad uso di civile abitazione",
+            "cluster": 301
+        },
+        {
+            "term": "gestore del pronto intervento",
+            "cluster": 303
+        },
+        {
+            "term": "gestore della raccolta e trasporto",
+            "cluster": 304
+        },
+        {
+            "term": "depositi di rifiuti",
+            "cluster": 200
+        },
+        {
+            "term": "frazioni multimateriale",
+            "cluster": 114
+        },
+        {
+            "term": "grandi scarti di potatura",
+            "cluster": 39
+        },
+        {
+            "term": "frazione conferita",
+            "cluster": 41
+        },
+        {
+            "term": "frazione dei rifiuti urbani",
+            "cluster": 44
+        },
+        {
+            "term": "frazioni differenziate",
+            "cluster": 44
+        },
+        {
+            "term": "frazione riciclabile",
+            "cluster": 44
+        },
+        {
+            "term": "frazioni dei rifiuti differenziati",
+            "cluster": 44
+        },
+        {
+            "term": "f. o. u",
+            "cluster": 51
+        },
+        {
+            "term": "f. o. u.",
+            "cluster": 51
+        },
+        {
+            "term": "frazione umida dei r.s.u.",
+            "cluster": 51
+        },
+        {
+            "term": "frazione di non differenziabile",
+            "cluster": 126
+        },
+        {
+            "term": "frazione indifferenziata",
+            "cluster": 126
+        },
+        {
+            "term": "frazione indifferenziata dei r.s.u.",
+            "cluster": 126
+        },
+        {
+            "term": "contribuenti titolari",
+            "cluster": 174
+        },
+        {
+            "term": "postazioni stradali",
+            "cluster": 1
+        },
+        {
+            "term": "isole ecologiche itineranti",
+            "cluster": 306
+        },
+        {
+            "term": "operazioni di conferimento",
+            "cluster": 3
+        },
+        {
+            "term": "igiene ambientale",
+            "cluster": 8
+        },
+        {
+            "term": "imballaggi di cartone e cartoncino",
+            "cluster": 101
+        },
+        {
+            "term": "imballaggi in cartone, carta e cartoncini",
+            "cluster": 101
+        },
+        {
+            "term": "imballaggi in materiali misti",
+            "cluster": 308
+        },
+        {
+            "term": "imballaggi metallici",
+            "cluster": 103
+        },
+        {
+            "term": "imballaggi secondari",
+            "cluster": 309
+        },
+        {
+            "term": "impatto inquinante",
+            "cluster": 310
+        },
+        {
+            "term": "impianti di compostaggio",
+            "cluster": 311
+        },
+        {
+            "term": "impianti di frantumazione autorizzati",
+            "cluster": 312
+        },
+        {
+            "term": "impianto di smaltimento",
+            "cluster": 313
+        },
+        {
+            "term": "impianti di smaltimento",
+            "cluster": 313
+        },
+        {
+            "term": "piattaforma di conferimento",
+            "cluster": 314
+        },
+        {
+            "term": "impianto di conferimento",
+            "cluster": 314
+        },
+        {
+            "term": "impianti di destinazione dei rifiuti raccolti",
+            "cluster": 314
+        },
+        {
+            "term": "impianto di trattamento rifiuti",
+            "cluster": 314
+        },
+        {
+            "term": "impianti finali di smaltimento",
+            "cluster": 316
+        },
+        {
+            "term": "impianti intermedi",
+            "cluster": 317
+        },
+        {
+            "term": "impianti intermedi di smaltimento",
+            "cluster": 318
+        },
+        {
+            "term": "lampade a vapori di sodio",
+            "cluster": 320
+        },
+        {
+            "term": "lattine col simbolo al",
+            "cluster": 106
+        },
+        {
+            "term": "legno non trattato",
+            "cluster": 321
+        },
+        {
+            "term": "limiti quantitativi di conferimento",
+            "cluster": 198
+        },
+        {
+            "term": "manutenzione del verde pubblico",
+            "cluster": 199
+        },
+        {
+            "term": "mastello contenitore",
+            "cluster": 108
+        },
+        {
+            "term": "metodo mtr",
+            "cluster": 236
+        },
+        {
+            "term": "microparticelle sintetiche",
+            "cluster": 201
+        },
+        {
+            "term": "plastica \u2013 alluminio e banda stagnata",
+            "cluster": 114
+        },
+        {
+            "term": "non pericoloso",
+            "cluster": 324
+        },
+        {
+            "term": "non putrescibili",
+            "cluster": 325
+        },
+        {
+            "term": "oli esausti e grassi vegetali di provenieza domestica",
+            "cluster": 10
+        },
+        {
+            "term": "olio vegetale esausto",
+            "cluster": 10
+        },
+        {
+            "term": "oli minerali",
+            "cluster": 326
+        },
+        {
+            "term": "oli motore",
+            "cluster": 326
+        },
+        {
+            "term": "oli non commestibili",
+            "cluster": 326
+        },
+        {
+            "term": "operatore del centro di raccolta",
+            "cluster": 11
+        },
+        {
+            "term": "operatore di pronto intervento",
+            "cluster": 327
+        },
+        {
+            "term": "patrimonio verde",
+            "cluster": 328
+        },
+        {
+            "term": "percentuali di raccolta differenziata",
+            "cluster": 13
+        },
+        {
+            "term": "piattaforma di trasferenza",
+            "cluster": 329
+        },
+        {
+            "term": "pile e batterie ad uso domestico",
+            "cluster": 241
+        },
+        {
+            "term": "plastica in mono materiale",
+            "cluster": 330
+        },
+        {
+            "term": "plastica riciclata",
+            "cluster": 331
+        },
+        {
+            "term": "prodotti tessili",
+            "cluster": 18
+        },
+        {
+            "term": "punto di raccolta",
+            "cluster": 20
+        },
+        {
+            "term": "quota fissa",
+            "cluster": 332
+        },
+        {
+            "term": "modalit\u00e0 stradale",
+            "cluster": 26
+        },
+        {
+            "term": "piccoli scarti di potatura",
+            "cluster": 39
+        },
+        {
+            "term": "potature di alberi",
+            "cluster": 39
+        },
+        {
+            "term": "lampadine, tubi fluorescenti e altri con mercurio",
+            "cluster": 42
+        },
+        {
+            "term": "materiali differenziati",
+            "cluster": 44
+        },
+        {
+            "term": "medicinali scaduti o inutilizzati",
+            "cluster": 125
+        },
+        {
+            "term": "inerti: piccole quantit\u00e0 da interventi domestici privati",
+            "cluster": 333
+        },
+        {
+            "term": "macerie",
+            "cluster": 252
+        },
+        {
+            "term": "lngombranti in legno",
+            "cluster": 47
+        },
+        {
+            "term": "prodotti riciclabili",
+            "cluster": 239
+        },
+        {
+            "term": "prodotti pericolosi tossici, infiammabili e corrosivi",
+            "cluster": 334
+        },
+        {
+            "term": "pulizia, lavaggio e disinfezione aree interne ed esterne",
+            "cluster": 208
+        },
+        {
+            "term": "scarrabile",
+            "cluster": 178
+        },
+        {
+            "term": "scarrabili pressa",
+            "cluster": 83
+        },
+        {
+            "term": "raccolta differenziata e igiene del suolo",
+            "cluster": 7
+        },
+        {
+            "term": "raccolta stradale con cassonetti e campane",
+            "cluster": 26
+        },
+        {
+            "term": "raccolte differenziate",
+            "cluster": 27
+        },
+        {
+            "term": "raccolta integrata con il sistema del porta a porta",
+            "cluster": 29
+        },
+        {
+            "term": "recupero dei rifiuti organici domestici",
+            "cluster": 336
+        },
+        {
+            "term": "residui industriali",
+            "cluster": 337
+        },
+        {
+            "term": "responsabile del centro",
+            "cluster": 338
+        },
+        {
+            "term": "richiesta di attrezzature per la raccolta",
+            "cluster": 339
+        },
+        {
+            "term": "richiesta per la sostituzione/integrazione o modifica della volumetria",
+            "cluster": 340
+        },
+        {
+            "term": "riciclaggio",
+            "cluster": 35
+        },
+        {
+            "term": "riciclo dei materiali",
+            "cluster": 35
+        },
+        {
+            "term": "riciclo/recupero dei materiali",
+            "cluster": 341
+        },
+        {
+            "term": "rifiuti abbandonati",
+            "cluster": 343
+        },
+        {
+            "term": "rifiuti dispersi",
+            "cluster": 343
+        },
+        {
+            "term": "rifiuti vegetali verdi",
+            "cluster": 39
+        },
+        {
+            "term": "scarti vegetali provenienti dalla cura del giardino",
+            "cluster": 39
+        },
+        {
+            "term": "rifiuti gi\u00e0 conferiti",
+            "cluster": 41
+        },
+        {
+            "term": "rifiuti legnosi",
+            "cluster": 207
+        },
+        {
+            "term": "rifiuti provenienti dalla raccolta differenziata",
+            "cluster": 44
+        },
+        {
+            "term": "rifiuti di provenienza domestica e similari",
+            "cluster": 45
+        },
+        {
+            "term": "rifiuti speciali non pericolosi prodotti da utenze domestiche, assimilabili ai rifiuti urbani",
+            "cluster": 344
+        },
+        {
+            "term": "rifiuti inerti provenienti da piccole manutenzioni effettuate direttamente dagli utenti domestici",
+            "cluster": 333
+        },
+        {
+            "term": "rifiuti di grandi dimensioni",
+            "cluster": 47
+        },
+        {
+            "term": "rifiuti voluminosi",
+            "cluster": 47
+        },
+        {
+            "term": "rifiuto non pericoloso",
+            "cluster": 50
+        },
+        {
+            "term": "residui organici",
+            "cluster": 51
+        },
+        {
+            "term": "residui putrescibili",
+            "cluster": 51
+        },
+        {
+            "term": "rifiuto pericoloso",
+            "cluster": 345
+        },
+        {
+            "term": "rifiuti raccolti a domicilio",
+            "cluster": 346
+        },
+        {
+            "term": "rifiuti riciclabili",
+            "cluster": 239
+        },
+        {
+            "term": "rifiuto secco residuo",
+            "cluster": 126
+        },
+        {
+            "term": "rimozione di micro discariche",
+            "cluster": 216
+        },
+        {
+            "term": "ritiro gratuito a domicilio",
+            "cluster": 56
+        },
+        {
+            "term": "riuso del materiale riciclato",
+            "cluster": 218
+        },
+        {
+            "term": "riutilizzo dei materiali",
+            "cluster": 218
+        },
+        {
+            "term": "rottami in vetro",
+            "cluster": 347
+        },
+        {
+            "term": "sacchetto a svuotamento",
+            "cluster": 57
+        },
+        {
+            "term": "sacchi di bioplastica",
+            "cluster": 58
+        },
+        {
+            "term": "sacchetto di carta o cartone",
+            "cluster": 59
+        },
+        {
+            "term": "sacchetti non conformi",
+            "cluster": 348
+        },
+        {
+            "term": "sacchi semitrasparenti",
+            "cluster": 253
+        },
+        {
+            "term": "sacchetti trasparenti",
+            "cluster": 253
+        },
+        {
+            "term": "rifiuti in vetro",
+            "cluster": 146
+        },
+        {
+            "term": "stazioni di conferimento automatizzate",
+            "cluster": 75
+        },
+        {
+            "term": "stazioni informatizzate per il conferimento di pannolini e pannoloni",
+            "cluster": 349
+        },
+        {
+            "term": "vengono conferiti",
+            "cluster": 88
+        },
+        {
+            "term": "stoccaggio provvisorio",
+            "cluster": 90
+        },
+        {
+            "term": "struttura di smaltimento",
+            "cluster": 313
+        },
+        {
+            "term": "tubi al neon",
+            "cluster": 9
+        },
+        {
+            "term": "tubi fluorescenti al neon",
+            "cluster": 9
+        },
+        {
+            "term": "secchiello contenitore",
+            "cluster": 108
+        },
+        {
+            "term": "tessile",
+            "cluster": 18
+        },
+        {
+            "term": "servizio di raccolta degli oli esausti commestibili",
+            "cluster": 23
+        },
+        {
+            "term": "servizi gestione integrata rifiuti con sistema porta a porta",
+            "cluster": 28
+        },
+        {
+            "term": "segnalazione di disservizi",
+            "cluster": 350
+        },
+        {
+            "term": "segnalazione verbale",
+            "cluster": 351
+        },
+        {
+            "term": "valorizzazione economica",
+            "cluster": 30
+        },
+        {
+            "term": "single-use plastics",
+            "cluster": 254
+        },
+        {
+            "term": "smaltiti",
+            "cluster": 353
+        },
+        {
+            "term": "sostanze inquinanti",
+            "cluster": 354
+        },
+        {
+            "term": "svuotamento dei contenitori",
+            "cluster": 355
+        },
+        {
+            "term": "svuotamento dei contenitori colmi",
+            "cluster": 355
+        },
+        {
+            "term": "tariffa tari",
+            "cluster": 137
+        },
+        {
+            "term": "tributo puntuale",
+            "cluster": 356
+        },
+        {
+            "term": "tassa sui rifiuti solidi urbani",
+            "cluster": 257
+        },
+        {
+            "term": "tariffa per i rifiuti",
+            "cluster": 168
+        },
+        {
+            "term": "toner e cartucce esausti",
+            "cluster": 139
+        },
+        {
+            "term": "toner esausti",
+            "cluster": 139
+        },
+        {
+            "term": "totale massimo annuale",
+            "cluster": 357
+        },
+        {
+            "term": "trasporto ad impianto autorizzato",
+            "cluster": 140
+        },
+        {
+            "term": "trasporto dei rifiuti",
+            "cluster": 140
+        },
+        {
+            "term": "volta cassonetti post",
+            "cluster": 147
+        },
+        {
+            "term": "volta cassonetti post.",
+            "cluster": 147
+        }
+    ]
 }
