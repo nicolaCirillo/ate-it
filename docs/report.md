@@ -2,6 +2,7 @@
 layout: default
 title: Report Submission
 parent: Participation Guidelines
+nav_order: 3
 ---
 
 # Report Submission Instructions
