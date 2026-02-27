@@ -32,6 +32,19 @@ The datasets available on this page are released under the [CC-BY 4.0 license](h
 If you use the training and development datasets in a scientific publication, please cite:
 
 ```bibtex
+@inproceedings{ateit2026overview,
+title={ATE-IT at EVALITA 2026: Overview of the Automatic Term Extraction Italian Testbed Task},
+author={Cirillo, Nicola and Di Nunzio, Giorgio Maria and Vezzani, Federica},
+booktitle={Proceedings of the Ninth Evaluation Campaign of Natural Language Processing and Speech Tools for Italian. Final Workshop (EVALITA 2026)},
+publisher = {CEUR.org},
+year = {2026},
+month = {February},
+address = {Bari, Italy}
+}
+```
+Training and development datasets are sourced from:
+
+```bibtex
 @dataset{itaist_gru2025,
   author       = {Nicola Cirillo and
                   Daniela Vellutino and
@@ -48,6 +61,15 @@ If you use the training and development datasets in a scientific publication, pl
 }
 ```
 
+```bibtex
+@phdthesis{cirillo2025tesi,
+  author  = {Cirillo, Nicola},
+  title   = {Risorse Linguistiche Digitali per la Transizione Verde},
+  school  = {University of Salerno},
+  year    = {2025},
+  type    = {PhD Thesis},
+}
+```
 ---
 ## Data source
 The training and development sets come from the publicly available ItaIst-TermRifiuti corpus and ItaIst-WasteLexicon termbase ([Cirillo et al., 2025](references.md)), while the test set is specifically designed for the ATE-IT shared task.
