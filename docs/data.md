@@ -29,8 +29,6 @@ Please refer to [Subtask B - Term Variant Clustering](subtask_b.md) for more inf
 ## License and attribution
 The datasets available on this page are released under the [CC-BY 4.0 license](https://creativecommons.org/licenses/by/4.0/)
 
-If you use the training and development datasets in a scientific publication, please cite:
-
 ```bibtex
 @inproceedings{ateit2026overview,
 title={ATE-IT at EVALITA 2026: Overview of the Automatic Term Extraction Italian Testbed Task},
