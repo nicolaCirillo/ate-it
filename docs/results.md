@@ -9,6 +9,8 @@ nav_order: 2
 ---
 ## Subtask A - Term Extraction
 
+**Micro-averaged scores**
+
 |Rank|Team               |Micro Precision|Micro Recall|Micro F1 |
 |----|-------------------|---------------|------------|---------|
 |_baseline_     |        |_0.497_        |_0.559_     |_0.526_  |
@@ -23,6 +25,8 @@ nav_order: 2
 |7   |Peacemaker         |0.497          |0.476       |0.486    |
 |8   |TermNinjas         |0.489          |0.395       |0.437    |
 |9   |Valenitalie        |0.364          |0.473       |0.411    |
+
+**Type-based scores**
 
 |Rank|Team               |Type Precision|Type Recall|Type F1 |
 |----|-------------------|---------------|------------|---------|
@@ -41,6 +45,8 @@ nav_order: 2
 
 ---
 ## Subtask B - Term Variants Clustering
+
+**BCubed scores**
 
 |Rank|Team      |Bcubed Precision|Bcubed Recall|Bcubed F1|
 |----|----------|----------------|-------------|---------|
