@@ -2,6 +2,7 @@
 layout: default
 title: Subtask B – Term Variants Clustering
 parent: Participation Guidelines
+nav_order: 2
 ---
 
 # Subtask B – Term Variants Clustering
