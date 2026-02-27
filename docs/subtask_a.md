@@ -2,6 +2,7 @@
 layout: default
 title: Subtask A – Term Extraction
 parent: Participation Guidelines
+nav_order: 1
 ---
 
 # Subtask A – Term Extraction
