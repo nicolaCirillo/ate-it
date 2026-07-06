@@ -13,7 +13,7 @@ nav_order: 1
 ---
 
 {: .news }
-*Jan 08, 2026* - **Report submission extended deadline: January 12, 2026** 👉 [Submission Instructions](report.md)<br>
+*July 06, 2026* - **Check out the EVALITA Proceedings:** 📄 [Proceedings](https://ceur-ws.org/Vol-4195/)<br>
 *Dec 15, 2025* - **The ATE-IT Leaderboard is out!** 👉 [Results](results.md)<br>
 *Sep 18, 2025* - **Join the official discord server!** 💬 [Click here](https://discord.gg/7MBGSJQzT7)<br>
 
