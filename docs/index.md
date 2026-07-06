@@ -13,7 +13,7 @@ nav_order: 1
 ---
 
 {: .news }
-*July 06, 2026* - **Check out the EVALITA Proceedings:** 📄 [Proceedings](https://ceur-ws.org/Vol-4195/)<br>
+*Apr 16, 2026* - **Check out the ATE-IT overview paper:** 📄 [EVALITA Proceedings](https://ceur-ws.org/Vol-4195/) 📄 [ATE-IT paper](https://ceur-ws.org/Vol-4195/65.pdf)<br>
 *Dec 15, 2025* - **The ATE-IT Leaderboard is out!** 👉 [Results](results.md)<br>
 *Sep 18, 2025* - **Join the official discord server!** 💬 [Click here](https://discord.gg/7MBGSJQzT7)<br>
 
